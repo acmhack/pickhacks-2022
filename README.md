@@ -14,6 +14,7 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Running locally](#running-locally)
 - [Contributing](#contributing)
 
 <!-- GETTING STARTED -->
@@ -31,10 +32,24 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the pickhacks 2022 repository using Git Bash:
-   `bash git clone git@github.com:acmhack/pickhacks-2022.git `
+1. Clone the pickhacks 2022 repository using Git Bash(make sure to have SSH keys setup):
+   ```bash 
+   git clone git@github.com:acmhack/pickhacks-2022.git
+   ```
 
+
+
+### Running locally
+1. Install dependencies using yarn:
+   ```bash 
+   yarn
+   ```
+2. Start up a local server to run the website:
+   ```bash
+   yarn start 
+   ```
 <!-- CONTRIBUTING -->
+
 
 ## Contributing
 
