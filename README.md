@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the pickhacks 2022 repository using Git Bash:
-   `bash git clone git@github.com:acmhack/pickhacks-2022.githttps://github.com/sigdotcom/mstacm.org.git `
+   `bash git clone git@github.com:acmhack/pickhacks-2022.git `
 
 <!-- CONTRIBUTING -->
 
