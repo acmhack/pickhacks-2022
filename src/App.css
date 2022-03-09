@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: "F25 Bank Printer Bold";
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: "F25 Bank Printer Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("F25 Bank Printer Bold"),
+    url("./fonts/F25_Bank_Printer_Bold.woff") format("woff");
+}
+/* transform: scaleY(1); */
