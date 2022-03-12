@@ -28,8 +28,8 @@ const Grid: AnyStyledComponent = styled.div`
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 250px;
   @media (max-width: 1200px) {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -102,13 +102,14 @@ export default () => {
         <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
           DISCORD
         </ApplyButton>
+        <span></span>
         <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
           APPLY
         </ApplyButton>
       </Grid>
       <br></br>
       <br></br>
-      <Grid2>
+      <Grid>
         {/*
         <GridItem href="try" target="_blank">
           <Title>EMAIL</Title>
@@ -117,13 +118,15 @@ export default () => {
           <Title>SOCIAL <br></br>MEDIA</Title>
         </GridItem>
         */}
+        <span></span>
         <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
           EMAIL
         </ApplyButton>
+        <span></span>
         <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
           SOCIAL_MEDIA
         </ApplyButton>
-      </Grid2>
+      </Grid>
 
 
     </div>
