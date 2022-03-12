@@ -99,11 +99,11 @@ export default () => {
           <Name>DISCORD</Name>
         </GridItem>
         */}
-        <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
+        <ApplyButton link="TBA">
           DISCORD
         </ApplyButton>
         <span></span>
-        <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
+        <ApplyButton link="TBA">
           APPLY
         </ApplyButton>
       </Grid>
@@ -119,11 +119,11 @@ export default () => {
         </GridItem>
         */}
         <span></span>
-        <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
+        <ApplyButton link="mailto:msthackathon@umsystem.edu">
           EMAIL
         </ApplyButton>
         <span></span>
-        <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
+        <ApplyButton link="https://www.facebook.com/sandtpickhacks/">
           SOCIAL_MEDIA
         </ApplyButton>
       </Grid>
