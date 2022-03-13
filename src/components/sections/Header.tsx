@@ -119,12 +119,13 @@ export default () => {
           </FlexCenter>
         </FlexCenter>
         <FlexCenter>
+          {/*
           <ButtonDiv>
             <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
               JOIN DISCORD
             </ApplyButton>
           </ButtonDiv>
-
+          */}
           {/* <WitchImg>
               <img
                 alt="witch"

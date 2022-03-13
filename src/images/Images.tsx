@@ -36,6 +36,8 @@ import monsterenergy from "./monsterenergy.png";
 import goodsnacks from "./goodsnacks.png";
 // import codex  from "./codex.png";
 
+import cloud from "./cloud.png";
+
 import doa from "./do.png";
 import voiceflow from "./voiceflow.png";
 import sketch from "./sketch.png";
@@ -113,4 +115,5 @@ export {
   cboe,
   platter,
   sdp,
+  cloud
 };
