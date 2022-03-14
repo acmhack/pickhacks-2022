@@ -23,7 +23,7 @@ import charter from "./charter.png";
 import cboe from "./cboe.png";
 import platter from "./platter.png";
 import sdp from "./sdp.png";
-
+import pickhack22logo from "./PickHacks_Logo_Website_2022.png";
 import umsystem from "./umsystem.png";
 import acm from "./acm.png";
 import acmw from "./acmw.png";
@@ -42,6 +42,7 @@ import doa from "./do.png";
 import voiceflow from "./voiceflow.png";
 import sketch from "./sketch.png";
 import zesttea from "./zest.png";
+import pickhacks22 from "./generic-person-icon.png";
 
 import Bharat from "./Bharat.png";
 import Rachel from "./Rachel.png";
@@ -64,6 +65,7 @@ export {
   Jake,
   PickleHack,
   Bharat,
+  pickhacks22,
   Rachel,
   Bradley,
   Ryan,
@@ -78,6 +80,7 @@ export {
   Billie,
   Colton,
   nineteen,
+  pickhack22logo,
   zesttea,
   balto,
   brewer,

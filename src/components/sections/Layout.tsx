@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import FAQ from "./FAQ";
-import Schedule from "./Schedule";
+import Schedule from "./BetterSchedule";
 import Sponsor from "./Sponsor";
 import Partner from "./Partner";
 import Team from "./Team";
@@ -53,9 +53,9 @@ export default () => {
               <Header />
             </SectionDiv>
 
-            <SectionDiv id="socials">
+            {/* <SectionDiv id="socials">
               <Socials />
-            </SectionDiv>
+            </SectionDiv> */}
 
             <SectionDiv id="schedule">
               <Schedule />

@@ -1,77 +1,86 @@
 import React from "react";
-import Question from "../common/DropdownFAQ/Dropdown";
 import styled, { AnyStyledComponent } from "styled-components";
+import FAQSegment from "../common/FAQ/FAQSegment";
+
 const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
-  color: #f47525;
-  padding-bottom: 20px;
-
+  color: #009ac7;
+  font-family: "ZenDots-Regular", cursive;
+  text-shadow: 2px 2px 4px gray;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
 `;
-
 const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
   display: flex;
-  width: 100%;
-`;
 
+  padding: 0;
+`;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
+const Constraint: AnyStyledComponent = styled.div`
+  display: flex;
 
-export default () => {
+  max-width: 600px;
+`;
+export default (props: any) => {
   return (
     <div>
-      <FlexCenter>
-        <Title>FAQ</Title>
-      </FlexCenter>
-
-      <FlexCenter>
-        <FlexColumn>
-          <Question question="What's PickleHack?">
-            Imagine a project you've always wanted to build — maybe an app,
-            website, or robot. Now imagine having mentors, resources, and
-            anything else you need at your side to help build it, all while
-            learning and creating with friends. That's what Picklehack is all
-            about! Plus, the free food.
-          </Question>
-          <Question question="Do I need to know how to code?">
-            Nope! While it certainly doesn't hurt to have a programming
-            background, you can get just as much out of PickleHack regardless of
-            skill level. In fact, one of the event's biggest goals is to make
-            sure everyone learns something new, so you'll fit in no matter what!
-            Also, on the Wednesday before PickleHack (October 27th), there will
-            be an hour of workshops tailored specifically to new coders.
-          </Question>
-          <Question question="Who can participate?">
-            If you're a current S&T student, then you qualify!
-          </Question>
-
-          <Question question="Is PickleHack virtual?">
-            We're excited to say that PickleHack will be hosted in person, in
-            Butler-Carlton Hall! However, the entirety of the event can be
-            accessed virtually, so it's up to you.
-          </Question>
-
-          <Question question="What's the theme?">
-            We're looking for your silliest, goofiest, and most useless hacks
-            for a light-hearted break from our current environment. (Almost)
-            anything's fair game!
-          </Question>
-
-          <Question question="Do I need to have a team?">
-            No! You have the freedom to work by yourself if you choose. However,
-            if you're still looking for a team, you'll be able to express this
-            on the registration form and we'll match you with other compatible
-            hackers. In addition, on the Thursday directly before PickleHack
-            (October 28th), we'll have a night dedicated to meeting other
-            hackers, playing games, and finding teammates.
-          </Question>
-        </FlexColumn>
-      </FlexCenter>
+      <FlexColumn>
+        <FlexCenter>
+          <Title>FAQ</Title>
+        </FlexCenter>
+        <FlexCenter>
+          <Constraint>
+            <FlexCenter>
+              <FlexColumn>
+                <FAQSegment titleColor="WHAT " title="is a hackathon?">
+                  A hackathon is a weekend long event for anyone interested in
+                  tech to build, learn, and grow! It features many opportunities
+                  to explore your technical skills and interact with others who
+                  are just as passionate and curious about how tech impacts the
+                  world around us.
+                </FAQSegment>
+                <FAQSegment
+                  titleColor="WHERE"
+                  title="is PickHacks 2022 going to be?"
+                >
+                  With the world still in limbo over COVID, PickHacks 2022 will
+                  be held from the best coding environment in the world, your
+                  room! This year’s iteration will be virtual, with activities
+                  and events planned accordingly.
+                </FAQSegment>
+                <FAQSegment titleColor="WHEN" title="is PickHacks going on?">
+                  PickHacks 2022 will be from 4:00 pm, April 8th to 3:00 pm,
+                  April 10th.
+                </FAQSegment>
+                <FAQSegment titleColor="WHO" title="can participate?">
+                  PickHacks is open to any and all college or high school
+                  students. Just grab a team of up to 3 other hackers and start
+                  building!
+                </FAQSegment>
+                <FAQSegment
+                  titleColor="WHAT"
+                  title="if I can’t think of a hack?"
+                >
+                  No worries! Try to think of some problem that exists in the
+                  realm of our theme. If that leads nowhere, try consulting some
+                  of our resources or experts for inspo.
+                </FAQSegment>
+                <FAQSegment titleColor="MORE" title="questions?">
+                  Contact any of our team members on our Discord, email us at
+                  msthackathon@umsystem.edu, or DM us on instagram
+                  @sandtpickhacks.
+                </FAQSegment>
+              </FlexColumn>
+            </FlexCenter>
+          </Constraint>
+        </FlexCenter>
+      </FlexColumn>
     </div>
   );
 };

@@ -11,4 +11,44 @@ body {
   src: local("F25 Bank Printer Bold"),
     url("./fonts/F25_Bank_Printer_Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Amiko-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"), url("./fonts/Amiko-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Amiko-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"), url("./fonts/Amiko-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Amiko-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"), url("./fonts/Amiko-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZenDots-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"),
+    url("./fonts/ZenDots-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZenKurenaido-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"),
+    url("./fonts/ZenKurenaido-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZenTokyoZoo-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Amiko Bold"),
+    url("./fonts/ZenTokyoZoo-Regular.ttf") format("truetype");
+}
 /* transform: scaleY(1); */

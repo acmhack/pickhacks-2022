@@ -24,9 +24,11 @@ import {
 import "./test.css";
 const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
-  color: #f47525;
+  color: #f0803c;
+  text-shadow: 2px 2px 4px gray;
   padding-bottom: 20px;
   text-align: center;
+  font-family: "ZenDots-Regular", cursive;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }

@@ -31,7 +31,9 @@ const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
   color: #f47525;
   padding-bottom: 20px;
+  font-family: "ZenDots-Regular", cursive;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }

@@ -1,0 +1,72 @@
+[
+  {
+    "day": "Friday",
+    "title": "Check-In",
+    "description": "4:00pm - 8:00pm"
+  },
+  {
+    "day": "Friday",
+    "title": "Opening Ceremony",
+    "description": "5:30pm - 6:30pm"
+  },
+  {
+    "day": "Friday",
+    "title": "Hacking Begins",
+    "description": "7:00pm"
+  },
+  {
+    "day": "Friday",
+    "title": "[FIRST TALK]",
+    "description": "9:00pm"
+  },
+  {
+    "day": "Friday",
+    "title": "[MLH ACTIVITY]",
+    "description": "11:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "Late-Night Skribblio",
+    "description": "1:00am"
+  },
+  {
+    "day": "Saturday",
+    "title": "[SECOND TALK]",
+    "description": "10:00am"
+  },
+  {
+    "day": "Saturday",
+    "title": "[FINAL TALK]",
+    "description": "1:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "Networking Bingo",
+    "description": "2:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "Devpost Refresher",
+    "description": "5:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "[MLH ACTIVITY]",
+    "description": "8:00pm"
+  },
+  {
+    "day": "Sunday",
+    "title": "Submission Office Hours",
+    "description": "9:00am"
+  },
+  {
+    "day": "Sunday",
+    "title": "Hacking Ends",
+    "description": "11:00am"
+  },
+  {
+    "day": "Sunday",
+    "title": "Closing Ceremony",
+    "description": "2:00pm-3:00pm"
+  }
+]
