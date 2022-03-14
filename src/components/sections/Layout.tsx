@@ -7,7 +7,8 @@ import Partner from "./Partner";
 import Team from "./Team";
 import Navbar from "../common/Navbar/Navbar";
 import styled, { AnyStyledComponent } from "styled-components";
-import Background from "../../images/pickhacks22-background.jpg";
+import Background from "../../images/background_test.png";
+import Socials from "./Socials";
 
 const FlexContainer: AnyStyledComponent = styled.div`
   display: flex;
@@ -50,6 +51,10 @@ export default () => {
           <FlexContainer>
             <SectionDiv style={{ paddingTop: "20%" }} id="header">
               <Header />
+            </SectionDiv>
+
+            <SectionDiv id="socials">
+              <Socials />
             </SectionDiv>
 
             <SectionDiv id="schedule">
