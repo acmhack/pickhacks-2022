@@ -5,7 +5,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- [View Live](https://mstacm.org) | -->
+[View Live](https://pickhacks.io/) |
 
 <!-- TABLE OF CONTENTS -->
 
