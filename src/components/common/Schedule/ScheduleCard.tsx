@@ -89,17 +89,18 @@ const Test: AnyStyledComponent = styled.div`
   width: 50px;
   @media (min-width: 600px) {
     display: none;
+  }
 `;
 
 export default ({ title, description, day }: CardProps) => {
   function dayPicker(): string[] {
     switch (day) {
       case "Friday":
-        return ["#ffffff", "April 8"];
+        return ["#000", "April 8"];
       case "Saturday":
         return ["#009AC7", "April 9"];
       case "Sunday":
-        return ["#EF7F3C", "April 10"];
+        return ["#F78702", "April 10"];
       default:
         return ["gray", "nerd"];
     }

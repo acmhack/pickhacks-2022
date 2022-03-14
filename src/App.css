@@ -16,7 +16,7 @@ body {
   font-family: "Amiko-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Amiko Bold"), url("./fonts/Amiko-Bold.ttf") format("truetype");
+  src: local("Amiko-Bold"), url("./fonts/Amiko-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amiko-Regular";

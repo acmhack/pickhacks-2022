@@ -1,26 +1,34 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
+import { cloud } from "../../images/Images";
 import "../../App.css";
-const HeadDiv: AnyStyledComponent = styled.div`
-  color: #006a75;
-  font-family: "ZenTokyoZoo-Regular";
-  font-size: 4vw;
-  display: flex;
-  justify-content: flex-start;
-`;
+
+// const HeadDiv: AnyStyledComponent = styled.div`
+//   color: #006a75;
+//   font-family: "ZenTokyoZoo-Regular";
+//   font-size: 4vw;
+//   display: flex;
+//   justify-content: flex-start;
+// `;
 const Head2Div: AnyStyledComponent = styled.div`
   color: #009ac7;
   font-family: "ZenDots-Regular", cursive;
   display: flex;
   font-size: 3.5vw;
+
   margin-top: 8px;
-  justify-content: flex-end;
+  @media (max-width: 1196px) {
+    font-size: 5vw;
+  }
 `;
 const SubDiv: AnyStyledComponent = styled.div`
   text-align: right;
   color: #006a75;
   font-family: "ZenTokyoZoo-Regular", cursive;
   font-size: 2vw;
+  @media (max-width: 1196px) {
+    font-size: 4vw;
+  }
 `;
 
 const Title: AnyStyledComponent = styled.div`
@@ -28,8 +36,8 @@ const Title: AnyStyledComponent = styled.div`
   display: flex;
   color: #009ac7;
   font-family: "ZenDots-Regular", cursive;
-  @media screen and () {
-    font-size: 8vw;
+  @media (max-width: 1196px) {
+    font-size: 6vw;
   }
 `;
 
@@ -38,6 +46,9 @@ const SubTitle: AnyStyledComponent = styled.div`
   font-family: "ZenTokyoZoo-Regular", cursive;
   color: #006a75;
   font-size: 3vw;
+  @media (max-width: 1196px) {
+    font-size: 5vw;
+  }
 `;
 
 const TitleDiv: AnyStyledComponent = styled.div`
@@ -50,12 +61,18 @@ const FlexCenter: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
 `;
+const FlexEnd: AnyStyledComponent = styled.div`
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+`;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
 `;
 const MainTitle: AnyStyledComponent = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 const SectionDescription: AnyStyledComponent = styled.div`
@@ -70,7 +87,35 @@ const SectionDescription: AnyStyledComponent = styled.div`
     padding: 12px;
   }
 `;
-
+const CloudDiv: AnyStyledComponent = styled.img`
+  padding: 20px;
+  @media (max-width: 603px) {
+    height: auto;
+    width: 150px;
+  }
+`;
+const CloudContainer: AnyStyledComponent = styled.div`
+  position: relative;
+  text-align: center;
+  @media (min-width: 1000px) {
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 200ms ease-in-out;
+    }
+  }
+`;
+const CloudText: AnyStyledComponent = styled.div`
+  position: absolute;
+  font-family: "ZenKurenaido-Regular", cursive;
+  font-size: 48px;
+  color: #f78702;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media (max-width: 603px) {
+    font-size: 31px;
+  }
+`;
 export default () => {
   return (
     <div>
@@ -81,15 +126,24 @@ export default () => {
               {/* <HeadDiv>
                 Pickhacks<span style={{ fontSize: "30px" }}> Presents</span>
               </HeadDiv> */}
-              <Head2Div>April 8th-10th</Head2Div>
+              <FlexCenter>
+                {" "}
+                <Head2Div>April 8th-10th</Head2Div>
+              </FlexCenter>
             </MainTitle>
 
             <FlexCenter>
               <Title>PICKHACKS 2022</Title>
             </FlexCenter>
+            {/* <Constraint> */}
+            <FlexCenter>
+              <SubTitle>Missouri S&T's WellBeing Hackathon</SubTitle>
+            </FlexCenter>
 
-            <SubTitle>Missouri S&T's WellBeing Hackathon</SubTitle>
-            <SubDiv>Spring 2022</SubDiv>
+            <FlexCenter>
+              <SubDiv>Spring 2022</SubDiv>
+            </FlexCenter>
+            {/* </Constraint> */}
           </TitleDiv>
         </FlexCenter>
         <FlexCenter>
@@ -105,7 +159,17 @@ export default () => {
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>
-        <FlexCenter></FlexCenter>
+
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
+          target="_blank"
+        >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>APPLY</CloudText>
+          </CloudContainer>
+        </a>
       </FlexColumn>
     </div>
   );
