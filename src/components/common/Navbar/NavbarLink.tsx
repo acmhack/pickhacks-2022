@@ -22,7 +22,6 @@ export default ({ activeStyle, link, children }: INavbarLinkProps) => {
           display: "block",
           padding: "14px 16px",
         }}
-        activeStyle={{ color: "black" }}
       >
         {children}
       </NavHashLink>

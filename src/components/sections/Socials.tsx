@@ -1,9 +1,6 @@
 import React from "react";
-import {
-  cloud
-} from "../../images/Images";
+import { cloud } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
-import { url } from "inspector";
 
 import ApplyButton from "../common/Button";
 
@@ -99,13 +96,9 @@ export default () => {
           <Name>DISCORD</Name>
         </GridItem>
         */}
-        <ApplyButton link="TBA">
-          DISCORD
-        </ApplyButton>
+        <ApplyButton link="TBA">DISCORD</ApplyButton>
         <span></span>
-        <ApplyButton link="TBA">
-          APPLY
-        </ApplyButton>
+        <ApplyButton link="TBA">APPLY</ApplyButton>
       </Grid>
       <br></br>
       <br></br>
@@ -119,16 +112,12 @@ export default () => {
         </GridItem>
         */}
         <span></span>
-        <ApplyButton link="mailto:msthackathon@umsystem.edu">
-          EMAIL
-        </ApplyButton>
+        <ApplyButton link="mailto:msthackathon@umsystem.edu">EMAIL</ApplyButton>
         <span></span>
         <ApplyButton link="https://www.facebook.com/sandtpickhacks/">
           SOCIAL_MEDIA
         </ApplyButton>
       </Grid>
-
-
     </div>
   );
 };
