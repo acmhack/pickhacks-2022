@@ -14,6 +14,7 @@ import {
   goodsnacks,
   doa,
   voiceflow,
+  mlh,
   sketch,
   stlpublicradio,
   umsystem,
@@ -99,9 +100,9 @@ export default () => {
               <a target="_blank" href="https://goodsnacks.com/">
                 <img src={goodsnacks} />
               </a>
-              {/* <a target="_blank" href="https://thecodex.me/">
-                <img src={stlpublicradio}/>
-              </a> */}
+              <a target="_blank" href="https://mlh.io/">
+                <img src={mlh} />
+              </a>
             </div>
             <div className="row">
               <a target="_blank" href="https://smashmallow.com/">

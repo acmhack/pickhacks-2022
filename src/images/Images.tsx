@@ -37,6 +37,7 @@ import goodsnacks from "./goodsnacks.png";
 // import codex  from "./codex.png";
 
 import cloud from "./cloud.png";
+import mlh from "./mlh.png";
 
 import doa from "./do.png";
 import voiceflow from "./voiceflow.png";
@@ -79,6 +80,7 @@ export {
   Carter,
   Billie,
   Colton,
+  mlh,
   nineteen,
   pickhack22logo,
   zesttea,
