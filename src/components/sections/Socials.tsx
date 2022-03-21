@@ -39,24 +39,6 @@ const Grid: AnyStyledComponent = styled.div`
   }
 `;
 
-const Grid2: AnyStyledComponent = styled.div`
-  display: grid;
-  max-width: 1200px;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 500px;
-  @media (max-width: 1200px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  @media (max-width: 800px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (max-width: 500px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-`;
-
 const GridItem: AnyStyledComponent = styled.a`
   display: flex;
   flex-direction: column;

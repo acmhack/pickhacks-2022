@@ -88,6 +88,17 @@ const SectionDescription: AnyStyledComponent = styled.div`
     padding: 12px;
   }
 `;
+const Grid: AnyStyledComponent = styled.div`
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
 {/*
 const CloudDiv: AnyStyledComponent = styled.img`
   padding: 20px;
@@ -162,9 +173,28 @@ export default () => {
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>
-        <CloudButton 
+     
+        <Grid style={{marginBottom: "0"}}>
+          <CloudButton 
+            link="TBA"
+          >DISCORD</CloudButton>
+          <span></span>
+          <CloudButton 
           link="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
-        >APPLY</CloudButton>
+          >APPLY</CloudButton>
+          <span></span>
+        </Grid>
+        <Grid>
+          <span></span>
+          <CloudButton 
+            link="mailto:msthackathon@umsystem.edu"
+          >EMAIL</CloudButton>
+          <span></span>
+          <CloudButton 
+          link="https://www.facebook.com/sandtpickhacks/"
+          >SOCIAL MEDIA</CloudButton>
+        </Grid>
+
         {/*
         <a
           style={{ textDecoration: "none" }}
