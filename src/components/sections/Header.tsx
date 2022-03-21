@@ -2,6 +2,7 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import { cloud } from "../../images/Images";
 import "../../App.css";
+import CloudButton from "../common/CloudButton";
 
 // const HeadDiv: AnyStyledComponent = styled.div`
 //   color: #006a75;
@@ -87,6 +88,7 @@ const SectionDescription: AnyStyledComponent = styled.div`
     padding: 12px;
   }
 `;
+{/*
 const CloudDiv: AnyStyledComponent = styled.img`
   padding: 20px;
   @media (max-width: 603px) {
@@ -116,6 +118,7 @@ const CloudText: AnyStyledComponent = styled.div`
     font-size: 31px;
   }
 `;
+*/}
 export default () => {
   return (
     <div>
@@ -159,7 +162,10 @@ export default () => {
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>
-
+        <CloudButton 
+          link="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
+        >APPLY</CloudButton>
+        {/*
         <a
           style={{ textDecoration: "none" }}
           href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
@@ -170,6 +176,7 @@ export default () => {
             <CloudText>APPLY</CloudText>
           </CloudContainer>
         </a>
+        */}
       </FlexColumn>
     </div>
   );
