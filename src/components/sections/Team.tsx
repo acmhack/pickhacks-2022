@@ -1,9 +1,7 @@
 import React from "react";
 import {
   Bharat,
-  Rachel,
   Ryan,
-  Scott,
   Sabrina,
   Riley,
   Jack,
@@ -11,18 +9,20 @@ import {
   Eddie,
   Jake,
   Dominic,
+  pickhacks22,
   Carter,
   Bradley,
-  Billie,
   Colton,
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
 
 const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
-  color: #f47525;
+  color: #009ac7;
+  text-shadow: 2px 2px 4px gray;
   padding-bottom: 20px;
   text-align: center;
+  font-family: "ZenDots-Regular", cursive;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
@@ -35,7 +35,7 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
-const Grid: AnyStyledComponent = styled.div`
+const TeamGrid: AnyStyledComponent = styled.div`
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
@@ -53,9 +53,10 @@ const Grid: AnyStyledComponent = styled.div`
   }
 `;
 
-const GridItem: AnyStyledComponent = styled.a`
+const Person: AnyStyledComponent = styled.a`
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   @media (min-width: 1000px) {
     &:hover {
       transform: scale(1.1);
@@ -63,7 +64,7 @@ const GridItem: AnyStyledComponent = styled.a`
     }
   }
 `;
-const GridImage: AnyStyledComponent = styled.img`
+const ProfilePic: AnyStyledComponent = styled.img`
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -83,111 +84,144 @@ export default () => {
         <Title>TEAM</Title>
       </FlexCenter>
 
-      <Grid>
-        <GridItem href="https://www.linkedin.com/in/bhasree" target="_blank">
-          <GridImage src={Bharat}></GridImage>
+      <TeamGrid>
+        <Person href="https://www.linkedin.com/in/bhasree" target="_blank">
+          <ProfilePic src={Bharat}></ProfilePic>
 
           <Name style={{ fontSize: "15.5px" }}>Bharat Sreekrishnavilas</Name>
-        </GridItem>
+        </Person>
 
-        <GridItem
+        <Person
           href="https://www.linkedin.com/in/edward-c-keith/"
           target="_blank"
         >
-          <GridImage src={Eddie}></GridImage>
+          <ProfilePic src={Eddie}></ProfilePic>
           <Name>Edward Keith</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Maggie Boecker</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Marcella Tebeau</Name>
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/riley-fuller-ab021a1b7/"
           target="_blank"
         >
-          <GridImage src={Riley}></GridImage>
+          <ProfilePic src={Riley}></ProfilePic>
           <Name>Riley Fuller</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/sabrina-m-baaa49162/"
           target="_blank"
         >
-          <GridImage src={Sabrina}></GridImage>
+          <ProfilePic src={Sabrina}></ProfilePic>
           <Name>Sabrina McRoberts</Name>
-        </GridItem>
-        <GridItem
-          href="https://www.linkedin.com/in/rachel-liang-6a78731b5/"
-          target="_blank"
-        >
-          <GridImage src={Rachel}></GridImage>
-          <Name>Rachel Liang</Name>
-        </GridItem>
-        <GridItem
-          href="https://www.linkedin.com/in/teresa-billie-h-356a37108/"
-          target="_blank"
-        >
-          <GridImage src={Billie}></GridImage>
-          <Name>Billie Huang</Name>
-        </GridItem>
-        <GridItem href="https://www.linkedin.com/in/jackstork/" target="_blank">
-          <GridImage src={Jack}></GridImage>
-          <Name>Jack Stork</Name>
-        </GridItem>
+        </Person>
 
-        <GridItem
+        <Person href="https://www.linkedin.com/in/jackstork/" target="_blank">
+          <ProfilePic src={Jack}></ProfilePic>
+          <Name>Jack Stork</Name>
+        </Person>
+
+        <Person
           href="https://www.linkedin.com/in/ryan-duffendack-866058194/"
           target="_blank"
         >
-          <GridImage src={Ryan}></GridImage>
+          <ProfilePic src={Ryan}></ProfilePic>
           <Name>Ryan Duffendack</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/bradley-moore-2021"
           target="_blank"
         >
-          <GridImage src={Bradley}></GridImage>
+          <ProfilePic src={Bradley}></ProfilePic>
           <Name>Bradley Moore</Name>
-        </GridItem>
+        </Person>
 
-        <GridItem
-          href="https://www.linkedin.com/in/jacobakelly/"
-          target="_blank"
-        >
-          <GridImage src={Jake}></GridImage>
+        <Person href="https://www.linkedin.com/in/jacobakelly/" target="_blank">
+          <ProfilePic src={Jake}></ProfilePic>
           <Name>Jacob Kelly</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person href="" target="_blank">
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Jonah Yates</Name>
+        </Person>
+        <Person href="" target="_blank">
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Kevin Gu</Name>
+        </Person>
+        <Person href="" target="_blank">
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Matt Minatra</Name>
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/coltonjacobson/"
           target="_blank"
         >
-          <GridImage src={Colton}></GridImage>
+          <ProfilePic src={Colton}></ProfilePic>
           <Name>Colton Jacobson</Name>
-        </GridItem>
-        <GridItem
-          href="https://www.linkedin.com/in/scott-conner-b596181b5/"
-          target="_blank"
-        >
-          <GridImage src={Scott}></GridImage>
-          <Name>Scott Connor</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+
+        <Person
           href="https://www.linkedin.com/in/carterwagner/"
           target="_blank"
         >
-          <GridImage src={Carter}></GridImage>
+          <ProfilePic src={Carter}></ProfilePic>
           <Name>Carter Wagner</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/carterwagner/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Emma Carmickle</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/carterwagner/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Eric Duong</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/carterwagner/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Gunnar Grispino</Name>
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/himnish-sapkota/"
           target="_blank"
         >
-          <GridImage src={Himnish}></GridImage>
+          <ProfilePic src={Himnish}></ProfilePic>
           <Name>Himnish Sapkota</Name>
-        </GridItem>
-        <GridItem
+        </Person>
+        <Person
           href="https://www.linkedin.com/in/dominic-alberico/"
           target="_blank"
         >
-          <GridImage src={Dominic}></GridImage>
+          <ProfilePic src={Dominic}></ProfilePic>
           <Name>Dominic Alberico</Name>
-        </GridItem>
-      </Grid>
+        </Person>
+        <Person href="" target="_blank">
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Rahul Gopalan</Name>
+        </Person>
+        <Person href="" target="_blank">
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Vishaanth Muddu</Name>
+        </Person>
+      </TeamGrid>
     </div>
   );
 };

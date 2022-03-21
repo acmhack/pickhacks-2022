@@ -17,11 +17,11 @@ export default ({ activeStyle, link, children }: INavbarLinkProps) => {
         style={{
           color: "white",
           fontWeight: "bold",
+          fontFamily: "ZenDots-Regular",
           textDecoration: "none",
           display: "block",
           padding: "14px 16px",
         }}
-        activeStyle={{ color: "#dc683c" }}
       >
         {children}
       </NavHashLink>

@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "./Header";
 import FAQ from "./FAQ";
-import Schedule from "./Schedule";
+import Schedule from "./BetterSchedule";
+import Footer from "./Footer";
 import Sponsor from "./Sponsor";
 import Partner from "./Partner";
 import Team from "./Team";
 import Navbar from "../common/Navbar/Navbar";
 import styled, { AnyStyledComponent } from "styled-components";
-import Background from "../../images/pickhacks22-background.jpg";
-import Socials from "./Socials";
+import Background from "../../images/background_test.png";
+// import Socials from "./Socials";
 
 const FlexContainer: AnyStyledComponent = styled.div`
   display: flex;
@@ -53,9 +54,9 @@ export default () => {
               <Header />
             </SectionDiv>
 
-            <SectionDiv id="socials">
+            {/* <SectionDiv id="socials">
               <Socials />
-            </SectionDiv>
+            </SectionDiv> */}
 
             <SectionDiv id="schedule">
               <Schedule />
@@ -75,6 +76,10 @@ export default () => {
 
             <SectionDiv id="team">
               <Team />
+            </SectionDiv>
+
+            <SectionDiv id="footer">
+              <Footer />
             </SectionDiv>
           </FlexContainer>
         </Constraint>

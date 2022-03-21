@@ -5,7 +5,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- [View Live](https://mstacm.org) | -->
+[View Live](https://pickhacks.io/) |
 
 <!-- TABLE OF CONTENTS -->
 
@@ -33,23 +33,26 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the pickhacks 2022 repository using Git Bash(make sure to have SSH keys setup):
-   ```bash 
+   ```bash
    git clone git@github.com:acmhack/pickhacks-2022.git
    ```
 
+### Installation
 
+1. Clone the pickhacks 2022 repository using Git Bash:
+   `bash git clone git@github.com:acmhack/pickhacks-2022.githttps://github.com/sigdotcom/mstacm.org.git `
 
 ### Running locally
+
 1. Install dependencies using yarn:
-   ```bash 
+   ```bash
    yarn
    ```
 2. Start up a local server to run the website:
    ```bash
-   yarn start 
+   yarn start
    ```
-<!-- CONTRIBUTING -->
-
+   <!-- CONTRIBUTING -->
 
 ## Contributing
 

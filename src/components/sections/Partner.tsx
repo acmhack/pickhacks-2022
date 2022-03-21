@@ -14,6 +14,7 @@ import {
   goodsnacks,
   doa,
   voiceflow,
+  mlh,
   sketch,
   stlpublicradio,
   umsystem,
@@ -24,9 +25,11 @@ import {
 import "./test.css";
 const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
-  color: #f47525;
+  color: #f0803c;
+  text-shadow: 2px 2px 4px gray;
   padding-bottom: 20px;
   text-align: center;
+  font-family: "ZenDots-Regular", cursive;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
@@ -97,9 +100,9 @@ export default () => {
               <a target="_blank" href="https://goodsnacks.com/">
                 <img src={goodsnacks} />
               </a>
-              {/* <a target="_blank" href="https://thecodex.me/">
-                <img src={stlpublicradio}/>
-              </a> */}
+              <a target="_blank" href="https://mlh.io/">
+                <img src={mlh} />
+              </a>
             </div>
             <div className="row">
               <a target="_blank" href="https://smashmallow.com/">
