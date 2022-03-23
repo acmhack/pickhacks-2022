@@ -71,6 +71,18 @@ export default (props: any) => {
                   realm of our theme. If that leads nowhere, try consulting some
                   of our resources or experts for inspo.
                 </FAQSegment>
+
+                <FAQSegment
+                  titleColor="WHEN"
+                  title="will I get my swag?"
+                >
+                  Due to shipping delays from COVID, you can expect to receive 
+                  your swag sometime around late April. However, we don't want 
+                  to keep you in suspense! You can expect to recieve a sweatshirt, 
+                  stickers, and more awesome goodies! We will not be shipping swag 
+                  to hackers outside of the US and Canada.
+                </FAQSegment>
+
                 <FAQSegment titleColor="MORE" title="questions?">
                   Contact any of our team members on our Discord, email us at
                   msthackathon@umsystem.edu, or DM us on instagram
