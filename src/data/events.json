@@ -16,13 +16,8 @@
   },
   {
     "day": "Friday",
-    "title": "[FIRST TALK]",
+    "title": "Burnout Mental Health Talk",
     "description": "9:00pm"
-  },
-  {
-    "day": "Friday",
-    "title": "[MLH ACTIVITY]",
-    "description": "11:00pm"
   },
   {
     "day": "Saturday",
@@ -31,12 +26,12 @@
   },
   {
     "day": "Saturday",
-    "title": "[SECOND TALK]",
+    "title": "Tech Talk from Panera",
     "description": "10:00am"
   },
   {
     "day": "Saturday",
-    "title": "[FINAL TALK]",
+    "title": "Software Interview Workshop",
     "description": "1:00pm"
   },
   {
@@ -51,7 +46,7 @@
   },
   {
     "day": "Saturday",
-    "title": "[MLH ACTIVITY]",
+    "title": "MLH Bob Ross Painting",
     "description": "8:00pm"
   },
   {
