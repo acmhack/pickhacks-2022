@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d72dccaa.chunk.css",
-    "main.js": "/static/js/main.e20f429a.chunk.js",
-    "main.js.map": "/static/js/main.e20f429a.chunk.js.map",
+    "main.js": "/static/js/main.909650ee.chunk.js",
+    "main.js.map": "/static/js/main.909650ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.bfcee8fd.chunk.js": "/static/js/2.bfcee8fd.chunk.js",
-    "static/js/2.bfcee8fd.chunk.js.map": "/static/js/2.bfcee8fd.chunk.js.map",
+    "static/js/2.1e8f68e6.chunk.js": "/static/js/2.1e8f68e6.chunk.js",
+    "static/js/2.1e8f68e6.chunk.js.map": "/static/js/2.1e8f68e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e6c74cf3526f823a6f5d172230e68aa9.js": "/precache-manifest.e6c74cf3526f823a6f5d172230e68aa9.js",
+    "precache-manifest.8e08f6631e0b40f4516b4d4240ae7b8e.js": "/precache-manifest.8e08f6631e0b40f4516b4d4240ae7b8e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d72dccaa.chunk.css.map": "/static/css/main.d72dccaa.chunk.css.map",
-    "static/js/2.bfcee8fd.chunk.js.LICENSE.txt": "/static/js/2.bfcee8fd.chunk.js.LICENSE.txt",
+    "static/js/2.1e8f68e6.chunk.js.LICENSE.txt": "/static/js/2.1e8f68e6.chunk.js.LICENSE.txt",
     "static/media/1517.png": "/static/media/1517.22b66261.png",
     "static/media/1904.png": "/static/media/1904.8ce498d6.png",
     "static/media/App.css": "/static/media/ZenTokyoZoo-Regular.1e8aae18.ttf",
@@ -30,6 +30,7 @@
     "static/media/Sabrina.png": "/static/media/Sabrina.d092f369.png",
     "static/media/Scott.png": "/static/media/Scott.312dc737.png",
     "static/media/acm.png": "/static/media/acm.aa21958b.png",
+    "static/media/assemblyai.png": "/static/media/assemblyai.b626f51c.png",
     "static/media/background_test.png": "/static/media/background_test.a853df4a.png",
     "static/media/brewer.png": "/static/media/brewer.f97b7749.png",
     "static/media/cboe.png": "/static/media/cboe.f34d2003.png",
@@ -40,6 +41,7 @@
     "static/media/girlswhocode.png": "/static/media/girlswhocode.fb73dc43.png",
     "static/media/goodsnacks.png": "/static/media/goodsnacks.e1df2ad9.png",
     "static/media/highalpha.png": "/static/media/highalpha.9c1e5d93.png",
+    "static/media/huntereng.png": "/static/media/huntereng.c7061391.png",
     "static/media/jbhunt.png": "/static/media/jbhunt.a46348e6.png",
     "static/media/johndeere.png": "/static/media/johndeere.df6e1b62.png",
     "static/media/leonardo.png": "/static/media/leonardo.38e944e1.png",
@@ -67,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.bfcee8fd.chunk.js",
+    "static/js/2.1e8f68e6.chunk.js",
     "static/css/main.d72dccaa.chunk.css",
-    "static/js/main.e20f429a.chunk.js"
+    "static/js/main.909650ee.chunk.js"
   ]
 }
