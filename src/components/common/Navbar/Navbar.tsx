@@ -21,6 +21,13 @@ const Background: AnyStyledComponent = styled.div`
     display: none;
   }
 `;
+
+const FlexCenter: AnyStyledComponent = styled.div`
+  justify-content: center;
+  display: flex;
+  width: 100%;
+`;
+
 const Logo: AnyStyledComponent = styled.img`
   height: 40;
   width: 40px;
@@ -56,6 +63,7 @@ export default () => {
               <Logo src={pickhack22logo} />
             </a>
           </NavImage>
+          <FlexCenter>
           <NavListItem>
             <NavLink link="/#header" activeStyle="test">
               HOME
@@ -89,6 +97,7 @@ export default () => {
               TEAM
             </NavLink>
           </NavListItem>
+          </FlexCenter>
         </NavList>
       </Constraint>
     </Background>

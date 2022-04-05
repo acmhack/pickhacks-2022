@@ -46,7 +46,7 @@ const FlexColumn: AnyStyledComponent = styled.div`
   flex-direction: column;
 `;
 
-const FILTER_TYPES: string[] = ["Friday", "Saturday", "Sunday"];
+const FILTER_TYPES: string[] = ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 export default () => {
   const [filters, setFilters]: [boolean[], (x: boolean[]) => void] = useState<
@@ -87,19 +87,33 @@ export default () => {
             onClick={() => {
               toggleDayCheck(0);
             }}
-            day="Friday"
+            day="Wednesday"
           />
           <DayCheck
             checked={filters[1]}
             onClick={() => {
               toggleDayCheck(1);
             }}
-            day="Saturday"
+            day="Thursday"
           />
           <DayCheck
             checked={filters[2]}
             onClick={() => {
               toggleDayCheck(2);
+            }}
+            day="Friday"
+          />
+          <DayCheck
+            checked={filters[3]}
+            onClick={() => {
+              toggleDayCheck(3);
+            }}
+            day="Saturday"
+          />
+          <DayCheck
+            checked={filters[4]}
+            onClick={() => {
+              toggleDayCheck(4);
             }}
             day="Sunday"
           />

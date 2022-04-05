@@ -160,16 +160,68 @@ export default () => {
           </FlexCenter>
         </FlexCenter>
 
-        <a
+        <FlexCenter>
+          <a
           style={{ textDecoration: "none" }}
           href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
           target="_blank"
-        >
+          >
           <CloudContainer>
             <CloudDiv src={cloud} />
-            <CloudText>APPLY</CloudText>
+            <CloudText>Apply</CloudText>
           </CloudContainer>
-        </a>
+          </a>
+        </FlexCenter>
+
+
+        <FlexCenter>
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://discord.gg/xnDtKNvm"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Discord</CloudText>
+          </CloudContainer>
+          </a>
+
+
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://pickhacks-2022.devpost.com/"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>DevPost</CloudText>
+          </CloudContainer>
+          </a>
+        </FlexCenter>
+
+        <FlexCenter>
+        <a
+          style={{ textDecoration: "none" }}
+          href="mailto:msthackathon@umsystem.edu"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Email</CloudText>
+          </CloudContainer>
+          </a>
+
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://www.facebook.com/sandtpickhacks/"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Socials</CloudText>
+          </CloudContainer>
+          </a>
+        </FlexCenter>
       </FlexColumn>
     </div>
   );
