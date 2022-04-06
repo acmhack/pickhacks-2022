@@ -171,6 +171,16 @@ export default () => {
             <CloudText>Apply</CloudText>
           </CloudContainer>
           </a>
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://hopin.com/events/pickhacks-2022?code=6TmbubEaCMUX5hXZqMM4BgElY"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>PreHacks Hopin</CloudText>
+          </CloudContainer>
+          </a>
         </FlexCenter>
 
 
