@@ -173,7 +173,7 @@ export default () => {
           </a>
           <a
           style={{ textDecoration: "none" }}
-          href="https://hopin.com/events/pickhacks-2022?code=6TmbubEaCMUX5hXZqMM4BgElY"
+          href="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK"
           target="_blank"
           >
           <CloudContainer>
