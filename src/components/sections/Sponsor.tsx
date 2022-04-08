@@ -69,7 +69,7 @@ export default () => {
               href="https://www.panerabread.com/en-us/home.html"
               style={{ marginRight: "5%" }}
             >
-              <img src={panera} />
+              <img src={require("../../images/paneranew.png")} />
             </a>
             <a
               target="_blank"
