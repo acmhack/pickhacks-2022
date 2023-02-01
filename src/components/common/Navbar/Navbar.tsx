@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import NavLink from "./NavbarLink";
-import { pickhack22logo } from "../../../images/Images";
+import { pickhack23logo } from "../../../images/Images";
 const Constraint: AnyStyledComponent = styled.div`
   display: flex;
   height: 100%;
@@ -11,7 +11,7 @@ const Constraint: AnyStyledComponent = styled.div`
 `;
 
 const Background: AnyStyledComponent = styled.div`
-  background-color: #86c6d5;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -60,10 +60,15 @@ export default () => {
           <NavImage>
             <a href="https://pickhacks.io/">
               {" "}
-              <Logo src={pickhack22logo} />
+              <Logo src={pickhack23logo} />
             </a>
           </NavImage>
           <FlexCenter>
+          <NavListItem>
+            <NavLink link="/#websites" activeStyle="test">
+              WEBSITES
+            </NavLink>
+          </NavListItem>
           <NavListItem>
             <NavLink link="/#header" activeStyle="test">
               HOME

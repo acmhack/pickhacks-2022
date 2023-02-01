@@ -21,9 +21,9 @@ const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
   display: flex;
   width: 100%;
-
-  background-image: url(${Background});
-  background-size: cover;
+  background-color: black;
+  // background-image: url(${Background});
+  // background-size: cover;
 `;
 
 const Constraint: AnyStyledComponent = styled.div`

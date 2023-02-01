@@ -11,10 +11,10 @@ import "../../App.css";
 //   justify-content: flex-start;
 // `;
 const Head2Div: AnyStyledComponent = styled.div`
-  color: #009ac7;
+  color: white;
   font-family: "ZenDots-Regular", cursive;
   display: flex;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
 
   margin-top: 8px;
   @media (max-width: 1196px) {
@@ -32,9 +32,9 @@ const SubDiv: AnyStyledComponent = styled.div`
 `;
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 5vw;
+  font-size: 8vw;
   display: flex;
-  color: #009ac7;
+  color: white;
   font-family: "ZenDots-Regular", cursive;
   @media (max-width: 1196px) {
     font-size: 6vw;
@@ -126,15 +126,16 @@ export default () => {
               {/* <HeadDiv>
                 Pickhacks<span style={{ fontSize: "30px" }}> Presents</span>
               </HeadDiv> */}
+
               <FlexCenter>
-                {" "}
-                <Head2Div>April 8th-10th</Head2Div>
+                <Title>PICKHACKS</Title>
               </FlexCenter>
             </MainTitle>
+              <FlexCenter>
+                {" "}
+                <Head2Div>April 14th-16th</Head2Div>
+              </FlexCenter>
 
-            <FlexCenter>
-              <Title>PICKHACKS 2022</Title>
-            </FlexCenter>
             {/* <Constraint> */}
             <FlexCenter>
               <SubTitle>Missouri S&T's WellBeing Hackathon</SubTitle>
