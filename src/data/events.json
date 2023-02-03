@@ -1,5 +1,30 @@
 [
   {
+    "day": "Wednesday",
+    "title": "Welcome to PreHacks Talk",
+    "description": "5:30pm - 5:45pm"
+  },
+  {
+    "day": "Wednesday",
+    "title": "Introduction to Web Development",
+    "description": "5:45pm - 6:30pm"
+  },
+  {
+    "day": "Thursday",
+    "title": "Introduction to Git",
+    "description": "5:30pm - 6:00pm"
+  },
+  {
+    "day": "Thursday",
+    "title": "Fireside Chat at Q&A About Hackathons",
+    "description": "6:00pm - 6:30pm"
+  },
+  {
+    "day": "Thursday",
+    "title": "Skribbl.io and Team Bonding",
+    "description": "6:30pm - 7:30pm"
+  },
+  {
     "day": "Friday",
     "title": "Check-In",
     "description": "4:00pm - 8:00pm"
@@ -16,13 +41,8 @@
   },
   {
     "day": "Friday",
-    "title": "[FIRST TALK]",
+    "title": "Burnout Mental Health Talk",
     "description": "9:00pm"
-  },
-  {
-    "day": "Friday",
-    "title": "[MLH ACTIVITY]",
-    "description": "11:00pm"
   },
   {
     "day": "Saturday",
@@ -31,12 +51,12 @@
   },
   {
     "day": "Saturday",
-    "title": "[SECOND TALK]",
+    "title": "Tech Talk from Panera",
     "description": "10:00am"
   },
   {
     "day": "Saturday",
-    "title": "[FINAL TALK]",
+    "title": "Software Interview Workshop",
     "description": "1:00pm"
   },
   {
@@ -51,7 +71,7 @@
   },
   {
     "day": "Saturday",
-    "title": "[MLH ACTIVITY]",
+    "title": "MLH Bob Ross Painting",
     "description": "8:00pm"
   },
   {
@@ -62,7 +82,7 @@
   {
     "day": "Sunday",
     "title": "Hacking Ends",
-    "description": "11:00am"
+    "description": "10:00am"
   },
   {
     "day": "Sunday",

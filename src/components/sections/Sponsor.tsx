@@ -54,120 +54,75 @@ export default () => {
       </FlexCenter>
       <div className="sponsor-info">
         <div className="diamond">
-          <div className="row">
-            <a
-              target="_blank"
-              href="https://www.panerabread.com/en-us/home.html"
-            >
-              <img src={panera} />
-            </a>
-          </div>
         </div>
         <div className="gold">
           <div className="row">
+          <a
+              target="_blank"
+              href=""
+              style={{ opacity: "0", cursor: "default" }}
+            >
+              <img src={balto} />
+            </a>
             <a
               target="_blank"
-              href="https://www.centene.com/"
+              href="https://www.panerabread.com/en-us/home.html"
               style={{ marginRight: "5%" }}
             >
-              <img src={centene} />
+              <img src={require("../../images/paneranew.png")} />
             </a>
-            <a target="_blank" href="https://www.mastercard.us/en-us.html">
-              <img src={mastercard} />
+            <a
+              target="_blank"
+              href=""
+              style={{ opacity: "0", cursor: "default" }}
+            >
+              <img src={balto} />
             </a>
           </div>
         </div>
         <div className="silver">
           <div className="row">
-            <a target="_blank" href="https://nestletech.com/2Ug7HGi">
-              <img src={nestle} />
-            </a>
-            <a target="_blank" href="https://kcnsc.doe.gov/">
-              <img src={nsc} />
-            </a>
-            <a target="_blank" href="https://www.veteransunited.com/">
-              <img src={veterans} />
-            </a>
-          </div>
-          <div className="row">
-            <a target="_blank" href="http://tradebot.com/">
-              <img src={tradebot} />
-            </a>
-
             <a
               target="_blank"
               href="https://www.deere.com/en/technology-products/precision-ag-technology/"
             >
               <img src={johndeere} />
             </a>
+            <a
+              target="_blank"
+              href="https://www.honeywell.com/us/en"
+            >
+              <img src={nsc} />
+            </a>
           </div>
           <div className="row">
-            <a
+          <a
               target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
+              href="https://www.sandia.gov/"
             >
-              <img src={balto} />
-            </a>
-            <a target="_blank" href="https://baltosoftware.com/">
-              <img src={balto} />
+              <img src={sandia} />
             </a>
             <a
               target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
+              href="https://www.hunter.com/"
             >
-              <img src={balto} />
+              <img src={require("../../images/huntereng.png")} />
             </a>
           </div>
         </div>
+
+
+        
         <div className="bronze">
           <div className="row">
-            <a target="_blank" href="https://www.nisc.coop/">
-              <img src={nisc} />
-            </a>
-            <a target="_blank" href="https://www.jbhunt.com/">
-              <img src={jbhunt} />
-            </a>
-            <a target="_blank" href="https://www.wwt.com/">
-              <img src={wwt} />
-            </a>
-            <a target="_blank" href="https://www.leonardodrs.com/">
-              <img src={leonardo} />
-            </a>
-          </div>
-          <div className="row">
-            <a target="_blank" href="https://www.linode.com/">
-              <img src={linode} />
-            </a>
-            <a target="_blank" href="https://1904labs.com/">
-              <img src={nineteen} />
-            </a>
             <a target="_blank" href="https://www.cigna.com/">
-              <img src={cigna} />
+                <img src={cigna} />
             </a>
-            <a target="_blank" href="https://www.crowdstrike.com/">
-              <img src={crowdstrike} />
+            <a target="_blank" href="https://www.assemblyai.com/">
+                <img src={require("../../images/assemblyai.png")} />
             </a>
-          </div>
-          <div className="row">
-            <a target="_blank" href="https://www.softwaredesignpartners.com/">
-              <img src={sdp} />
-            </a>
-            <a target="_blank" href="https://www.spectrum.com/">
-              <img src={charter} />
-            </a>
-            <a target="_blank" href="https://www.cboe.com/">
-              <img src={cboe} />
-            </a>
-          </div>
-          <div className="row">
-            <a
-              target="_blank"
-              href="https://platter.dev/"
-              style={{ margin: "auto" }}
-            >
-              <img src={platter} />
+            <a target="_blank" href="https://www.tradebot.com/">
+                <img src={tradebot} />
             </a>
           </div>
         </div>

@@ -95,8 +95,12 @@ const Test: AnyStyledComponent = styled.div`
 export default ({ title, description, day }: CardProps) => {
   function dayPicker(): string[] {
     switch (day) {
+      case "Wednesday":
+        return ["#FFF", "April 6"];
+      case "Thursday":
+        return ["#FAA600", "April 7"];
       case "Friday":
-        return ["#000", "April 8"];
+        return ["#006A75", "April 8"];
       case "Saturday":
         return ["#009AC7", "April 9"];
       case "Sunday":

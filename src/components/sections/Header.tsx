@@ -99,7 +99,7 @@ const Grid: AnyStyledComponent = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 `;
-{/*
+
 const CloudDiv: AnyStyledComponent = styled.img`
   padding: 20px;
   @media (max-width: 603px) {
@@ -129,7 +129,7 @@ const CloudText: AnyStyledComponent = styled.div`
     font-size: 31px;
   }
 `;
-*/}
+
 export default () => {
   return (
     <div>
@@ -173,7 +173,8 @@ export default () => {
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>
-     
+              
+        {/*
         <Grid style={{marginBottom: "0"}}>
           <CloudButton 
             link="TBA"
@@ -194,19 +195,79 @@ export default () => {
           link="https://www.facebook.com/sandtpickhacks/"
           >SOCIAL MEDIA</CloudButton>
         </Grid>
-
-        {/*
-        <a
+        */}
+        <FlexCenter>
+          <a
           style={{ textDecoration: "none" }}
           href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
           target="_blank"
-        >
+          >
           <CloudContainer>
             <CloudDiv src={cloud} />
-            <CloudText>APPLY</CloudText>
+            <CloudText>Apply</CloudText>
           </CloudContainer>
-        </a>
-        */}
+          </a>
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>PreHacks Hopin</CloudText>
+          </CloudContainer>
+          </a>
+        </FlexCenter>
+
+
+        <FlexCenter>
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://discord.gg/xnDtKNvm"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Discord</CloudText>
+          </CloudContainer>
+          </a>
+
+
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://pickhacks-2022.devpost.com/"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>DevPost</CloudText>
+          </CloudContainer>
+          </a>
+        </FlexCenter>
+
+        <FlexCenter>
+        <a
+          style={{ textDecoration: "none" }}
+          href="mailto:msthackathon@umsystem.edu"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Email</CloudText>
+          </CloudContainer>
+          </a>
+
+          <a
+          style={{ textDecoration: "none" }}
+          href="https://www.facebook.com/sandtpickhacks/"
+          target="_blank"
+          >
+          <CloudContainer>
+            <CloudDiv src={cloud} />
+            <CloudText>Socials</CloudText>
+          </CloudContainer>
+          </a>
+        </FlexCenter>
       </FlexColumn>
     </div>
   );

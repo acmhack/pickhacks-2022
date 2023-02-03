@@ -59,75 +59,37 @@ export default () => {
 
         <div className="silver">
           <div className="row">
-            <a target="_blank" href="https://women.mstacm.org/">
-              <img src={acmw} />
+            <a target="_blank" href="https://mlh.io/">
+              <img src={mlh} />
             </a>
             <a target="_blank" href="https://mstacm.org/">
               <img src={acm} />
             </a>
+
           </div>
           <div className="row">
-            <a target="_blank" href="https://www.1517fund.com/">
-              <img src={fifteen} />
+          <a
+              target="_blank"
+              href=""
+              style={{ opacity: "0", cursor: "default" }}
+            >
+              <img src={stickermule} />
             </a>
-            <a target="_blank" href="https://highalpha.com/">
-              <img src={highalpha} />
-            </a>
-          </div>
-          <div className="bronze">
-            <div className="row">
-              <a
+            <a
                 target="_blank"
                 href="http://hackp.ac/mlh-stickermule-hackathons"
               >
                 <img src={stickermule} />
-              </a>
-              <a target="_blank" href="https://girlswhocode.com/">
-                <img src={girlswhocode} />
-              </a>
-              <a
-                target="_blank"
-                href="https://news.stlpublicradio.org/#stream/0"
-              >
-                <img src={stlpublicradio} />
-              </a>
+            </a>
+            <a
+              target="_blank"
+              href=""
+              style={{ opacity: "0", cursor: "default" }}
+            >
+              <img src={stickermule} />
+            </a>
             </div>
-
-            <div className="row">
-              <a target="_blank" href="https://www.monsterenergy.com/">
-                <img src={monsterenergy} />
-              </a>
-              <a target="_blank" href="https://goodsnacks.com/">
-                <img src={goodsnacks} />
-              </a>
-              <a target="_blank" href="https://mlh.io/">
-                <img src={mlh} />
-              </a>
-            </div>
-            <div className="row">
-              <a target="_blank" href="https://smashmallow.com/">
-                <img src={smashmallow} />
-              </a>
-              <a target="_blank" href="https://www.zesttea.com/">
-                <img src={zesttea} />
-              </a>
-              <a target="_blank" href="https://www.brewerscience.com/">
-                <img src={brewer} />
-              </a>
-            </div>
-            <div className="row">
-              <a target="_blank" href="https://www.digitalocean.com/">
-                <img src={doa} />
-              </a>
-              <a target="_blank" href="https://www.voiceflow.com/">
-                <img src={voiceflow} />
-              </a>
-              <a target="_blank" href="https://www.sketch.com/">
-                <img src={sketch} />
-              </a>
-            </div>
-          </div>
-        </div>
+       </div>
       </div>
     </div>
   );
