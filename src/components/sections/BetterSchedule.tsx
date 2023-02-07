@@ -7,7 +7,11 @@ import DayCheck from "../common/Schedule/DayCheck";
 
 const Title: AnyStyledComponent = styled.div`
   font-size: 4.5vw;
-  color: #d59162;
+  color: #FFFFFF;
+  border-right: 8px solid #FFD51C;
+  padding-right: 20px;
+  margin: 10px;
+  margin-right: 0px;
   font-family: "ZenDots-Regular", cursive;
   text-shadow: 2px 2px 4px gray;
   @media screen and (max-width: 1000px) {
@@ -18,6 +22,7 @@ const ScheduleGroup: AnyStyledComponent = styled.div`
   display: flex;
   font-family: "Amiko-Regular", cursive;
   flex-direction: row;
+  background: #FFD51C;
 `;
 
 const EventGroup: AnyStyledComponent = styled.div`
@@ -25,18 +30,19 @@ const EventGroup: AnyStyledComponent = styled.div`
   width: 100%;
   flex-direction: column;
   padding: 2%;
+  background: #FFFFFF;
 `;
 const DayCheckGroup: AnyStyledComponent = styled.div`
   display: flex;
-  padding-right: 10%;
+  width: 100%;
   font-family: "ZenDots-Regular", cursive;
   flex-direction: column;
   @media (max-width: 600px) {
     display: none;
   }
 `;
-const FlexCenter: AnyStyledComponent = styled.div`
-  justify-content: center;
+const FlexRight: AnyStyledComponent = styled.div`
+  justify-content: right;
   display: flex;
   width: 100%;
 `;
@@ -74,10 +80,9 @@ export default () => {
   return (
     <div>
       <FlexColumn>
-        <FlexCenter>
+        <FlexRight>
           <Title>Schedule</Title>
-        </FlexCenter>
-        <FlexCenter></FlexCenter>
+        </FlexRight>
       </FlexColumn>
 
       <ScheduleGroup>
