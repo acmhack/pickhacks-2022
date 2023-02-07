@@ -18,25 +18,13 @@ const Title: AnyStyledComponent = styled.div`
   padding-left: 27px;
   border-left: 10px #148648 solid;
 `;
-const FlexCenter: AnyStyledComponent = styled.div`
-  display: flex;
-  justify-content: center;
-  padding: 0;
-`;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-left: 67px;
 `;
-const FlexRow: AnyStyledComponent = styled.div`
-  display: flex;
-`;
 
-const Constraint: AnyStyledComponent = styled.div`
-  display: flex;
-  max-width: 600px;
-`;
 export default (props: any) => {
   return (
       <FlexColumn>
@@ -76,7 +64,6 @@ export default (props: any) => {
             stickers, and more awesome goodies! We will not be shipping swag 
             to hackers outside of the US and Canada.
           </FAQSegment>
-
       </FlexColumn>
   );
 };

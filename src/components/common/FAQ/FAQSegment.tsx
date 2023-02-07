@@ -3,15 +3,6 @@ import styled, { AnyStyledComponent } from "styled-components";
 
 import Answer from "./Answer";
 
-import {
-  trees,
-  ocean,
-  mountains,
-  pond,
-  desert,
-  flowers,
-} from "../../../images/Images";
-
 interface ISegmentProps {
   title: string;
   image: string;
