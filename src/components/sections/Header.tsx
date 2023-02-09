@@ -68,6 +68,7 @@ const TitleDiv: AnyStyledComponent = styled.div`
 `;
 const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
+  align-items: center;
   display: flex;
   width: 100%;
 `;
@@ -106,36 +107,6 @@ const Grid: AnyStyledComponent = styled.div`
 
   @media (max-width: 500px) {
     grid-template-columns: repeat(1, 1fr);
-  }
-`;
-
-const CloudDiv: AnyStyledComponent = styled.img`
-  padding: 20px;
-  @media (max-width: 603px) {
-    height: auto;
-    width: 150px;
-  }
-`;
-const CloudContainer: AnyStyledComponent = styled.div`
-  position: relative;
-  text-align: center;
-  @media (min-width: 1000px) {
-    &:hover {
-      transform: scale(1.1);
-      transition: transform 200ms ease-in-out;
-    }
-  }
-`;
-const CloudText: AnyStyledComponent = styled.div`
-  position: absolute;
-  font-family: "ZenKurenaido-Regular", cursive;
-  font-size: 48px;
-  color: #f78702;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  @media (max-width: 603px) {
-    font-size: 31px;
   }
 `;
 
@@ -188,7 +159,7 @@ export default () => {
             discord
           </ImageButton>
           <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
-            prehacks \nhopin
+            prehacks hopin
           </ImageButton>
           <ImageButton image={emailbutton} link="mailto:msthackathon@umsystem.edu">
             email

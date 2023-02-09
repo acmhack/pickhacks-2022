@@ -29,8 +29,8 @@ const ImageText: AnyStyledComponent = styled.div`
   position: absolute;
   font-family: "ZenKurenaido-Regular", cursive;
   font-size: 48px;
-  color: #f78702;
-  top: 50%;
+  color: #ffffff;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   @media (max-width: 603px) {
