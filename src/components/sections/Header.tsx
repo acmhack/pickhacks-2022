@@ -3,6 +3,15 @@ import styled, { AnyStyledComponent } from "styled-components";
 import { cloud } from "../../images/Images";
 import "../../App.css";
 import CloudButton from "../common/CloudButton";
+import ImageButton from "../common/ImageButton";
+import {
+  devpostbutton,
+  discordbutton,
+  emailbutton,
+  hopinbutton,
+  socialsbutton
+} from "../../images/Images";
+
 
 // const HeadDiv: AnyStyledComponent = styled.div`
 //   color: #006a75;
@@ -174,99 +183,22 @@ export default () => {
           </FlexCenter>
         </FlexCenter>
               
-        {/*
-        <Grid style={{marginBottom: "0"}}>
-          <CloudButton 
-            link="TBA"
-          >DISCORD</CloudButton>
-          <span></span>
-          <CloudButton 
-          link="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
-          >APPLY</CloudButton>
-          <span></span>
-        </Grid>
-        <Grid>
-          <span></span>
-          <CloudButton 
-            link="mailto:msthackathon@umsystem.edu"
-          >EMAIL</CloudButton>
-          <span></span>
-          <CloudButton 
-          link="https://www.facebook.com/sandtpickhacks/"
-          >SOCIAL MEDIA</CloudButton>
-        </Grid>
-        */}
         <FlexCenter>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Apply</CloudText>
-          </CloudContainer>
-          </a>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>PreHacks Hopin</CloudText>
-          </CloudContainer>
-          </a>
-        </FlexCenter>
-
-
-        <FlexCenter>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://discord.gg/xnDtKNvm"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Discord</CloudText>
-          </CloudContainer>
-          </a>
-
-
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://pickhacks-2022.devpost.com/"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>DevPost</CloudText>
-          </CloudContainer>
-          </a>
-        </FlexCenter>
-
-        <FlexCenter>
-        <a
-          style={{ textDecoration: "none" }}
-          href="mailto:msthackathon@umsystem.edu"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Email</CloudText>
-          </CloudContainer>
-          </a>
-
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://www.facebook.com/sandtpickhacks/"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Socials</CloudText>
-          </CloudContainer>
-          </a>
+          <ImageButton image={discordbutton} link="https://discord.gg/xnDtKNvm">
+            discord
+          </ImageButton>
+          <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
+            prehacks \nhopin
+          </ImageButton>
+          <ImageButton image={emailbutton} link="mailto:msthackathon@umsystem.edu">
+            email
+          </ImageButton>
+          <ImageButton image={socialsbutton} link="https://www.facebook.com/sandtpickhacks/">
+            socials
+          </ImageButton>
+          <ImageButton image={devpostbutton} link="https://pickhacks-2022.devpost.com/">
+            devpost
+          </ImageButton>
         </FlexCenter>
       </FlexColumn>
     </div>

@@ -38,6 +38,11 @@ import goodsnacks from "./goodsnacks.png";
 
 import cloud from "./cloud.png";
 import mlh from "./mlh.png";
+import devpostbutton from "./devpost-button.png";
+import discordbutton from "./discord-button.png";
+import emailbutton from "./email-button.png";
+import hopinbutton from "./prehacks-hopin-button.png";
+import socialsbutton from "./socials-button.png";
 
 import doa from "./do.png";
 import voiceflow from "./voiceflow.png";
@@ -121,4 +126,9 @@ export {
   platter,
   sdp,
   cloud,
+  devpostbutton,
+  discordbutton,
+  emailbutton,
+  hopinbutton,
+  socialsbutton,
 };
