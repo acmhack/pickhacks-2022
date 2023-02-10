@@ -9,13 +9,16 @@ interface IButtonProps {
 }
 
 const ImageDiv: AnyStyledComponent = styled.img`
-  padding: 20px;
+  padding: 10px;
   @media (max-width: 603px) {
     height: auto;
     width: 150px;
   }
 `;
 const ImageContainer: AnyStyledComponent = styled.div`
+  height: 235px; //height of max image 215
+  display: flex;
+  align-items: center;
   position: relative;
   text-align: center;
   @media (min-width: 1000px) {
@@ -27,6 +30,7 @@ const ImageContainer: AnyStyledComponent = styled.div`
 `;
 const ImageText: AnyStyledComponent = styled.div`
   position: absolute;
+  line-height: 100%;
   font-family: "ZenKurenaido-Regular", cursive;
   font-size: 48px;
   color: #ffffff;
@@ -41,14 +45,14 @@ const ImageText: AnyStyledComponent = styled.div`
 export default ({ link, image, children }: IButtonProps) => {
   return (
     <a 
-      style={{ textDecoration: "none" }}
-      href={link}
-      target="_blank"
-    >
-      <ImageContainer>
+        style={{ textDecoration: "none" }}
+        href={link}
+        target="_blank">
+    <ImageContainer>
         <ImageDiv src={image} />
         <ImageText>{children}</ImageText>
-      </ImageContainer>
+    </ImageContainer>
     </a>
+    
   );
 };
