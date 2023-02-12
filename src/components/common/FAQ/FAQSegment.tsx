@@ -11,8 +11,19 @@ interface ISegmentProps {
 
 const FlexRow: AnyStyledComponent = styled.div`
   display: flex;
+  align-items: flex-start;
   width: 100%;
   margin-top: 62px;
+`;
+
+const Popup: AnyStyledComponent = styled.div`
+  display: none;
+  position: absolute;
+  padding: 20px;
+  margin-top: 5px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: #FFD51C;
 `;
 
 const Title: AnyStyledComponent = styled.div`
@@ -22,7 +33,11 @@ const Title: AnyStyledComponent = styled.div`
     font-size: 5vw;
   }
   color: white;
+  &:hover ${Popup} {
+    display: flex;
+  }
 `;
+
 
 const Image: AnyStyledComponent = styled.img`
   width: 300px;
@@ -31,10 +46,16 @@ const Image: AnyStyledComponent = styled.img`
 `;
 
 export default ({ title, image, children }: ISegmentProps) => {
+  
   return (
     <FlexRow>
       <Image src={image}/>
-      <Title>{title}</Title>
+      <Title>
+        {title}
+        <Popup>
+          <Answer>{children}</Answer>
+        </Popup>
+      </Title>
     </FlexRow>
   );
 };
