@@ -5,7 +5,7 @@ import {
   paneranew,
   sandia,
   tradebot,
-  honeywell,
+  nsc,
   cigna,
   huntereng,
   assemblyai,
@@ -98,7 +98,7 @@ export default () => {
               target="_blank"
               href="https://www.honeywell.com/us/en"
             >
-              <img src={honeywell} />
+              <img src={nsc} />
             </a>
             <a
               target="_blank"
