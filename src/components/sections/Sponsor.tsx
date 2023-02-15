@@ -1,9 +1,15 @@
 import React from "react";
 import {
-  paneranew,
-  tradebot,
-  johndeere,
   jbhunt,
+  johndeere,
+  paneranew,
+  sandia,
+  tradebot,
+  honeywell,
+  cigna,
+  huntereng,
+  assemblyai,
+  equifax
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
 import "./test.css";
@@ -27,8 +33,19 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
-//const SilverA: AnyStyledComponent = styled.a`
-//`;
+const FlexCenter2: AnyStyledComponent = styled.div`
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 2.5%;
+  margin-bottom: 5.5rem;
+`;
+
+const SilverSponsor: AnyStyledComponent = styled.a`
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+`;
 
 export default () => {
   return (
@@ -41,14 +58,19 @@ export default () => {
         </div>
         <div className="gold">
           <div className="row">
-            <a
-              target="_blank"
-              href="https://www.panerabread.com/en-us/home.html"
-            >
-              <img src={paneranew} />
-            </a>
           </div>
         </div>
+        {/*
+        <FlexCenter2>
+          <SilverSponsor>
+            <img src={johndeere} />
+          </SilverSponsor>
+          <SilverSponsor>
+            <img src={johndeere} />
+          </SilverSponsor>
+        </FlexCenter2>
+        */}
+        {/* TODO: change to flexbox with property flex-wrap: wrap for mobile users*/}
         <div className="silver">
           <div className="row">
             <a
@@ -57,15 +79,54 @@ export default () => {
             >
               <img src={johndeere} />
             </a>
+            <a
+              target="_blank"
+              href="https://www.panerabread.com/en-us/home.html"
+            >
+              <img src={paneranew} />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.hunter.com/"
+            >
+              <img src={huntereng} />
+            </a>
+            
+          </div>
+          <div className="row">
+            <a
+              target="_blank"
+              href="https://www.honeywell.com/us/en"
+            >
+              <img src={honeywell} />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.cigna.com/"
+            >
+              <img src={cigna} />
+            </a>
           </div>
         </div>
+        
         <div className="bronze">
           <div className="row">
             <a target="_blank" href="https://www.jbhunt.com/">
                 <img src={jbhunt} />
             </a>
+            <a target="_blank" href="https://www.sandia.gov/">
+                <img src={sandia} />
+            </a>
             <a target="_blank" href="https://www.tradebot.com/">
                 <img src={tradebot} />
+            </a>
+          </div>
+          <div className="row">
+            <a target="_blank" href="https://www.assemblyai.com/">
+                <img src={assemblyai} />
+            </a>
+            <a target="_blank" href="https://www.equifax.com/">
+                <img src={equifax} />
             </a>
           </div>
         </div>

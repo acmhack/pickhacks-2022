@@ -34,6 +34,10 @@ import girlswhocode from "./girlswhocode.png";
 import stlpublicradio from "./stlpublicradio.png";
 import monsterenergy from "./monsterenergy.png";
 import goodsnacks from "./goodsnacks.png";
+import huntereng from "./huntereng.png";
+import honeywell from "./honeywell.png"
+import assemblyai from "./assemblyai.png"
+import equifax from "./equifax.png"
 // import codex  from "./codex.png";
 
 import cloud from "./cloud.png";
@@ -121,4 +125,8 @@ export {
   platter,
   sdp,
   cloud,
+  huntereng,
+  honeywell,
+  assemblyai,
+  equifax,
 };

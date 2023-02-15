@@ -46,6 +46,12 @@
 
 .silver .row {
   margin: 0 auto 2rem auto;
+  /*
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 2.5%;
+  */
 }
 
 .silver .row:last-child {
