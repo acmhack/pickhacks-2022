@@ -2,7 +2,7 @@ import fifteen from "./1517.png";
 import nineteen from "./1904.png";
 import balto from "./balto.png";
 import brewer from "./brewer.png";
-import panera from "./panera.jpg";
+import paneranew from "./paneranew.png";
 import centene from "./centene.png";
 import mastercard from "./mastercard.png";
 import nestle from "./nestle.png";
@@ -96,7 +96,7 @@ export {
   voiceflow,
   sketch,
   stlpublicradio,
-  panera,
+  paneranew,
   centene,
   mastercard,
   nestle,

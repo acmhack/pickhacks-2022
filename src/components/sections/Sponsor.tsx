@@ -1,28 +1,9 @@
 import React from "react";
 import {
-  nineteen,
-  balto,
-  panera,
-  centene,
-  mastercard,
-  nestle,
-  nsc,
-  veterans,
+  paneranew,
   tradebot,
-  sandia,
   johndeere,
-  sdp,
-  nisc,
   jbhunt,
-  leonardo,
-  wwt,
-  linode,
-  cigna,
-  crowdstrike,
-  numerify,
-  charter,
-  cboe,
-  platter,
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
 import "./test.css";
@@ -46,6 +27,9 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
+//const SilverA: AnyStyledComponent = styled.a`
+//`;
+
 export default () => {
   return (
     <div>
@@ -57,26 +41,11 @@ export default () => {
         </div>
         <div className="gold">
           <div className="row">
-          <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={balto} />
-            </a>
             <a
               target="_blank"
               href="https://www.panerabread.com/en-us/home.html"
-              style={{ marginRight: "5%" }}
             >
-              <img src={require("../../images/paneranew.png")} />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={balto} />
+              <img src={paneranew} />
             </a>
           </div>
         </div>
@@ -88,38 +57,12 @@ export default () => {
             >
               <img src={johndeere} />
             </a>
-            <a
-              target="_blank"
-              href="https://www.honeywell.com/us/en"
-            >
-              <img src={nsc} />
-            </a>
-          </div>
-          <div className="row">
-          <a
-              target="_blank"
-              href="https://www.sandia.gov/"
-            >
-              <img src={sandia} />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.hunter.com/"
-            >
-              <img src={require("../../images/huntereng.png")} />
-            </a>
           </div>
         </div>
-
-
-        
         <div className="bronze">
           <div className="row">
-            <a target="_blank" href="https://www.cigna.com/">
-                <img src={cigna} />
-            </a>
-            <a target="_blank" href="https://www.assemblyai.com/">
-                <img src={require("../../images/assemblyai.png")} />
+            <a target="_blank" href="https://www.jbhunt.com/">
+                <img src={jbhunt} />
             </a>
             <a target="_blank" href="https://www.tradebot.com/">
                 <img src={tradebot} />
