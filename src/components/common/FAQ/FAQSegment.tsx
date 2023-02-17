@@ -14,6 +14,7 @@ const FlexRow: AnyStyledComponent = styled.div`
   align-items: flex-start;
   width: 100%;
   margin-top: 62px;
+  margin-bottom: 70px;
 `;
 
 const Popup: AnyStyledComponent = styled.div`
