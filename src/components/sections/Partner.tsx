@@ -23,16 +23,24 @@ import {
 } from "../../images/Images";
 
 import "./test.css";
+
+const Box: AnyStyledComponent = styled.div`
+  background-color: white;
+  width: 686px;
+  height: 217px;
+  position: relative;
+  margin-left: auto;
+`
+
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
-  color: #f0803c;
-  text-shadow: 2px 2px 4px gray;
-  padding-bottom: 20px;
-  text-align: center;
-  font-family: "ZenDots-Regular", cursive;
-  @media screen and (max-width: 1000px) {
-    font-size: 8vw;
-  }
+  font-size: 96px;
+  color: black;
+  padding: 44.5px 89px;
+  font-family: "Alike";
+  position: absolute;
+  bottom: 45px;
+  right: 40px;
+  background-color: #755A39;
 `;
 
 const FlexCenter: AnyStyledComponent = styled.div`
@@ -41,12 +49,13 @@ const FlexCenter: AnyStyledComponent = styled.div`
   flex-direction: column;
   width: 100%;
 `;
+
 export default () => {
   return (
     <div>
-      <FlexCenter>
+      <Box>
         <Title>PARTNERS</Title>
-      </FlexCenter>
+      </Box>
 
       <div className="sponsor-info">
         <div className="gold">

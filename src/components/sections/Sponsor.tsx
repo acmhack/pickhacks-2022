@@ -27,16 +27,22 @@ import {
 import styled, { AnyStyledComponent } from "styled-components";
 import "./test.css";
 
+const Box: AnyStyledComponent = styled.div`
+  background-color: white;
+  width: 686px;
+  height: 217px;
+  position: relative;
+`
+
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
-  color: #f47525;
-  padding-bottom: 20px;
-  font-family: "ZenDots-Regular", cursive;
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  @media screen and (max-width: 1000px) {
-    font-size: 8vw;
-  }
+  font-size: 96px;
+  color: black;
+  padding: 44.5px 89px;
+  font-family: "Alike";
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  background-color: #20BFB1;
 `;
 
 const FlexCenter: AnyStyledComponent = styled.div`
@@ -49,9 +55,9 @@ const FlexCenter: AnyStyledComponent = styled.div`
 export default () => {
   return (
     <div>
-      <FlexCenter>
+      <Box>
         <Title>SPONSORS</Title>
-      </FlexCenter>
+      </Box>
       <div className="sponsor-info">
         <div className="diamond">
         </div>
