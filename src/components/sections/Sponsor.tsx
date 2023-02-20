@@ -29,20 +29,34 @@ import "./test.css";
 
 const Box: AnyStyledComponent = styled.div`
   background-color: white;
-  width: 686px;
-  height: 217px;
+  width: 38vw;
+  height: 12vw;
+  margin-left: 5px;
   position: relative;
+  @media screen and (max-width: 1000px) {
+    width: 57.5vw;
+    height: 20vw;
+  }
 `
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 96px;
+  font-size: 5vw;
   color: black;
-  padding: 44.5px 89px;
+  text-align: center;
+  line-height: 12vw;
+  width: 38vw;
+  height: 12vw;
   font-family: "Alike";
   position: absolute;
-  top: 45px;
-  left: 40px;
+  top: 15%;
+  left: 5%;
   background-color: #20BFB1;
+  @media screen and (max-width: 1000px) {
+    line-height: 20vw;
+    width: 57.5vw;
+    height: 20vw;
+    font-size: 8vw;
+  }
 `;
 
 const FlexCenter: AnyStyledComponent = styled.div`

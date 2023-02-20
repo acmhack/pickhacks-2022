@@ -26,21 +26,35 @@ import "./test.css";
 
 const Box: AnyStyledComponent = styled.div`
   background-color: white;
-  width: 686px;
-  height: 217px;
+  width: 40vw;
+  height: 15vw;
+  margin-right: 5px;
   position: relative;
   margin-left: auto;
+  @media screen and (max-width: 1000px) {
+    width: 57.5vw;
+    height: 20vw;
+  }
 `
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 96px;
+  font-size: 5.5vw;
   color: black;
-  padding: 44.5px 89px;
+  text-align: center;
+  line-height: 12vw;
+  width: 38vw;
+  height: 12vw;
   font-family: "Alike";
   position: absolute;
-  bottom: 45px;
-  right: 40px;
+  bottom: 15%;
+  right: 5%;
   background-color: #755A39;
+  @media screen and (max-width: 1000px) {
+    line-height: 20vw;
+    width: 57.5vw;
+    height: 20vw;
+    font-size: 8vw;
+  }
 `;
 
 const FlexCenter: AnyStyledComponent = styled.div`
