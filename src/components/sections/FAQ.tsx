@@ -33,39 +33,23 @@ export default (props: any) => {
       <FlexColumn>
         <Title>FAQ</Title>
           <FAQSegment title="WHO can participate?" image={flowers}>
-            PickHacks is open to any and all college or high school
-            students. Just grab a team of up to 3 other hackers and start
-            building!
+            Anyone currently enrolled in an educational institution (high school and above) or 12 months out of graduation is able to attend. You don't even have to know how to code to join! Just come in with an open mind and fun ideas to expand on, and you'll be set!
           </FAQSegment>
           <FAQSegment title="WHAT is a hackathon?" image={desert}>
-            A hackathon is a weekend long event for anyone interested in
-            tech to build, learn, and grow! It features many opportunities
-            to explore your technical skills and interact with others who
-            are just as passionate and curious about how tech impacts the
-            world around us.
+            PickHacks is Missouri S&T's annual hackathon — an innovation competition where students come together to bring a project to life over the course of a weekend. You come up with the idea, and we provide mentors, resources, and anything else you need. Programming experience isn't necessary; the only requirement is a willingness to learn and have fun! Plus, it's FREE!
           </FAQSegment>
           <FAQSegment title="WHERE is PickHacks located?" image={pond}>
-            With the world still in limbo over COVID, PickHacks 2022 will
-            be held from the best coding environment in the world, your
-            room! This year’s iteration will be virtual, with activities
-            and events planned accordingly.
+            The event will be happening in the Gale-Bullman Recreation Center here on the Missouri S&T campus.
           </FAQSegment>
           <FAQSegment title="WHEN is PickHacks?" image={mountains}>
-            PickHacks 2023 will be from 4:00 pm, April 8th to 3:00 pm,
-            April 10th.
+            PickHacks is taking place the weekend of April 14th through 16th!
           </FAQSegment>
           <FAQSegment title="WHY should I participate?" image={ocean}>
-            No worries! Try to think of some problem that exists in the
-            realm of our theme. If that leads nowhere, try consulting some
-            of our resources or experts for inspo.
+            We will have swag at the event for anyone who comes! Additionally, there will be ample food provided for free throughout the weekend!
           </FAQSegment>
 
           <FAQSegment title="HOW do I apply?" image={trees}>
-            Due to shipping delays from COVID, you can expect to receive 
-            your swag sometime around late April. However, we don't want 
-            to keep you in suspense! You can expect to recieve a sweatshirt, 
-            stickers, and more awesome goodies! We will not be shipping swag 
-            to hackers outside of the US and Canada.
+            Registration page
           </FAQSegment>
       </FlexColumn>
   );
