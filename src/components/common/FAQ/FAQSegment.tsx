@@ -13,24 +13,23 @@ const FlexRow: AnyStyledComponent = styled.div`
   display: flex;
   align-items: flex-start;
   width: 100%;
-  margin-top: 62px;
-  margin-bottom: 70px;
+  margin-top: 4%;
 `;
 
 const Popup: AnyStyledComponent = styled.div`
   display: none;
-  position: absolute;
+  position: relative;
   padding: 20px;
   margin-top: 5px;
-  width: 600px;
+  width: 50vw;
   border-radius: 10px;
   background-color: #FFD51C;
 `;
 
 const Title: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
-  font-size: 64px;
-  @media (max-width: 600px) {
+  font-size: 3.5vw;
+  @media screen and (max-width: 1000px) {
     font-size: 5vw;
   }
   color: white;
@@ -41,9 +40,12 @@ const Title: AnyStyledComponent = styled.div`
 
 
 const Image: AnyStyledComponent = styled.img`
-  width: 300px;
-  height: 279.4px;
-  margin-right: 33px;
+  width: 17.5vw;
+  // margin-right: 33px;
+  margin-right: 2%;
+  @media screen and (max-width: 1000px) {
+    width: 27.5vw;
+  }
 `;
 
 export default ({ title, image, children }: ISegmentProps) => {
