@@ -61,6 +61,14 @@ import Colton from "./Handsome_Colton.png";
 import Bradley from "./Bradley.png";
 import Jake from "./Jacob.png";
 import PickleHack from "./picklehackLogo.png";
+
+import trees from "./trees.png";
+import ocean from "./ocean.png";
+import mountains from "./mountains.png";
+import pond from "./pond.png";
+import desert from "./desert.png";
+import flowers from "./flowers.png";
+
 export {
   fifteen,
   Jake,
@@ -121,4 +129,10 @@ export {
   platter,
   sdp,
   cloud,
+  trees,
+  ocean,
+  mountains,
+  pond,
+  desert,
+  flowers,
 };
