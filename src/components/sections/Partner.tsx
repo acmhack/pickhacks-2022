@@ -26,8 +26,8 @@ import "./test.css";
 
 const Box: AnyStyledComponent = styled.div`
   background-color: white;
-  width: 40vw;
-  height: 15vw;
+  width: 38vw;
+  height: 12vw;
   margin-right: 5px;
   position: relative;
   margin-left: auto;
@@ -38,7 +38,7 @@ const Box: AnyStyledComponent = styled.div`
 `
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 5.5vw;
+  font-size: 5vw;
   color: black;
   text-align: center;
   line-height: 12vw;
