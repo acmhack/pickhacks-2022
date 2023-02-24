@@ -2,97 +2,55 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import FAQSegment from "../common/FAQ/FAQSegment";
 
+import {
+  trees,
+  ocean,
+  mountains,
+  pond,
+  desert,
+  flowers,
+} from "../../images/Images";
+
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
-  color: #009ac7;
-  font-family: "ZenDots-Regular", cursive;
-  text-shadow: 2px 2px 4px gray;
+  font-size: 5.5vw;
+  color: white;
+  font-family: "Alike-Regular";
+  padding-left: 27px;
+  border-left: 10px #148648 solid;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
-`;
-const FlexCenter: AnyStyledComponent = styled.div`
-  justify-content: center;
-  display: flex;
-
-  padding: 0;
 `;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-left: 5px;
 `;
-const Constraint: AnyStyledComponent = styled.div`
-  display: flex;
 
-  max-width: 600px;
-`;
 export default (props: any) => {
   return (
-    <div>
       <FlexColumn>
-        <FlexCenter>
-          <Title>FAQ</Title>
-        </FlexCenter>
-        <FlexCenter>
-          <Constraint>
-            <FlexCenter>
-              <FlexColumn>
-                <FAQSegment titleColor="WHAT " title="is a hackathon?">
-                  A hackathon is a weekend long event for anyone interested in
-                  tech to build, learn, and grow! It features many opportunities
-                  to explore your technical skills and interact with others who
-                  are just as passionate and curious about how tech impacts the
-                  world around us.
-                </FAQSegment>
-                <FAQSegment
-                  titleColor="WHERE"
-                  title="is PickHacks 2022 going to be?"
-                >
-                  With the world still in limbo over COVID, PickHacks 2022 will
-                  be held from the best coding environment in the world, your
-                  room! This year’s iteration will be virtual, with activities
-                  and events planned accordingly.
-                </FAQSegment>
-                <FAQSegment titleColor="WHEN" title="is PickHacks going on?">
-                  PickHacks 2022 will be from 4:00 pm, April 8th to 3:00 pm,
-                  April 10th.
-                </FAQSegment>
-                <FAQSegment titleColor="WHO" title="can participate?">
-                  PickHacks is open to any and all college or high school
-                  students. Just grab a team of up to 3 other hackers and start
-                  building!
-                </FAQSegment>
-                <FAQSegment
-                  titleColor="WHAT"
-                  title="if I can’t think of a hack?"
-                >
-                  No worries! Try to think of some problem that exists in the
-                  realm of our theme. If that leads nowhere, try consulting some
-                  of our resources or experts for inspo.
-                </FAQSegment>
+        <Title>FAQ</Title>
+          <FAQSegment title="WHO can participate?" image={flowers}>
+            Anyone currently enrolled in an educational institution (high school and above) or 12 months out of graduation is able to attend. You don't even have to know how to code to join! Just come in with an open mind and fun ideas to expand on, and you'll be set!
+          </FAQSegment>
+          <FAQSegment title="WHAT is a hackathon?" image={desert}>
+            PickHacks is Missouri S&T's annual hackathon — an innovation competition where students come together to bring a project to life over the course of a weekend. You come up with the idea, and we provide mentors, resources, and anything else you need. Programming experience isn't necessary; the only requirement is a willingness to learn and have fun! Plus, it's FREE!
+          </FAQSegment>
+          <FAQSegment title="WHERE is PickHacks located?" image={pond}>
+            The event will be happening in the Gale-Bullman Recreation Center here on the Missouri S&T campus.
+          </FAQSegment>
+          <FAQSegment title="WHEN is PickHacks?" image={mountains}>
+            PickHacks is taking place the weekend of April 14th through 16th!
+          </FAQSegment>
+          <FAQSegment title="WHY should I participate?" image={ocean}>
+            We will have swag at the event for anyone who comes! Additionally, there will be ample food provided for free throughout the weekend!
+          </FAQSegment>
 
-                <FAQSegment
-                  titleColor="WHEN"
-                  title="will I get my swag?"
-                >
-                  Due to shipping delays from COVID, you can expect to receive 
-                  your swag sometime around late April. However, we don't want 
-                  to keep you in suspense! You can expect to recieve a sweatshirt, 
-                  stickers, and more awesome goodies! We will not be shipping swag 
-                  to hackers outside of the US and Canada.
-                </FAQSegment>
-
-                <FAQSegment titleColor="MORE" title="questions?">
-                  Contact any of our team members on our Discord, email us at
-                  msthackathon@umsystem.edu, or DM us on instagram
-                  @sandtpickhacks.
-                </FAQSegment>
-              </FlexColumn>
-            </FlexCenter>
-          </Constraint>
-        </FlexCenter>
+          <FAQSegment title="HOW do I apply?" image={trees}>
+            Registration page
+          </FAQSegment>
       </FlexColumn>
-    </div>
   );
 };

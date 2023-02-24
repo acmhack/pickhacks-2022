@@ -17,15 +17,23 @@ import {
 import styled, { AnyStyledComponent } from "styled-components";
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
-  color: #009ac7;
-  text-shadow: 2px 2px 4px gray;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+`;
+
+const TitleText: AnyStyledComponent = styled.div`
+  font-size: 4.5vw;
+  color: #ffffff;
   font-family: "ZenDots-Regular", cursive;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
+  margin-bottom: 1em;
+  border-bottom: solid 0.2em;
+  border-bottom-color: #14354D;
+  width: 21vw;
 `;
 
 const FlexCenter: AnyStyledComponent = styled.div`
@@ -81,29 +89,86 @@ export default () => {
   return (
     <div>
       <FlexCenter>
-        <Title>TEAM</Title>
+        <Title><TitleText>TEAM</TitleText></Title>
       </FlexCenter>
 
       <TeamGrid>
-        <Person href="https://www.linkedin.com/in/bhasree" target="_blank">
-          <ProfilePic src={Bharat}></ProfilePic>
-
-          <Name style={{ fontSize: "15.5px" }}>Bharat Sreekrishnavilas</Name>
-        </Person>
-
-        <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
-          target="_blank"
-        >
-          <ProfilePic src={Eddie}></ProfilePic>
-          <Name>Edward Keith</Name>
-        </Person>
         <Person
           href="https://www.linkedin.com/in/edward-c-keith/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Maggie Boecker</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Maggie Fu</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Reid Haegele</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Tung Nguyen</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Lauren Higgins</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Keith Miller</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Eric Wong</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Jason Xu</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Shrija Maganti</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Pranav Kondapaneni</Name>
+        </Person>
+        <Person
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
+          <ProfilePic src={pickhacks22}></ProfilePic>
+          <Name>Lindsey Chan</Name>
         </Person>
         <Person
           href="https://www.linkedin.com/in/edward-c-keith/"
@@ -125,11 +190,6 @@ export default () => {
         >
           <ProfilePic src={Sabrina}></ProfilePic>
           <Name>Sabrina McRoberts</Name>
-        </Person>
-
-        <Person href="https://www.linkedin.com/in/jackstork/" target="_blank">
-          <ProfilePic src={Jack}></ProfilePic>
-          <Name>Jack Stork</Name>
         </Person>
 
         <Person
@@ -183,28 +243,7 @@ export default () => {
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
-          <Name>Emma Carmickle</Name>
-        </Person>
-        <Person
-          href="https://www.linkedin.com/in/carterwagner/"
-          target="_blank"
-        >
-          <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Eric Duong</Name>
-        </Person>
-        <Person
-          href="https://www.linkedin.com/in/carterwagner/"
-          target="_blank"
-        >
-          <ProfilePic src={pickhacks22}></ProfilePic>
-          <Name>Gunnar Grispino</Name>
-        </Person>
-        <Person
-          href="https://www.linkedin.com/in/himnish-sapkota/"
-          target="_blank"
-        >
-          <ProfilePic src={Himnish}></ProfilePic>
-          <Name>Himnish Sapkota</Name>
         </Person>
         <Person
           href="https://www.linkedin.com/in/dominic-alberico/"
