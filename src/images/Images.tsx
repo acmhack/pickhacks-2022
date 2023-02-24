@@ -138,6 +138,7 @@ export {
   emailbutton,
   hopinbutton,
   socialsbutton,
+  cloud,
   trees,
   ocean,
   mountains,
