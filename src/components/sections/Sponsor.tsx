@@ -55,9 +55,16 @@ export default () => {
       </FlexCenter>
       <div className="sponsor-info">
         <div className="diamond">
+          <div className="row"></div>
         </div>
         <div className="gold">
-          <div className="row">
+          <div className="row"> {/** Test of gold css */}
+          <a
+              target="_blank"
+              href="https://www.deere.com/en/technology-products/precision-ag-technology/"
+            >
+              <img src={johndeere} />
+            </a>
           </div>
         </div>
         {/*

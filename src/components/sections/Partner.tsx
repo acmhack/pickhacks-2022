@@ -47,7 +47,6 @@ export default () => {
       <FlexCenter>
         <Title>PARTNERS</Title>
       </FlexCenter>
-
       <div className="sponsor-info">
         <div className="gold">
           <div className="row">
@@ -68,25 +67,11 @@ export default () => {
 
           </div>
           <div className="row">
-          <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={stickermule} />
-            </a>
             <a
                 target="_blank"
                 href="http://hackp.ac/mlh-stickermule-hackathons"
               >
                 <img src={stickermule} />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={stickermule} />
             </a>
             </div>
        </div>

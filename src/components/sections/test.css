@@ -31,7 +31,8 @@
 }
 
 .gold .row {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  justify-content: center;
 }
 
 .gold .row a {
@@ -40,22 +41,12 @@
   flex-direction: column;
 }
 
-.gold .row a {
-  margin: auto;
+.silver {
+  margin-bottom: 5.5rem;
 }
 
 .silver .row {
-  margin: 0 auto 2rem auto;
-  /*
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  gap: 2.5%;
-  */
-}
-
-.silver .row:last-child {
-  margin-bottom: 5.5rem;
+  /*margin: 0 auto 2rem auto;*/
 }
 
 .silver .row a {
@@ -64,24 +55,11 @@
   flex-direction: column;
 }
 
-.silver .row a:first-child {
-  margin: 0 2.5% 0 auto;
-}
-
-.silver .row a:last-child {
-  margin: 0 auto 0 2.5%;
-}
-
-.silver .row a:nth-child(2) img {
-  margin: 0 auto;
-}
-
-.silver .row a:last-child img {
-  margin-left: auto;
-}
-
 .bronze .row {
-  margin: 0 auto 2rem auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 5%;
 }
 
 .bronze .row a {
@@ -90,23 +68,7 @@
   flex-direction: column;
 }
 
-.bronze .row a:first-child {
-  margin: 0 2.5% 0 auto;
-}
-
-.bronze .row a:nth-child(2),
-.bronze .row a:nth-child(3) {
-  margin: 0 2.5%;
-}
-
-.bronze .row a:last-child {
-  margin: 0 auto 0 2.5%;
-}
-
-.bronze .row a:last-child img {
-  margin-left: auto;
-}
-
+/*
 .um .row {
   margin: 0 auto 2rem auto;
 }
@@ -147,9 +109,13 @@
 .other .row a:last-child img {
   margin-right: auto;
 }
+*/
 
 .sponsor-info .row {
   display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 5%;
   flex-wrap: nowrap;
 }
 
