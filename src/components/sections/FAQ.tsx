@@ -39,17 +39,19 @@ export default (props: any) => {
             PickHacks is Missouri S&T's annual hackathon — an innovation competition where students come together to bring a project to life over the course of a weekend. You come up with the idea, and we provide mentors, resources, and anything else you need. Programming experience isn't necessary; the only requirement is a willingness to learn and have fun! Plus, it's FREE!
           </FAQSegment>
           <FAQSegment title="WHERE is PickHacks located?" image={pond}>
-            The event will be happening in the Gale-Bullman Recreation Center here on the Missouri S&T campus.
+            The event will be happening in the Gale-Bullman Recreation Center here on the Missouri S&T campus!
           </FAQSegment>
           <FAQSegment title="WHEN is PickHacks?" image={mountains}>
             PickHacks is taking place the weekend of April 14th through 16th!
           </FAQSegment>
           <FAQSegment title="WHY should I participate?" image={ocean}>
-            We will have swag at the event for anyone who comes! Additionally, there will be ample food provided for free throughout the weekend!
+            Hackathons are a fun way to learn new skills that you can add to your resume and connect with sponsors and other students while competing for prizes. We will have free swag at the event for anyone who comes! Additionally, there will be ample food provided for FREE throughout the weekend!
           </FAQSegment>
 
           <FAQSegment title="HOW do I apply?" image={trees}>
-            Registration page
+            <>
+              To apply, click <a href="https://dashboard.pickhacks.io">here</a> or scroll to the top and click the apply button by date. 
+            </>
           </FAQSegment>
       </FlexColumn>
   );

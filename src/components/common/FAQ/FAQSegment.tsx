@@ -6,7 +6,7 @@ import Answer from "./Answer";
 interface ISegmentProps {
   title: string;
   image: string;
-  children: string;
+  children: string | React.ReactElement;
 }
 
 const FlexRow: AnyStyledComponent = styled.div`
@@ -21,9 +21,12 @@ const Popup: AnyStyledComponent = styled.div`
   position: relative;
   padding: 20px;
   margin-top: 5px;
-  width: 50vw;
+  width: 40vw;
   border-radius: 10px;
   background-color: #FFD51C;
+  @media screen and (max-width: 600px) {
+    padding: 10px;
+  }
 `;
 
 const Title: AnyStyledComponent = styled.div`
@@ -40,11 +43,13 @@ const Title: AnyStyledComponent = styled.div`
 
 
 const Image: AnyStyledComponent = styled.img`
-  width: 17.5vw;
-  // margin-right: 33px;
+  width: 300px;
   margin-right: 2%;
   @media screen and (max-width: 1000px) {
-    width: 27.5vw;
+    width: 200px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 125px;
   }
 `;
 

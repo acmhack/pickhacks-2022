@@ -5,8 +5,8 @@ const Title: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
   font-size: 2vw;
   color: black;
-  @media (max-width: 600px) {
-    font-size: 3.5vw;
+  @media (max-width: 850px) {
+    font-size: 3vw;
   }
 `;
 
