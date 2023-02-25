@@ -50,7 +50,7 @@ export default (props: any) => {
 
           <FAQSegment title="HOW do I apply?" image={trees}>
             <>
-              To apply, click <a href="https://dashboard.pickhacks.io">here</a> or scroll to the top and click the apply button by date. 
+              To apply, click <a href="https://dashboard.pickhacks.io">here</a> or scroll to the top and click the apply button by April 10th! 
             </>
           </FAQSegment>
       </FlexColumn>
