@@ -1,9 +1,23 @@
 body {
   margin: 0;
-  font-family: "F25 Bank Printer Bold";
+  font-family: "MerriweatherSans-Regular";
   letter-spacing: 1px;
 }
 
+@font-face {
+  font-family: "Alike-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Alike-Regular"),
+    url("./fonts/Alike-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "MerriweatherSans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MerriweatherSans-Regular"),
+    url("./fonts/MerriweatherSans-Regular.ttf") format("ttf");
+}
 @font-face {
   font-family: "F25 Bank Printer Bold";
   font-style: normal;
@@ -11,7 +25,6 @@ body {
   src: local("F25 Bank Printer Bold"),
     url("./fonts/F25_Bank_Printer_Bold.woff") format("woff");
 }
-
 @font-face {
   font-family: "Amiko-Bold";
   font-style: normal;
