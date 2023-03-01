@@ -26,6 +26,7 @@ import voiceflow from "./Sponsors/voiceflow.png";
 import zesttea from "./Sponsors/zest.png";
 import sketch from "./Sponsors/sketch.png";
 import redbull from "./Sponsors/redbull.png";
+import doa from "./Sponsors/do.png"; //digital ocean
 
 // 2023 sponsors
 import jbhunt from "./Sponsors/jbhunt.png";
@@ -52,7 +53,6 @@ import acmw from "./acmw.png";
 import cloud from "./cloud.png";
 import mlh from "./mlh.png";
 
-import doa from "./do.png"; //what is do
 import pickhacks22 from "./generic-person-icon.png";
 
 // Team
@@ -83,6 +83,7 @@ export {
   charter,
   cigna,
   crowdstrike,
+  doa,
   equifax,
   girlswhocode,
   goodsnacks,
@@ -133,7 +134,6 @@ export {
   mlh,
   pickhack22logo,
   stickermule,
-  doa,
   umsystem,
   acm,
   acmw,
