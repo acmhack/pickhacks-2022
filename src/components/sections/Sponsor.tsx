@@ -33,6 +33,7 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
+/*
 const FlexCenter2: AnyStyledComponent = styled.div`
   justify-content: center;
   display: flex;
@@ -46,6 +47,7 @@ const SilverSponsor: AnyStyledComponent = styled.a`
   display: flex;
   flex-direction: column;
 `;
+*/
 
 export default () => {
   return (
@@ -60,16 +62,6 @@ export default () => {
           <div className="row">
           </div>
         </div>
-        {/*
-        <FlexCenter2>
-          <SilverSponsor>
-            <img src={johndeere} />
-          </SilverSponsor>
-          <SilverSponsor>
-            <img src={johndeere} />
-          </SilverSponsor>
-        </FlexCenter2>
-        */}
         {/* TODO: change to flexbox with property flex-wrap: wrap for mobile users*/}
         <div className="silver">
           <div className="row">
