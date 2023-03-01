@@ -55,21 +55,22 @@ import mlh from "./mlh.png";
 import doa from "./do.png"; //what is do
 import pickhacks22 from "./generic-person-icon.png";
 
-import Bharat from "./Bharat.png";
-import Rachel from "./Rachel.png";
-import Ryan from "./ryan.png";
-import Scott from "./Scott.png";
-import Sabrina from "./Sabrina.png";
-import Riley from "./Riley.png";
-import Jack from "./Jack.png";
-import Himnish from "./Himnish.png";
-import Eddie from "./Eddie.png";
-import Dominic from "./Dominic.png";
-import Carter from "./Carter.png";
-import Billie from "./Billie.jpg";
-import Colton from "./Handsome_Colton.png";
-import Bradley from "./Bradley.png";
-import Jake from "./Jacob.png";
+// Team
+import Bharat from "./Team/Bharat.png";
+import Rachel from "./Team/Rachel.png";
+import Ryan from "./Team/ryan.png";
+import Scott from "./Team/Scott.png";
+import Sabrina from "./Team/Sabrina.png";
+import Riley from "./Team/Riley.png";
+import Jack from "./Team/Jack.png";
+import Himnish from "./Team/Himnish.png";
+import Eddie from "./Team/Eddie.png";
+import Dominic from "./Team/Dominic.png";
+import Carter from "./Team/Carter.png";
+import Billie from "./Team/Billie.jpg";
+import Colton from "./Team/Handsome_Colton.png";
+import Bradley from "./Team/Bradley.png";
+import Jake from "./Team/Jacob.png";
 import PickleHack from "./picklehackLogo.png";
 export {
   fifteen,
