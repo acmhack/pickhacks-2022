@@ -1,28 +1,15 @@
 import React from "react";
 import {
-  nineteen,
-  balto,
-  panera,
-  centene,
-  mastercard,
-  nestle,
-  nsc,
-  veterans,
-  tradebot,
-  sandia,
-  johndeere,
-  sdp,
-  nisc,
   jbhunt,
-  leonardo,
-  wwt,
-  linode,
+  johndeere,
+  paneranew,
+  sandia,
+  tradebot,
+  nsc,
   cigna,
-  crowdstrike,
-  numerify,
-  charter,
-  cboe,
-  platter,
+  huntereng,
+  assemblyai,
+  equifax
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
 import "./test.css";
@@ -66,6 +53,22 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
+/*
+const FlexCenter2: AnyStyledComponent = styled.div`
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 2.5%;
+  margin-bottom: 5.5rem;
+`;
+
+const SilverSponsor: AnyStyledComponent = styled.a`
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+`;
+*/
+
 export default () => {
   return (
     <div>
@@ -77,29 +80,9 @@ export default () => {
         </div>
         <div className="gold">
           <div className="row">
-          <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={balto} />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.panerabread.com/en-us/home.html"
-              style={{ marginRight: "5%" }}
-            >
-              <img src={require("../../images/paneranew.png")} />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={balto} />
-            </a>
           </div>
         </div>
+        {/* TODO: change to flexbox with property flex-wrap: wrap for mobile users*/}
         <div className="silver">
           <div className="row">
             <a
@@ -110,39 +93,52 @@ export default () => {
             </a>
             <a
               target="_blank"
-              href="https://www.honeywell.com/us/en"
+              href="https://www.panerabread.com/en-us/home.html"
             >
-              <img src={nsc} />
-            </a>
-          </div>
-          <div className="row">
-          <a
-              target="_blank"
-              href="https://www.sandia.gov/"
-            >
-              <img src={sandia} />
+              <img src={paneranew} />
             </a>
             <a
               target="_blank"
               href="https://www.hunter.com/"
             >
-              <img src={require("../../images/huntereng.png")} />
+              <img src={huntereng} />
+            </a>
+            
+          </div>
+          <div className="row">
+            <a
+              target="_blank"
+              href="https://www.honeywell.com/us/en"
+            >
+              <img src={nsc} />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.cigna.com/"
+            >
+              <img src={cigna} />
             </a>
           </div>
         </div>
-
-
         
         <div className="bronze">
           <div className="row">
-            <a target="_blank" href="https://www.cigna.com/">
-                <img src={cigna} />
+            <a target="_blank" href="https://www.jbhunt.com/">
+                <img src={jbhunt} />
             </a>
-            <a target="_blank" href="https://www.assemblyai.com/">
-                <img src={require("../../images/assemblyai.png")} />
+            <a target="_blank" href="https://www.sandia.gov/">
+                <img src={sandia} />
             </a>
             <a target="_blank" href="https://www.tradebot.com/">
                 <img src={tradebot} />
+            </a>
+          </div>
+          <div className="row">
+            <a target="_blank" href="https://www.assemblyai.com/">
+                <img src={assemblyai} />
+            </a>
+            <a target="_blank" href="https://www.equifax.com/">
+                <img src={equifax} />
             </a>
           </div>
         </div>
