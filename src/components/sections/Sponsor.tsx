@@ -14,14 +14,34 @@ import {
 import styled, { AnyStyledComponent } from "styled-components";
 import "./test.css";
 
-const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
-  color: #f47525;
-  padding-bottom: 20px;
-  font-family: "ZenDots-Regular", cursive;
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
+const Box: AnyStyledComponent = styled.div`
+  background-color: white;
+  width: 38vw;
+  height: 12vw;
+  margin-left: 5px;
+  position: relative;
   @media screen and (max-width: 1000px) {
+    width: 57.5vw;
+    height: 20vw;
+  }
+`
+
+const Title: AnyStyledComponent = styled.div`
+  font-size: 5vw;
+  color: black;
+  text-align: center;
+  line-height: 12vw;
+  width: 38vw;
+  height: 12vw;
+  font-family: "Alike";
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  background-color: #20BFB1;
+  @media screen and (max-width: 1000px) {
+    line-height: 20vw;
+    width: 57.5vw;
+    height: 20vw;
     font-size: 8vw;
   }
 `;
@@ -52,9 +72,9 @@ const SilverSponsor: AnyStyledComponent = styled.a`
 export default () => {
   return (
     <div>
-      <FlexCenter>
+      <Box>
         <Title>SPONSORS</Title>
-      </FlexCenter>
+      </Box>
       <div className="sponsor-info">
         <div className="diamond">
         </div>

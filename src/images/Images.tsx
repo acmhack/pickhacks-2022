@@ -52,6 +52,11 @@ import acmw from "./acmw.png";
 
 import cloud from "./cloud.png";
 import mlh from "./mlh.png";
+import devpostbutton from "./devpost-button.png";
+import discordbutton from "./discord-button.png";
+import emailbutton from "./email-button.png";
+import hopinbutton from "./prehacks-hopin-button.png";
+import socialsbutton from "./socials-button.png";
 
 import pickhacks22 from "./generic-person-icon.png";
 
@@ -72,6 +77,14 @@ import Colton from "./Team/Handsome_Colton.png";
 import Bradley from "./Team/Bradley.png";
 import Jake from "./Team/Jacob.png";
 import PickleHack from "./picklehackLogo.png";
+
+import trees from "./trees.png";
+import ocean from "./ocean.png";
+import mountains from "./mountains.png";
+import pond from "./pond.png";
+import desert from "./desert.png";
+import flowers from "./flowers.png";
+
 export {
   fifteen,
   nineteen,
@@ -137,5 +150,29 @@ export {
   umsystem,
   acm,
   acmw,
+  johndeere,
+  nisc,
+  jbhunt,
+  leonardo,
+  wwt,
+  linode,
+  cigna,
+  crowdstrike,
+  numerify,
+  charter,
+  cboe,
+  platter,
+  sdp,
+  devpostbutton,
+  discordbutton,
+  emailbutton,
+  hopinbutton,
+  socialsbutton,
   cloud,
+  trees,
+  ocean,
+  mountains,
+  pond,
+  desert,
+  flowers,
 };

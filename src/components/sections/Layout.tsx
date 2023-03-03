@@ -78,12 +78,13 @@ export default () => {
               <Team />
             </SectionDiv>
 
-            <SectionDiv id="footer">
-              <Footer />
-            </SectionDiv>
+            {/* <SectionDiv id="footer"> */}
+              
+            {/* </SectionDiv> */}
           </FlexContainer>
         </Constraint>
       </FlexCenter>
+      <Footer />
     </div>
   );
 };

@@ -2,6 +2,16 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import { cloud } from "../../images/Images";
 import "../../App.css";
+import CloudButton from "../common/CloudButton";
+import ImageButton from "../common/ImageButton";
+import {
+  devpostbutton,
+  discordbutton,
+  emailbutton,
+  hopinbutton,
+  socialsbutton
+} from "../../images/Images";
+
 
 // const HeadDiv: AnyStyledComponent = styled.div`
 //   color: #006a75;
@@ -58,6 +68,7 @@ const TitleDiv: AnyStyledComponent = styled.div`
 `;
 const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
+  align-items: center;
   display: flex;
   width: 100%;
 `;
@@ -87,35 +98,18 @@ const SectionDescription: AnyStyledComponent = styled.div`
     padding: 12px;
   }
 `;
-const CloudDiv: AnyStyledComponent = styled.img`
-  padding: 20px;
-  @media (max-width: 603px) {
-    height: auto;
-    width: 150px;
+const Grid: AnyStyledComponent = styled.div`
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
-const CloudContainer: AnyStyledComponent = styled.div`
-  position: relative;
-  text-align: center;
-  @media (min-width: 1000px) {
-    &:hover {
-      transform: scale(1.1);
-      transition: transform 200ms ease-in-out;
-    }
-  }
-`;
-const CloudText: AnyStyledComponent = styled.div`
-  position: absolute;
-  font-family: "ZenKurenaido-Regular", cursive;
-  font-size: 48px;
-  color: #f78702;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  @media (max-width: 603px) {
-    font-size: 31px;
-  }
-`;
+
 export default () => {
   return (
     <div>
@@ -159,78 +153,23 @@ export default () => {
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>
-
+              
         <FlexCenter>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSei8cSCbm2pCEEdQNXS2pfBTpWTWEY-66I-8kNjv8kuwqjkzQ/viewform"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Apply</CloudText>
-          </CloudContainer>
-          </a>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>PreHacks Hopin</CloudText>
-          </CloudContainer>
-          </a>
-        </FlexCenter>
-
-
-        <FlexCenter>
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://discord.gg/xnDtKNvm"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Discord</CloudText>
-          </CloudContainer>
-          </a>
-
-
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://pickhacks-2022.devpost.com/"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>DevPost</CloudText>
-          </CloudContainer>
-          </a>
-        </FlexCenter>
-
-        <FlexCenter>
-        <a
-          style={{ textDecoration: "none" }}
-          href="mailto:msthackathon@umsystem.edu"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Email</CloudText>
-          </CloudContainer>
-          </a>
-
-          <a
-          style={{ textDecoration: "none" }}
-          href="https://www.facebook.com/sandtpickhacks/"
-          target="_blank"
-          >
-          <CloudContainer>
-            <CloudDiv src={cloud} />
-            <CloudText>Socials</CloudText>
-          </CloudContainer>
-          </a>
+          <ImageButton image={discordbutton} link="https://discord.gg/xnDtKNvm">
+            discord
+          </ImageButton>
+          <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
+            prehacks hopin
+          </ImageButton>
+          <ImageButton image={emailbutton} link="mailto:msthackathon@umsystem.edu">
+            email
+          </ImageButton>
+          <ImageButton image={socialsbutton} link="https://www.facebook.com/sandtpickhacks/">
+            socials
+          </ImageButton>
+          <ImageButton image={devpostbutton} link="https://pickhacks-2022.devpost.com/">
+            devpost
+          </ImageButton>
         </FlexCenter>
       </FlexColumn>
     </div>
