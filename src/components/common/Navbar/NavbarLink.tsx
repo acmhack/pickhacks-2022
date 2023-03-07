@@ -16,8 +16,8 @@ export default ({ activeStyle, link, children }: INavbarLinkProps) => {
         to={link}
         style={{
           color: "white",
-          fontWeight: "bold",
-          fontFamily: "ZenDots-Regular",
+          fontWeight: "none",
+          fontFamily: "Alike-Regular",
           textDecoration: "none",
           display: "block",
           padding: "14px 16px",

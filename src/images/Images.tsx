@@ -23,7 +23,7 @@ import charter from "./charter.png";
 import cboe from "./cboe.png";
 import platter from "./platter.png";
 import sdp from "./sdp.png";
-import pickhack22logo from "./PickHacks_Logo_Website_2022.png";
+import pickhack23logo from "./logo2023.png";
 import umsystem from "./umsystem.png";
 import acm from "./acm.png";
 import acmw from "./acmw.png";
@@ -95,7 +95,7 @@ export {
   Colton,
   mlh,
   nineteen,
-  pickhack22logo,
+  pickhack23logo,
   zesttea,
   balto,
   brewer,
