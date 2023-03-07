@@ -27,14 +27,7 @@ import pickhack23logo from "./logo2023.png";
 import umsystem from "./umsystem.png";
 import acm from "./acm.png";
 import acmw from "./acmw.png";
-import highalpha from "./highalpha.png";
-import stickermule from "./stickermule.png";
-import smashmallow from "./smashmallow.png";
-import girlswhocode from "./girlswhocode.png";
-import stlpublicradio from "./stlpublicradio.png";
-import monsterenergy from "./monsterenergy.png";
-import goodsnacks from "./goodsnacks.png";
-// import codex  from "./codex.png";
+
 
 import cloud from "./cloud.png";
 import mlh from "./mlh.png";
@@ -44,27 +37,24 @@ import emailbutton from "./email-button.png";
 import hopinbutton from "./prehacks-hopin-button.png";
 import socialsbutton from "./socials-button.png";
 
-import doa from "./do.png";
-import voiceflow from "./voiceflow.png";
-import sketch from "./sketch.png";
-import zesttea from "./zest.png";
 import pickhacks22 from "./generic-person-icon.png";
 
-import Bharat from "./Bharat.png";
-import Rachel from "./Rachel.png";
-import Ryan from "./ryan.png";
-import Scott from "./Scott.png";
-import Sabrina from "./Sabrina.png";
-import Riley from "./Riley.png";
-import Jack from "./Jack.png";
-import Himnish from "./Himnish.png";
-import Eddie from "./Eddie.png";
-import Dominic from "./Dominic.png";
-import Carter from "./Carter.png";
-import Billie from "./Billie.jpg";
-import Colton from "./Handsome_Colton.png";
-import Bradley from "./Bradley.png";
-import Jake from "./Jacob.png";
+// Team
+import Bharat from "./Team/Bharat.png";
+import Rachel from "./Team/Rachel.png";
+import Ryan from "./Team/ryan.png";
+import Scott from "./Team/Scott.png";
+import Sabrina from "./Team/Sabrina.png";
+import Riley from "./Team/Riley.png";
+import Jack from "./Team/Jack.png";
+import Himnish from "./Team/Himnish.png";
+import Eddie from "./Team/Eddie.png";
+import Dominic from "./Team/Dominic.png";
+import Carter from "./Team/Carter.png";
+import Billie from "./Team/Billie.jpg";
+import Colton from "./Team/Handsome_Colton.png";
+import Bradley from "./Team/Bradley.png";
+import Jake from "./Team/Jacob.png";
 import PickleHack from "./picklehackLogo.png";
 
 import trees from "./trees.png";
@@ -76,8 +66,48 @@ import flowers from "./flowers.png";
 
 export {
   fifteen,
-  Jake,
+  nineteen,
+  assemblyai,
+  balto,
+  brewer,
+  cboe,
+  centene,
+  charter,
+  cigna,
+  crowdstrike,
+  doa,
+  equifax,
+  girlswhocode,
+  goodsnacks,
+  highalpha,
+  huntereng,
+  jbhunt,
+  johndeere,
+  leonardo,
+  linode,
+  mastercard,
+  monsterenergy,
+  nestle,
+  nisc,
+  nsc,
+  numerify,
+  paneranew,
+  platter,
+  redbull,
+  sandia,
+  sdp,
+  sketch,
+  smashmallow,
+  stlpublicradio,
+  tradebot,
+  veterans,
+  voiceflow,
+  wwt,
+  zesttea,
+
   PickleHack,
+
+  Jake,
   Bharat,
   pickhacks22,
   Rachel,
@@ -101,22 +131,6 @@ export {
   brewer,
   highalpha,
   stickermule,
-  smashmallow,
-  girlswhocode,
-  monsterenergy,
-  goodsnacks,
-  doa,
-  voiceflow,
-  sketch,
-  stlpublicradio,
-  panera,
-  centene,
-  mastercard,
-  nestle,
-  nsc,
-  veterans,
-  tradebot,
-  sandia,
   umsystem,
   acm,
   acmw,
