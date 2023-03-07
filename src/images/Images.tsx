@@ -44,7 +44,7 @@ import equifax from "./Sponsors/equifax.png";
 //partner?
 import stickermule from "./stickermule.png";
 
-import pickhack22logo from "./PickHacks_Logo_Website_2022.png";
+import pickhack23logo from "./logo2023.png";
 import umsystem from "./umsystem.png";
 import acm from "./acm.png";
 import acmw from "./acmw.png";
@@ -131,7 +131,7 @@ export {
   Billie,
   Colton,
   mlh,
-  pickhack22logo,
+  pickhack23logo,
   stickermule,
   umsystem,
   acm,
