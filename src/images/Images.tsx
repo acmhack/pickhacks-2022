@@ -1,50 +1,29 @@
-import fifteen from "./Sponsors/1517.png";
-import nineteen from "./Sponsors/1904.png";
-import balto from "./Sponsors/balto.png";
-import brewer from "./Sponsors/brewer.png";
-import centene from "./Sponsors/centene.png";
-import mastercard from "./Sponsors/mastercard.png";
-import nestle from "./Sponsors/nestle.png";
-import veterans from "./Sponsors/veterans.png";
-import nisc from "./Sponsors/nisc.png";
-import wwt from "./Sponsors/wwt.png";
-import leonardo from "./Sponsors/leonardo.png";
-import linode from "./Sponsors/linode.png";
-import crowdstrike from "./Sponsors/crowdstrike.png";
-import numerify from "./Sponsors/numerify.png";
-import charter from "./Sponsors/charter.png";
-import cboe from "./Sponsors/cboe.png";
-import platter from "./Sponsors/platter.png";
-import sdp from "./Sponsors/sdp.png";
-import highalpha from "./Sponsors/highalpha.png";
-import smashmallow from "./Sponsors/smashmallow.png";
-import girlswhocode from "./Sponsors/girlswhocode.png";
-import stlpublicradio from "./Sponsors/stlpublicradio.png";
-import monsterenergy from "./Sponsors/monsterenergy.png";
-import goodsnacks from "./Sponsors/goodsnacks.png";
-import voiceflow from "./Sponsors/voiceflow.png";
-import zesttea from "./Sponsors/zest.png";
-import sketch from "./Sponsors/sketch.png";
-import redbull from "./Sponsors/redbull.png";
-import doa from "./Sponsors/do.png"; //digital ocean
-
-// 2023 sponsors
-import jbhunt from "./Sponsors/jbhunt.png";
-import johndeere from "./Sponsors/johndeere.png";
-import paneranew from "./Sponsors/paneranew.png";
-import sandia from "./Sponsors/sandia.png";
-import tradebot from "./Sponsors/tradebot.png";
-import nsc from "./Sponsors/nsc.png"; // Honeywell
-import cigna from "./Sponsors/cigna.png";
-import assemblyai from "./Sponsors/assemblyai.png"
-import huntereng from "./Sponsors/huntereng.png";
-import equifax from "./Sponsors/equifax.png";
-// import codex  from "./codex.png";
-
-//partner?
-import stickermule from "./stickermule.png";
-
-import pickhack22logo from "./PickHacks_Logo_Website_2022.png";
+import fifteen from "./1517.png";
+import nineteen from "./1904.png";
+import balto from "./balto.png";
+import brewer from "./brewer.png";
+import panera from "./panera.jpg";
+import centene from "./centene.png";
+import mastercard from "./mastercard.png";
+import nestle from "./nestle.png";
+import nsc from "./nsc.png";
+import veterans from "./veterans.png";
+import tradebot from "./tradebot.png";
+import sandia from "./sandia.png";
+import johndeere from "./johndeere.png";
+import nisc from "./nisc.png";
+import jbhunt from "./jbhunt.png";
+import wwt from "./wwt.png";
+import leonardo from "./leonardo.png";
+import linode from "./linode.png";
+import cigna from "./cigna.png";
+import crowdstrike from "./crowdstrike.png";
+import numerify from "./numerify.png";
+import charter from "./charter.png";
+import cboe from "./cboe.png";
+import platter from "./platter.png";
+import sdp from "./sdp.png";
+import pickhack23logo from "./logo2023.png";
 import umsystem from "./umsystem.png";
 import acm from "./acm.png";
 import acmw from "./acmw.png";
@@ -145,7 +124,12 @@ export {
   Billie,
   Colton,
   mlh,
-  pickhack22logo,
+  nineteen,
+  pickhack23logo,
+  zesttea,
+  balto,
+  brewer,
+  highalpha,
   stickermule,
   umsystem,
   acm,
