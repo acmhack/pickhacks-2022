@@ -26,7 +26,7 @@ const PickHacksTitle: AnyStyledComponent = styled.div`
   display: flex;
   justify-content: center;
   color: black;
-  font-family: "ZenDots-Regular", cursive;
+  font-family: "MerriweatherSans-Regular";
   display: flex;
   font-size: 2.0vw;
 

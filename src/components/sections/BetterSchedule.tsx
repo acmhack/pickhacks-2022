@@ -12,7 +12,7 @@ const Title: AnyStyledComponent = styled.div`
   padding-right: 20px;
   margin: 10px;
   margin-right: 0px;
-  font-family: "ZenDots-Regular", cursive;
+  font-family: "Alike-Regular";
   text-shadow: 2px 2px 4px gray;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
@@ -20,7 +20,7 @@ const Title: AnyStyledComponent = styled.div`
 `;
 const ScheduleGroup: AnyStyledComponent = styled.div`
   display: flex;
-  font-family: "Amiko-Regular", cursive;
+  font-family: "MerriweatherSans-Regular";
   flex-direction: row;
   background: #FFD51C;
 `;
@@ -35,7 +35,7 @@ const EventGroup: AnyStyledComponent = styled.div`
 const DayCheckGroup: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
-  font-family: "ZenDots-Regular", cursive;
+  font-family: "MerriweatherSans-Regular";
   flex-direction: column;
   @media (max-width: 600px) {
     display: none;
@@ -48,8 +48,12 @@ const FlexRight: AnyStyledComponent = styled.div`
 `;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
-
   flex-direction: column;
+`;
+
+const Container: AnyStyledComponent = styled.div`
+  width: 100%;
+  margin: 0px 5px;
 `;
 
 const FILTER_TYPES: string[] = ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -78,10 +82,10 @@ export default () => {
   };
 
   return (
-    <div>
+    <Container>
       <FlexColumn>
         <FlexRight>
-          <Title>Schedule</Title>
+          <Title>SCHEDULE</Title>
         </FlexRight>
       </FlexColumn>
 
@@ -134,6 +138,6 @@ export default () => {
             })}
         </EventGroup>
       </ScheduleGroup>
-    </div>
+    </Container>
   );
 };

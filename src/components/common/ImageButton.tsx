@@ -20,6 +20,12 @@ const ImageDiv: AnyStyledComponent = styled.img`
 `;
 const ImageContainer: AnyStyledComponent = styled.div`
   height: 235px;
+  @media screen and (max-width: 1200px) {
+    height: 185px;
+  }
+  @media screen and (max-width: 900px) {
+    height: 145px;
+  }
   display: flex;
   align-items: center;
   position: relative;
@@ -37,12 +43,9 @@ const ImageText: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Extra";
   font-size: 24px;
   color: #ffffff;
-  top: 95%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @media screen and (max-width: 900px) {
-    top: 80%;
-  }
 `;
 
 export default ({ link, image, children }: IButtonProps) => {

@@ -18,7 +18,7 @@ const Background: AnyStyledComponent = styled.div`
   width: 100%;
   height: 225px;
   z-index: 999;
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1070px) {
     display: none;
   }
 `;
@@ -35,6 +35,9 @@ const FlexLeft: AnyStyledComponent = styled.div`
   width: 100%;
   padding: 0px 16px;
   gap: 32px;
+  @media (max-width: 1265px) {
+    gap: 20px;
+  }
 `;
 
 const Logo: AnyStyledComponent = styled.img`
@@ -68,7 +71,7 @@ const NavListItem: AnyStyledComponent = styled.li`
 const Quicklink: AnyStyledComponent = styled.p`
   font-size: 1.5vw;
   color: white;
-  font-family: "Alike-Regular";
+  font-family: "MerriweatherSans-Regular";
 `;
 
 export default () => {

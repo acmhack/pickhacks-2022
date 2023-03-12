@@ -40,6 +40,20 @@ const SectionDiv: AnyStyledComponent = styled.section`
     padding-bottom: 7%;
   }
 `;
+
+const HeaderSectionDiv: AnyStyledComponent = styled.section`
+  padding-bottom: 14%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+
+  @media (max-width: 1070px) {
+    padding-top: 0%;
+  }
+`;
+
 export default () => {
   return (
     <div>
@@ -49,9 +63,9 @@ export default () => {
         <div style={{ height: "45px" }}> </div>
         <Constraint>
           <FlexContainer>
-            <SectionDiv style={{ paddingTop: "20%" }} id="header">
+            <HeaderSectionDiv id="header">
               <Header />
-            </SectionDiv>
+            </HeaderSectionDiv>
 
             {/* <SectionDiv id="socials">
               <Socials />

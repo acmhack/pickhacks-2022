@@ -12,7 +12,7 @@ import {
   hopinbutton,
   socialsbutton
 } from "../../images/Images";
-
+import { pickhack23logo } from "../../images/Images";
 
 // const HeadDiv: AnyStyledComponent = styled.div`
 //   color: #006a75;
@@ -44,13 +44,16 @@ const SubDiv: AnyStyledComponent = styled.div`
 `;
 
 const Title: AnyStyledComponent = styled.div`
-font-size: 7vw;
-display: flex;
-color: white;
-font-family: "Alike-Regular";
-@media (max-width: 1196px) {
   font-size: 7vw;
+  display: flex;
+  color: white;
+  font-family: "Alike-Regular";
+  @media (max-width: 1196px) {
+    font-size: 7vw;
   }
+  @media (max-width: 700px) {
+    font-size: 11vw;
+    }
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
@@ -60,6 +63,19 @@ const SubTitle: AnyStyledComponent = styled.div`
   font-size: 4vw;
   @media (max-width: 1196px) {
     font-size: 5vw;
+  }
+`;
+
+const SmallerTitle: AnyStyledComponent = styled.div`
+  color: white;
+  font-family: "MerriweatherSans-Regular";
+  display: flex;
+  font-size: 2vw;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 8px;
+  @media (max-width: 1196px) {
+    font-size: 4vw;
   }
 `;
 
@@ -85,6 +101,7 @@ const FlexEnd: AnyStyledComponent = styled.div`
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 const MainTitle: AnyStyledComponent = styled.div`
   display: flex;
@@ -100,8 +117,7 @@ const SectionDescription: AnyStyledComponent = styled.div`
   border: 3px solid #148648;
   font-family: "MerriweatherSans-Regular";
   @media screen and (max-width: 600px) {
-    font-size: 15px;
-    padding: 12px;
+    font-size: 18px;
   }
 
   &:hover {
@@ -127,22 +143,39 @@ const Buttons: AnyStyledComponent = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 `;
+
+const LogoPopup: AnyStyledComponent = styled.img`
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  margin: 50px;
+  @media screen and (max-width: 1070px) {
+    display: flex;
+  }
+  @media screen and (max-width: 800px) {
+    width: 125px;
+    margin: 25px;
+  }
+`;
+
 
 export default () => {
   return (
     <div>
       <FlexColumn>
+        <LogoPopup src={pickhack23logo}/>
         <TitleDiv>
             <Title>PICKHACKS</Title>
             <Head2Div>April 14th-16th</Head2Div>
             <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
+            <SmallerTitle>Spring 2023</SmallerTitle>
         </TitleDiv>
 
         <FlexCenter>
           <SectionDescription>
-            <NavLink link="/#faq" activeStyle="test">
+            <NavLink link="/#faq" activeStyle="test" learnMore={true}>
               learn more
             </NavLink>
           </SectionDescription>
