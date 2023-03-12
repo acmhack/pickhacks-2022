@@ -27,7 +27,7 @@ const CloudContainer: AnyStyledComponent = styled.div`
 `;
 const CloudText: AnyStyledComponent = styled.div`
   position: absolute;
-  font-family: "ZenKurenaido-Regular", cursive;
+  font-family: "MerriweatherSans-ExtraBold";
   font-size: 48px;
   color: #f78702;
   top: 50%;

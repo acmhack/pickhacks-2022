@@ -69,7 +69,7 @@ export default ({ day, checked, onClick }: IDayCheckProps) => {
           <DayText
             style={{
               fontWeight: checked ? "bolder" : "normal",
-              color: checked ? "white" : "gray",
+              color: checked ? "white" : "black",
             }}
           >
             {day}
@@ -77,7 +77,7 @@ export default ({ day, checked, onClick }: IDayCheckProps) => {
           <DateText
             style={{
               fontWeight: checked ? "bolder" : "normal",
-              color: checked ? "white" : "gray",
+              color: checked ? "white" : "black",
             }}
           >
             {dayPicker()[1]}

@@ -6,9 +6,10 @@ interface INavbarLinkProps {
   activeStyle: string;
   link: string;
   children: string;
+  learnMore?: boolean;
 }
 
-export default ({ activeStyle, link, children }: INavbarLinkProps) => {
+export default ({ activeStyle, link, children, learnMore }: INavbarLinkProps) => {
   return (
     <div>
       <NavHashLink
@@ -17,10 +18,9 @@ export default ({ activeStyle, link, children }: INavbarLinkProps) => {
         style={{
           color: "white",
           fontWeight: "normal",
-          fontFamily: "Alike-Regular",
+          fontFamily: learnMore ? "MerriweatherSans-Regular" : "MerriweatherSans-Bold",
           textDecoration: "none",
           display: "block",
-          padding: "14px 16px",
         }}
       >
         {children}

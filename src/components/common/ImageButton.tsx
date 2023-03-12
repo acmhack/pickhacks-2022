@@ -9,14 +9,23 @@ interface IButtonProps {
 }
 
 const ImageDiv: AnyStyledComponent = styled.img`
-  padding: 10px;
-  @media (max-width: 603px) {
-    height: auto;
-    width: 150px;
+  height: 180px;
+  @media screen and (max-width: 1200px) {
+    height: 135px;
   }
+  @media screen and (max-width: 900px) {
+    height: 95px;
+  }
+  padding: 10px;
 `;
 const ImageContainer: AnyStyledComponent = styled.div`
-  height: 235px; //height of max image 215
+  height: 235px;
+  @media screen and (max-width: 1200px) {
+    height: 185px;
+  }
+  @media screen and (max-width: 900px) {
+    height: 145px;
+  }
   display: flex;
   align-items: center;
   position: relative;
@@ -31,15 +40,12 @@ const ImageContainer: AnyStyledComponent = styled.div`
 const ImageText: AnyStyledComponent = styled.div`
   position: absolute;
   line-height: 100%;
-  font-family: "ZenKurenaido-Regular", cursive;
-  font-size: 48px;
+  font-family: "MerriweatherSans-Extra";
+  font-size: 24px;
   color: #ffffff;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @media (max-width: 603px) {
-    font-size: 31px;
-  }
 `;
 
 export default ({ link, image, children }: IButtonProps) => {
