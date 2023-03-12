@@ -2,6 +2,7 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import { cloud } from "../../images/Images";
 import "../../App.css";
+import NavLink from "../common/Navbar/NavbarLink";
 import CloudButton from "../common/CloudButton";
 import ImageButton from "../common/ImageButton";
 import {
@@ -21,10 +22,11 @@ import {
 //   justify-content: flex-start;
 // `;
 const Head2Div: AnyStyledComponent = styled.div`
-  color: #009ac7;
-  font-family: "ZenDots-Regular", cursive;
+  color: white;
+  font-family: "Alike-Regular";
   display: flex;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
+  padding-bottom: 10px;
 
   margin-top: 8px;
   @media (max-width: 1196px) {
@@ -33,8 +35,8 @@ const Head2Div: AnyStyledComponent = styled.div`
 `;
 const SubDiv: AnyStyledComponent = styled.div`
   text-align: right;
-  color: #006a75;
-  font-family: "ZenTokyoZoo-Regular", cursive;
+  color: white;
+  font-family: "Alike-Regular";
   font-size: 2vw;
   @media (max-width: 1196px) {
     font-size: 4vw;
@@ -42,20 +44,20 @@ const SubDiv: AnyStyledComponent = styled.div`
 `;
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 5vw;
-  display: flex;
-  color: #009ac7;
-  font-family: "ZenDots-Regular", cursive;
-  @media (max-width: 1196px) {
-    font-size: 6vw;
+font-size: 7vw;
+display: flex;
+color: white;
+font-family: "Alike-Regular";
+@media (max-width: 1196px) {
+  font-size: 7vw;
   }
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
   text-align: right;
-  font-family: "ZenTokyoZoo-Regular", cursive;
-  color: #006a75;
-  font-size: 3vw;
+  font-family: "Alike-Regular";
+  color: white;
+  font-size: 4vw;
   @media (max-width: 1196px) {
     font-size: 5vw;
   }
@@ -87,12 +89,14 @@ const MainTitle: AnyStyledComponent = styled.div`
 `;
 
 const SectionDescription: AnyStyledComponent = styled.div`
-  padding: 10px;
-  padding-top: 10%;
+  margin: 10px;
+  margin-top: 10%;
+  padding: 3px;
   font-size: 25px;
   max-width: 700px;
   color: white;
-  font-family: "Amiko-SemiBold", cursive;
+  border: 3px solid #148648;
+  font-family: "MerriweatherSans-Regular";
   @media screen and (max-width: 600px) {
     font-size: 15px;
     padding: 12px;
@@ -122,20 +126,20 @@ export default () => {
               </HeadDiv> */}
               <FlexCenter>
                 {" "}
-                <Head2Div>April 8th-10th</Head2Div>
+                <Head2Div>April 14th-16th</Head2Div>
               </FlexCenter>
             </MainTitle>
 
             <FlexCenter>
-              <Title>PICKHACKS 2022</Title>
+              <Title>PICKHACKS 2023</Title>
             </FlexCenter>
             {/* <Constraint> */}
             <FlexCenter>
-              <SubTitle>Missouri S&T's WellBeing Hackathon</SubTitle>
+              <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
             </FlexCenter>
 
             <FlexCenter>
-              <SubDiv>Spring 2022</SubDiv>
+              <SubDiv>Spring 2023</SubDiv>
             </FlexCenter>
             {/* </Constraint> */}
           </TitleDiv>
@@ -143,13 +147,9 @@ export default () => {
         <FlexCenter>
           <FlexCenter>
             <SectionDescription>
-              PickHacks is the 36-hour hackathon brought to you by Missouri
-              University of Science & Technology. Join us for a weekend chock
-              full of innovation, creation, and collaboration as you work in
-              teams of up to four to create a project that addresses this year’s
-              theme: Wellbeing. We’re excited to see what you get up to as you
-              build with us, attend our tech talks, and meet other tech-minded
-              people at this year's PickHacks 2022!
+            <NavLink link="/#faq" activeStyle="test">
+              Learn more
+            </NavLink>
             </SectionDescription>
           </FlexCenter>
         </FlexCenter>

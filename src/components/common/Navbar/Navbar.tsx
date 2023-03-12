@@ -1,21 +1,22 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import NavLink from "./NavbarLink";
-import { pickhack22logo } from "../../../images/Images";
+import { pickhack23logo } from "../../../images/Images";
 const Constraint: AnyStyledComponent = styled.div`
   display: flex;
   height: 100%;
   flex-direction: column;
   max-width: 1500px;
   margin: auto;
+  padding-top: 0px;
 `;
 
 const Background: AnyStyledComponent = styled.div`
-  background-color: #86c6d5;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 45px;
+  height: 225px;
   z-index: 999;
   @media screen and (max-width: 900px) {
     display: none;
@@ -28,9 +29,15 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
+const FlexLeft: AnyStyledComponent = styled.div`
+  justify-content: left;
+  display: flex;
+  width: 100%;
+`;
+
 const Logo: AnyStyledComponent = styled.img`
-  height: 40;
-  width: 40px;
+  height: 100;
+  width: 100px;
 `;
 
 const NavImage: AnyStyledComponent = styled.div`
@@ -51,19 +58,34 @@ const NavList: AnyStyledComponent = styled.ul`
 const NavListItem: AnyStyledComponent = styled.li`
   display: inline;
   float: left;
+  line-height: 100px;
+  text-align: center;
+  font-size: 2.7vw;
 `;
+
+const Quicklink: AnyStyledComponent = styled.p`
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Alike-Regular";
+`;
+
 export default () => {
   return (
     <Background>
+      <FlexCenter>
+        <Quicklink>
+          click here to sign up for the spring 2023 pickhacks hackathon 
+        </Quicklink>
+      </FlexCenter>
       <Constraint>
         <NavList>
           <NavImage>
             <a href="https://pickhacks.io/">
               {" "}
-              <Logo src={pickhack22logo} />
+              <Logo src={pickhack23logo} />
             </a>
           </NavImage>
-          <FlexCenter>
+          <FlexLeft>
           <NavListItem>
             <NavLink link="/#header" activeStyle="test">
               HOME
@@ -97,7 +119,7 @@ export default () => {
               TEAM
             </NavLink>
           </NavListItem>
-          </FlexCenter>
+          </FlexLeft>
         </NavList>
       </Constraint>
     </Background>
