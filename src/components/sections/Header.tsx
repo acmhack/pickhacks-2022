@@ -23,11 +23,11 @@ import {
 // `;
 const Head2Div: AnyStyledComponent = styled.div`
   color: white;
-  font-family: "Alike-Regular";
+  font-family: "MerriweatherSans-Regular";
   display: flex;
   font-size: 2.5vw;
   padding-bottom: 10px;
-
+  text-align: center;
   margin-top: 8px;
   @media (max-width: 1196px) {
     font-size: 5vw;
@@ -65,8 +65,11 @@ const SubTitle: AnyStyledComponent = styled.div`
 
 const TitleDiv: AnyStyledComponent = styled.div`
   color: white;
-
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
@@ -89,9 +92,8 @@ const MainTitle: AnyStyledComponent = styled.div`
 `;
 
 const SectionDescription: AnyStyledComponent = styled.div`
-  margin: 10px;
-  margin-top: 10%;
-  padding: 3px;
+  margin-top: 35px;
+  padding: 3px 10px;
   font-size: 25px;
   max-width: 700px;
   color: white;
@@ -100,6 +102,12 @@ const SectionDescription: AnyStyledComponent = styled.div`
   @media screen and (max-width: 600px) {
     font-size: 15px;
     padding: 12px;
+  }
+
+  &:hover {
+    background-color: #148648;
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
   }
 `;
 const Grid: AnyStyledComponent = styled.div`
@@ -114,47 +122,33 @@ const Grid: AnyStyledComponent = styled.div`
   }
 `;
 
+const Buttons: AnyStyledComponent = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+`;
+
 export default () => {
   return (
     <div>
       <FlexColumn>
-        <FlexCenter>
-          <TitleDiv>
-            <MainTitle>
-              {/* <HeadDiv>
-                Pickhacks<span style={{ fontSize: "30px" }}> Presents</span>
-              </HeadDiv> */}
-              <FlexCenter>
-                {" "}
-                <Head2Div>April 14th-16th</Head2Div>
-              </FlexCenter>
-            </MainTitle>
+        <TitleDiv>
+            <Title>PICKHACKS</Title>
+            <Head2Div>April 14th-16th</Head2Div>
+            <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
+        </TitleDiv>
 
-            <FlexCenter>
-              <Title>PICKHACKS 2023</Title>
-            </FlexCenter>
-            {/* <Constraint> */}
-            <FlexCenter>
-              <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
-            </FlexCenter>
-
-            <FlexCenter>
-              <SubDiv>Spring 2023</SubDiv>
-            </FlexCenter>
-            {/* </Constraint> */}
-          </TitleDiv>
-        </FlexCenter>
         <FlexCenter>
-          <FlexCenter>
-            <SectionDescription>
+          <SectionDescription>
             <NavLink link="/#faq" activeStyle="test">
-              Learn more
+              learn more
             </NavLink>
-            </SectionDescription>
-          </FlexCenter>
+          </SectionDescription>
         </FlexCenter>
               
-        <FlexCenter>
+        <Buttons>
           <ImageButton image={discordbutton} link="https://discord.gg/xnDtKNvm">
             discord
           </ImageButton>
@@ -170,7 +164,7 @@ export default () => {
           <ImageButton image={devpostbutton} link="https://pickhacks-2022.devpost.com/">
             devpost
           </ImageButton>
-        </FlexCenter>
+        </Buttons>
       </FlexColumn>
     </div>
   );

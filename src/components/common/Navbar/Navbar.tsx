@@ -33,6 +33,8 @@ const FlexLeft: AnyStyledComponent = styled.div`
   justify-content: left;
   display: flex;
   width: 100%;
+  padding: 0px 16px;
+  gap: 32px;
 `;
 
 const Logo: AnyStyledComponent = styled.img`

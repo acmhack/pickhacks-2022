@@ -20,7 +20,6 @@ export default ({ activeStyle, link, children }: INavbarLinkProps) => {
           fontFamily: "Alike-Regular",
           textDecoration: "none",
           display: "block",
-          padding: "14px 16px",
         }}
       >
         {children}
