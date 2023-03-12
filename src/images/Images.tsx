@@ -35,6 +35,7 @@ import paneranew from "./Sponsors/paneranew.png";
 import sandia from "./Sponsors/sandia.png";
 import tradebot from "./Sponsors/tradebot.png";
 import nsc from "./Sponsors/nsc.png"; // Honeywell
+import shelter from "./Sponsors/shelter.png";
 import cigna from "./Sponsors/cigna.png";
 import assemblyai from "./Sponsors/assemblyai.png"
 import huntereng from "./Sponsors/huntereng.png";
@@ -105,6 +106,7 @@ export {
   paneranew,
   redbull,
   sandia,
+  shelter,
   sketch,
   smashmallow,
   stlpublicradio,

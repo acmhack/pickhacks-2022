@@ -9,6 +9,8 @@ import {
   cigna,
   huntereng,
   assemblyai,
+  shelter,
+  brewer,
   equifax
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
@@ -18,8 +20,8 @@ const Box: AnyStyledComponent = styled.div`
   background-color: white;
   width: 38vw;
   height: 12vw;
-  margin-left: 5px;
   position: relative;
+  margin-bottom: 75px;
   @media screen and (max-width: 1000px) {
     width: 57.5vw;
     height: 20vw;
@@ -69,9 +71,16 @@ const SilverSponsor: AnyStyledComponent = styled.a`
 `;
 */
 
+const FlexColumn: AnyStyledComponent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5px;
+`;
+
 export default () => {
   return (
-    <div>
+    <FlexColumn>
       <Box>
         <Title>SPONSORS</Title>
       </Box>
@@ -118,6 +127,12 @@ export default () => {
             >
               <img src={cigna} />
             </a>
+            <a
+              target="_blank"
+              href="https://www.shelterinsurance.com/"
+            >
+              <img src={shelter} style={{width: "200px"}}/>
+            </a>
           </div>
         </div>
         
@@ -132,13 +147,8 @@ export default () => {
             <a target="_blank" href="https://www.tradebot.com/">
                 <img src={tradebot} />
             </a>
-          </div>
-          <div className="row">
-            <a target="_blank" href="https://www.assemblyai.com/">
-                <img src={assemblyai} />
-            </a>
-            <a target="_blank" href="https://www.equifax.com/">
-                <img src={equifax} />
+            <a target="_blank" href="https://www.brewerscience.com/">
+                <img src={brewer} />
             </a>
           </div>
         </div>
@@ -158,6 +168,6 @@ export default () => {
           </GoldGridItem>
         </Grid>
       </GridBox> */}
-    </div>
+    </FlexColumn>
   );
 };
