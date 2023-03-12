@@ -28,9 +28,9 @@ const Box: AnyStyledComponent = styled.div`
   background-color: white;
   width: 38vw;
   height: 12vw;
-  margin-right: 5px;
   position: relative;
   margin-left: auto;
+  margin-bottom: 75px;
   @media screen and (max-width: 1000px) {
     width: 57.5vw;
     height: 20vw;
@@ -64,9 +64,16 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
+const FlexColumn: AnyStyledComponent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 5px;
+`;
+
 export default () => {
   return (
-    <div>
+    <FlexColumn>
       <Box>
         <Title>PARTNERS</Title>
       </Box>
@@ -88,32 +95,9 @@ export default () => {
             <a target="_blank" href="https://mstacm.org/">
               <img src={acm} />
             </a>
-
           </div>
-          <div className="row">
-          <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={stickermule} />
-            </a>
-            <a
-                target="_blank"
-                href="http://hackp.ac/mlh-stickermule-hackathons"
-              >
-                <img src={stickermule} />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              style={{ opacity: "0", cursor: "default" }}
-            >
-              <img src={stickermule} />
-            </a>
-            </div>
        </div>
       </div>
-    </div>
+    </FlexColumn>
   );
 };

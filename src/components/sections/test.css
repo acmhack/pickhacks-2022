@@ -2,6 +2,8 @@
   width: 100%;
   margin: auto;
   max-width: 1050px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .sponsor-cast-info {
@@ -45,17 +47,13 @@
 }
 
 .silver .row {
-  margin: 0 auto 2rem auto;
+  /* margin: 0 auto 2rem auto; */
   /*
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
   gap: 2.5%;
   */
-}
-
-.silver .row:last-child {
-  margin-bottom: 5.5rem;
 }
 
 .silver .row a {
@@ -77,7 +75,7 @@
 }
 
 .silver .row a:last-child img {
-  margin-left: auto;
+  align-self: center;
 }
 
 .bronze .row {
