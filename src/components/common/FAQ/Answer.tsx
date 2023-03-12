@@ -3,8 +3,8 @@ import styled, { AnyStyledComponent } from "styled-components";
 
 const Title: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
-  font-size: 2vw;
-  color: black;
+  font-size: 1.75vw;
+  color: white;
   @media (max-width: 850px) {
     font-size: 3vw;
   }
