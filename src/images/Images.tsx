@@ -77,6 +77,7 @@ import Colton from "./Team/Handsome_Colton.png";
 import Bradley from "./Team/Bradley.png";
 import Jake from "./Team/Jacob.png";
 import PickleHack from "./picklehackLogo.png";
+import Filler from "./Team/profile_filler_picture.png"
 
 import trees from "./trees.png";
 import ocean from "./ocean.png";
@@ -113,7 +114,7 @@ export {
   zesttea,
 
   PickleHack,
-
+  Filler,
   Jake,
   Bharat,
   pickhacks22,

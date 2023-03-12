@@ -9,14 +9,28 @@ body {
   font-style: normal;
   font-weight: normal;
   src: local("Alike-Regular"),
-    url("./fonts/Alike-Regular.ttf") format("ttf");
+    url("./fonts/Alike-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "MerriweatherSans-Regular";
   font-style: normal;
   font-weight: normal;
   src: local("MerriweatherSans-Regular"),
-    url("./fonts/MerriweatherSans-Regular.ttf") format("ttf");
+    url("./fonts/MerriweatherSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MerriweatherSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("MerriweatherSans-Bold"),
+    url("./fonts/MerriweatherSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MerriweatherSans-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: local("MerriweatherSans-ExtraBold"),
+    url("./fonts/MerriweatherSans-ExtraBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "F25 Bank Printer Bold";
