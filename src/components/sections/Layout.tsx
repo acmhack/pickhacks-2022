@@ -21,8 +21,7 @@ const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
   display: flex;
   width: 100%;
-
-  background-image: url(${Background});
+  background-color: black;
   background-size: cover;
 `;
 
