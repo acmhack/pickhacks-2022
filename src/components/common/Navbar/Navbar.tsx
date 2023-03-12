@@ -59,6 +59,7 @@ const NavList: AnyStyledComponent = styled.ul`
   display: flex;
   justify-content: flex-end;
   padding: 0;
+  color: white;
 `;
 const NavListItem: AnyStyledComponent = styled.li`
   display: inline;

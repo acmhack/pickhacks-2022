@@ -6,14 +6,11 @@ import Card from "../common/Schedule/ScheduleCard";
 import DayCheck from "../common/Schedule/DayCheck";
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   color: #FFFFFF;
-  border-right: 8px solid #FFD51C;
-  padding-right: 20px;
-  margin: 10px;
-  margin-right: 0px;
+  border-right: 10px solid #FFD51C;
+  padding-right: 27px;
   font-family: "Alike-Regular";
-  text-shadow: 2px 2px 4px gray;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
@@ -23,6 +20,7 @@ const ScheduleGroup: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
   flex-direction: row;
   background: #FFD51C;
+  margin-top: 4%;
 `;
 
 const EventGroup: AnyStyledComponent = styled.div`
