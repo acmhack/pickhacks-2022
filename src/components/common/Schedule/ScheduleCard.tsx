@@ -25,7 +25,7 @@ const Background: AnyStyledComponent = styled.div`
   width: 0%;
   left: 0px;
   top: 0px;
-  padding-right: 20px;
+  padding-right: 10px;
 `;
 const DescText: AnyStyledComponent = styled.div`
   position: relative;
@@ -84,7 +84,7 @@ const DayLabel: AnyStyledComponent = styled.div`
   border-radius: 50px;
   padding: 4px;
   font-size: 14px;
-
+  white-space: nowrap;
   color: white;
   align-items: center;
   height: 16px;
@@ -98,7 +98,8 @@ const DayLabel: AnyStyledComponent = styled.div`
 
 const DayLabelGroup: AnyStyledComponent = styled.div`
   display: flex;
-  top: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
 
   position: absolute;
   right: 0px;
@@ -118,13 +119,13 @@ export default ({ title, description, day }: CardProps) => {
       case "Wednesday":
         return ["#00B655", "April 12"];
       case "Thursday":
-        return ["#755A39", "April 13"];
+        return ["#14354D", "April 13"];
       case "Friday":
         return ["#148648", "April 14"];
       case "Saturday":
         return ["#20BFB1", "April 15"];
       case "Sunday":
-        return ["#14354D", "April 16"];
+        return ["#755A39", "April 16"];
       default:
         return ["gray", "nerd"];
     }
@@ -136,18 +137,18 @@ export default ({ title, description, day }: CardProps) => {
 
         {/* <Border dayColor={dayPicker()[0]}></Border> */}
         <Box dayColor={dayPicker()[0]}>
-        <Background/>
+          <Background/>
           <TitleGroup>
             <TitleText>{title}</TitleText>
 
-            <DayLabelGroup>
-              <DayLabel dayColor={dayPicker()[0]}>{dayPicker()[1]}</DayLabel>
-            </DayLabelGroup>
+
           </TitleGroup>
 
           <DescText>{description}</DescText>
         </Box>
-
+        <DayLabelGroup>
+              <DayLabel dayColor={dayPicker()[0]}>{dayPicker()[1]}</DayLabel>
+            </DayLabelGroup>
       </BoxGroup>
     </div>
   );

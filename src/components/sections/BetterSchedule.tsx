@@ -92,7 +92,7 @@ export default () => {
 
       <ScheduleGroup>
         <DayCheckGroup>
-          <DayCheck
+          {/* <DayCheck
             checked={filters[0]}
             onClick={() => {
               toggleDayCheck(0);
@@ -105,7 +105,7 @@ export default () => {
               toggleDayCheck(1);
             }}
             day="Thursday"
-          />
+          /> */}
           <DayCheck
             checked={filters[2]}
             onClick={() => {

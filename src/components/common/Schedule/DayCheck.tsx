@@ -18,9 +18,10 @@ const DayColor: AnyStyledComponent = styled.div`
   display: flex;
   margin-top: 5px;
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  background-color: ${(props: IDayCheckProps) => props.dayColor};
+  height: 17px;
+  width: 17px;
+  border: solid ${(props: IDayCheckProps) => props.dayColor} 4px;
+  background-color: ${(props: IDayCheckProps) => props.checked ? props.dayColor : ""};
 `;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
@@ -28,8 +29,8 @@ const FlexColumn: AnyStyledComponent = styled.div`
 `;
 const DayGroup: AnyStyledComponent = styled.div`
   display: flex;
-  width: 100%;
   flex-direction: row;
+  align-items: center;
   padding: 4%;
   &:hover {
     cursor: pointer;
@@ -50,13 +51,13 @@ export default ({ day, checked, onClick }: IDayCheckProps) => {
       case "Wednesday":
         return ["#00B655", "April 12"];
       case "Thursday":
-        return ["#755A39", "April 13"];
+        return ["#14354D", "April 13"];
       case "Friday":
         return ["#148648", "April 14"];
       case "Saturday":
         return ["#20BFB1", "April 15"];
       case "Sunday":
-        return ["#14354D", "April 16"];
+        return ["#755A39", "April 16"];
       default:
         return ["gray", "nerd"];
     }
@@ -64,8 +65,8 @@ export default ({ day, checked, onClick }: IDayCheckProps) => {
 
   return (
     <div>
-      <DayGroup onClick={onClick} style={{backgroundColor: checked ? "white" : ""}}>
-        <DayColor dayColor={dayPicker()[0]} />
+      <DayGroup onClick={onClick} >
+        <DayColor dayColor={dayPicker()[0]} checked={checked}/>
         <FlexColumn>
           <DayText
           >

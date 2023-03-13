@@ -1,29 +1,5 @@
 [
-  {
-    "day": "Wednesday",
-    "title": "Welcome to PreHacks Talk",
-    "description": "5:30pm - 5:45pm"
-  },
-  {
-    "day": "Wednesday",
-    "title": "Introduction to Web Development",
-    "description": "5:45pm - 6:30pm"
-  },
-  {
-    "day": "Thursday",
-    "title": "Introduction to Git",
-    "description": "5:30pm - 6:00pm"
-  },
-  {
-    "day": "Thursday",
-    "title": "Fireside Chat at Q&A About Hackathons",
-    "description": "6:00pm - 6:30pm"
-  },
-  {
-    "day": "Thursday",
-    "title": "Skribbl.io and Team Bonding",
-    "description": "6:30pm - 7:30pm"
-  },
+
   {
     "day": "Friday",
     "title": "Check-In",
