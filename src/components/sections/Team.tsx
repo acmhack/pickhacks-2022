@@ -94,84 +94,84 @@ export default () => {
 
       <TeamGrid>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/margaret-boecker/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Maggie Boecker</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="http://linkedin.com/in/maggie-fu1809"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Maggie Fu</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/reid-haegele/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Reid Haegele</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/tung-nguyen-0a509b26a/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Tung Nguyen</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/higgins7loh/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Lauren Higgins</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/keith-miller-22387424b/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Keith Miller</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/ewbyf/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Eric Wong</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/jason-xu-317585220/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Jason Xu</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/shrija-maganti/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Shrija Maganti</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/pranavkondapaneni/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Pranav Kondapaneni</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/lindsey-chan/"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Lindsey Chan</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/edward-c-keith/"
+          href="https://www.linkedin.com/in/marcella-tebeau"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
@@ -200,7 +200,7 @@ export default () => {
           <Name>Ryan Duffendack</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/bradley-moore-2021"
+          href="https://www.linkedin.com/in/bradley-moore-2021/"
           target="_blank"
         >
           <ProfilePic src={Bradley}></ProfilePic>
@@ -211,15 +211,15 @@ export default () => {
           <ProfilePic src={Jake}></ProfilePic>
           <Name>Jacob Kelly</Name>
         </Person>
-        <Person href="" target="_blank">
+        <Person href="https://www.linkedin.com/in/jonahy" target="_blank">
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Jonah Yates</Name>
         </Person>
-        <Person href="" target="_blank">
+        <Person href="https://www.linkedin.com/in/kevin-gu-mst/" target="_blank">
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Kevin Gu</Name>
         </Person>
-        <Person href="" target="_blank">
+        <Person href="https://www.linkedin.com/in/mjminatra/" target="_blank">
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Matt Minatra</Name>
         </Person>
@@ -239,7 +239,7 @@ export default () => {
           <Name>Carter Wagner</Name>
         </Person>
         <Person
-          href="https://www.linkedin.com/in/carterwagner/"
+          href="https://www.linkedin.com/in/eric-duong-939604241"
           target="_blank"
         >
           <ProfilePic src={pickhacks22}></ProfilePic>
@@ -252,11 +252,11 @@ export default () => {
           <ProfilePic src={Dominic}></ProfilePic>
           <Name>Dominic Alberico</Name>
         </Person>
-        <Person href="" target="_blank">
+        <Person href="https://www.linkedin.com/in/rahulgopalan/" target="_blank">
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Rahul Gopalan</Name>
         </Person>
-        <Person href="" target="_blank">
+        <Person href="http://www.linkedin.com/in/vishaanth-muddu" target="_blank">
           <ProfilePic src={pickhacks22}></ProfilePic>
           <Name>Vishaanth Muddu</Name>
         </Person>
