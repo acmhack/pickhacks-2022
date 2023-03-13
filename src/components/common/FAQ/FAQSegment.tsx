@@ -2,6 +2,7 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 
 import Answer from "./Answer";
+import { keyframes } from 'styled-components'
 
 interface ISegmentProps {
   title: string;
@@ -18,15 +19,21 @@ const FlexRow: AnyStyledComponent = styled.div`
 
 const Popup: AnyStyledComponent = styled.div`
   display: none;
+  opacity: 0;
   position: relative;
   padding: 20px;
   margin-top: 5px;
-  width: 40vw;
-  background-color: rgba(20, 134, 72, 0.5);;
+  width: 45vw;
+  background-color: rgba(20, 134, 72, 0.5);
   @media screen and (max-width: 600px) {
     padding: 10px;
   }
 `;
+
+const fadeIn = keyframes`
+ 0% { opacity: 0; }
+ 100% { opacity: 1; }
+`
 
 const Title: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
@@ -37,6 +44,8 @@ const Title: AnyStyledComponent = styled.div`
   color: white;
   &:hover ${Popup} {
     display: flex;
+    opacity: 1;
+    animation: ${fadeIn} 1s;
   }
 `;
 

@@ -20,6 +20,9 @@ const Title: AnyStyledComponent = styled.div`
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
+  @media screen and (max-width: 650px) {
+    border-width: 6px;
+  }
 `;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
@@ -50,7 +53,7 @@ export default (props: any) => {
 
           <FAQSegment title="HOW do I apply?" image={trees}>
             <>
-              To apply, click <a href="https://dashboard.pickhacks.io" style={{color: "yellow"}}>here</a> or scroll to the top and click the apply button by April 10th! 
+              To apply, click <a href="https://dashboard.pickhacks.io" style={{color: "#FFD51C"}}>here</a> or scroll to the top and click the apply button by April 10th! 
             </>
           </FAQSegment>
       </FlexColumn>

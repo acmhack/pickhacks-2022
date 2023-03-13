@@ -6,36 +6,38 @@ import Card from "../common/Schedule/ScheduleCard";
 import DayCheck from "../common/Schedule/DayCheck";
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   color: #FFFFFF;
-  border-right: 8px solid #FFD51C;
-  padding-right: 20px;
-  margin: 10px;
-  margin-right: 0px;
+  border-right: 10px solid #FFD51C;
+  padding-right: 27px;
   font-family: "Alike-Regular";
-  text-shadow: 2px 2px 4px gray;
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
+  }
+  @media screen and (max-width: 650px) {
+    border-width: 6px;
   }
 `;
 const ScheduleGroup: AnyStyledComponent = styled.div`
   display: flex;
-  font-family: "MerriweatherSans-Regular";
   flex-direction: row;
-  background: #FFD51C;
+  background: #FFFFFF;
+  margin-top: 4%;
+  font-family: "MerriweatherSans-ExtraBold";
+  border-right: 2px black solid;
 `;
 
 const EventGroup: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 2%;
   background: #FFFFFF;
+  padding: 2%;
+  padding-bottom: 0;
 `;
 const DayCheckGroup: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
-  font-family: "MerriweatherSans-Regular";
   flex-direction: column;
   @media (max-width: 600px) {
     display: none;
@@ -91,7 +93,7 @@ export default () => {
 
       <ScheduleGroup>
         <DayCheckGroup>
-          <DayCheck
+          {/* <DayCheck
             checked={filters[0]}
             onClick={() => {
               toggleDayCheck(0);
@@ -104,7 +106,7 @@ export default () => {
               toggleDayCheck(1);
             }}
             day="Thursday"
-          />
+          /> */}
           <DayCheck
             checked={filters[2]}
             onClick={() => {

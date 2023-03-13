@@ -2,29 +2,35 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 
 interface CardProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   dayColor?: string;
-  day: string;
+  day?: string;
 }
 
 const Box: AnyStyledComponent = styled.div`
-  flex-grow: 1;
-
-  flex-basis: 0;
-
+  border-left: 10px solid ${(props: CardProps) => props.dayColor};
   height: auto;
   margin-left: 13px;
   display: flex;
-  border-radius: 10px;
-  padding: 1%;
-  background-color: white;
+  background-color: inherit;
   flex-direction: column;
+  position: relative;
+  padding: 5px 0px 5px 20px;
   color: black;
 `;
+const Background: AnyStyledComponent = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  left: 0px;
+  top: 0px;
+  padding-right: 10px;
+`;
 const DescText: AnyStyledComponent = styled.div`
-  font-weight: 400;
+  position: relative;
   font-size: 1em;
+  font-family: "MerriweatherSans-Bold";
 `;
 const TitleText: AnyStyledComponent = styled.div`
   display: flex;
@@ -48,11 +54,24 @@ const Border: AnyStyledComponent = styled.div`
   border-radius: 10px;
 `;
 const BoxGroup: AnyStyledComponent = styled.div`
+  position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  margin-bottom: 4%;
+  &:hover ${Background} {
+    background-color: ${(props: CardProps) => props.dayColor};
+    width: 100%;
+    transition: width 300ms ease-in-out;
+    -webkit-transition: width 300ms ease-in-out;
+    -moz-transition: width 300ms ease-in-out;
+  }
+  &:hover ${DescText} {
+    color: white;
+  }
+  &:hover ${TitleText} {
+    color: white;
 
-  padding-bottom: 5%;
+  }
 `;
 const TitleGroup: AnyStyledComponent = styled.div`
   display: flex;
@@ -65,7 +84,7 @@ const DayLabel: AnyStyledComponent = styled.div`
   border-radius: 50px;
   padding: 4px;
   font-size: 14px;
-
+  white-space: nowrap;
   color: white;
   align-items: center;
   height: 16px;
@@ -79,7 +98,8 @@ const DayLabel: AnyStyledComponent = styled.div`
 
 const DayLabelGroup: AnyStyledComponent = styled.div`
   display: flex;
-  top: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
 
   position: absolute;
   right: 0px;
@@ -92,19 +112,20 @@ const Test: AnyStyledComponent = styled.div`
   }
 `;
 
+
 export default ({ title, description, day }: CardProps) => {
   function dayPicker(): string[] {
     switch (day) {
       case "Wednesday":
-        return ["#FFF", "April 6"];
+        return ["#00B655", "April 12"];
       case "Thursday":
-        return ["#FAA600", "April 7"];
+        return ["#14354D", "April 13"];
       case "Friday":
-        return ["#006A75", "April 8"];
+        return ["#148648", "April 14"];
       case "Saturday":
-        return ["#009AC7", "April 9"];
+        return ["#20BFB1", "April 15"];
       case "Sunday":
-        return ["#F78702", "April 10"];
+        return ["#755A39", "April 16"];
       default:
         return ["gray", "nerd"];
     }
@@ -112,19 +133,22 @@ export default ({ title, description, day }: CardProps) => {
 
   return (
     <div>
-      <BoxGroup>
-        <Border dayColor={dayPicker()[0]} />
-        <Box>
+      <BoxGroup dayColor={dayPicker()[0]}>
+
+        {/* <Border dayColor={dayPicker()[0]}></Border> */}
+        <Box dayColor={dayPicker()[0]}>
+          <Background/>
           <TitleGroup>
             <TitleText>{title}</TitleText>
-            <Test></Test>
-            <DayLabelGroup>
-              <DayLabel dayColor={dayPicker()[0]}>{dayPicker()[1]}</DayLabel>
-            </DayLabelGroup>
+
+
           </TitleGroup>
 
           <DescText>{description}</DescText>
         </Box>
+        <DayLabelGroup>
+              <DayLabel dayColor={dayPicker()[0]}>{dayPicker()[1]}</DayLabel>
+            </DayLabelGroup>
       </BoxGroup>
     </div>
   );

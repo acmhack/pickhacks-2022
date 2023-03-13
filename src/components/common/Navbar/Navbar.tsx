@@ -8,7 +8,7 @@ const Constraint: AnyStyledComponent = styled.div`
   flex-direction: column;
   max-width: 1500px;
   margin: auto;
-  padding-top: 0px;
+  padding: 20px 0px;
 `;
 
 const Background: AnyStyledComponent = styled.div`
@@ -16,9 +16,8 @@ const Background: AnyStyledComponent = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
-  height: 225px;
   z-index: 999;
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: 1150px) {
     display: none;
   }
 `;
@@ -35,7 +34,7 @@ const FlexLeft: AnyStyledComponent = styled.div`
   width: 100%;
   padding: 0px 16px;
   gap: 32px;
-  @media (max-width: 1265px) {
+  @media (max-width: 1320px) {
     gap: 20px;
   }
 `;
@@ -59,6 +58,7 @@ const NavList: AnyStyledComponent = styled.ul`
   display: flex;
   justify-content: flex-end;
   padding: 0;
+  color: white;
 `;
 const NavListItem: AnyStyledComponent = styled.li`
   display: inline;
@@ -77,11 +77,6 @@ const Quicklink: AnyStyledComponent = styled.p`
 export default () => {
   return (
     <Background>
-      <FlexCenter>
-        <Quicklink>
-          click here to sign up for the spring 2023 pickhacks hackathon 
-        </Quicklink>
-      </FlexCenter>
       <Constraint>
         <NavList>
           <NavImage>

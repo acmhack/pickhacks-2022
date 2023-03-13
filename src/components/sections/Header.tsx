@@ -30,7 +30,7 @@ const Head2Div: AnyStyledComponent = styled.div`
   text-align: center;
   margin-top: 8px;
   @media (max-width: 1196px) {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 `;
 const SubDiv: AnyStyledComponent = styled.div`
@@ -49,7 +49,7 @@ const Title: AnyStyledComponent = styled.div`
   color: white;
   font-family: "Alike-Regular";
   @media (max-width: 1196px) {
-    font-size: 7vw;
+    font-size: 9vw;
   }
   @media (max-width: 700px) {
     font-size: 11vw;
@@ -57,12 +57,25 @@ const Title: AnyStyledComponent = styled.div`
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
-  text-align: right;
+  text-align: center;
   font-family: "Alike-Regular";
   color: white;
   font-size: 4vw;
   @media (max-width: 1196px) {
     font-size: 5vw;
+  }
+  @media (max-width: 907px) {
+    display: none;
+  }
+`;
+
+const SubTitle2: AnyStyledComponent = styled.div`
+  text-align: center;
+  font-family: "Alike-Regular";
+  color: white;
+  font-size: 5vw;
+  @media (min-width: 908px) {
+    display: none;
   }
 `;
 
@@ -108,7 +121,7 @@ const MainTitle: AnyStyledComponent = styled.div`
   justify-content: center;
 `;
 
-const SectionDescription: AnyStyledComponent = styled.div`
+const ApplyButton: AnyStyledComponent = styled.a`
   margin-top: 35px;
   padding: 3px 10px;
   font-size: 25px;
@@ -124,6 +137,7 @@ const SectionDescription: AnyStyledComponent = styled.div`
     background-color: #148648;
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
+    cursor: pointer;
   }
 `;
 const Grid: AnyStyledComponent = styled.div`
@@ -151,7 +165,7 @@ const LogoPopup: AnyStyledComponent = styled.img`
   align-items: center;
   width: 175px;
   margin: 50px;
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: 1150px) {
     display: flex;
   }
   @media screen and (max-width: 800px) {
@@ -170,15 +184,13 @@ export default () => {
             <Title>PICKHACKS</Title>
             <Head2Div>April 14th-16th</Head2Div>
             <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
-            <SmallerTitle>Spring 2023</SmallerTitle>
+            <SubTitle2>Missouri S&T's<br></br>Environmental Hackathon</SubTitle2>
         </TitleDiv>
 
         <FlexCenter>
-          <SectionDescription>
-            <NavLink link="/#faq" activeStyle="test" learnMore={true}>
-              learn more
-            </NavLink>
-          </SectionDescription>
+          <ApplyButton>
+              APPLY FOR PICKHACKS 2023
+          </ApplyButton>
         </FlexCenter>
               
         <Buttons>

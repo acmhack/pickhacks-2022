@@ -16,7 +16,7 @@ const MLHCoC: AnyStyledComponent = styled.a`
   color: black;
   text-decoration: none;
   font-size: 1.0vw;
-
+  font-family: "MerriweatherSans-Bold";
   margin-bottom: 8px;
   @media (max-width: 1196px) {
     font-size: 2vw;
@@ -26,7 +26,7 @@ const PickHacksTitle: AnyStyledComponent = styled.div`
   display: flex;
   justify-content: center;
   color: black;
-  font-family: "MerriweatherSans-Regular";
+  font-family: "MerriweatherSans-Bold";
   display: flex;
   font-size: 2.0vw;
 
