@@ -21,9 +21,10 @@ const Title: AnyStyledComponent = styled.div`
 const ScheduleGroup: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
-  background: #FFD51C;
+  background: #FFFFFF;
   margin-top: 4%;
   font-family: "MerriweatherSans-ExtraBold";
+  border-right: 2px black solid;
 `;
 
 const EventGroup: AnyStyledComponent = styled.div`

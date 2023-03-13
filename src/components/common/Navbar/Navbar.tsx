@@ -8,7 +8,7 @@ const Constraint: AnyStyledComponent = styled.div`
   flex-direction: column;
   max-width: 1500px;
   margin: auto;
-  padding-top: 0px;
+  padding: 20px 0px;
 `;
 
 const Background: AnyStyledComponent = styled.div`
@@ -77,11 +77,6 @@ const Quicklink: AnyStyledComponent = styled.p`
 export default () => {
   return (
     <Background>
-      <FlexCenter>
-        <Quicklink>
-          click here to sign up for the spring 2023 pickhacks hackathon 
-        </Quicklink>
-      </FlexCenter>
       <Constraint>
         <NavList>
           <NavImage>

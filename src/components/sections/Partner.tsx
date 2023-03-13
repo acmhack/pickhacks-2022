@@ -23,14 +23,14 @@ import {
 } from "../../images/Images";
 
 // import "./test.css";
-import PartnerIcon from "../common/Sponsors/PartnerIcon";
+import PartnerIcon from "../common/Partners/PartnerIcon";
 
 const Box: AnyStyledComponent = styled.div`
   background-color: white;
   width: 38vw;
   height: 12vw;
   position: relative;
-  margin-bottom: 6%;
+  margin-bottom: 12%;
   @media screen and (max-width: 1000px) {
     width: 57.5vw;
     height: 20vw;
@@ -77,12 +77,12 @@ const PartnerColumn: AnyStyledComponent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 `;
 
 const PartnerRow: AnyStyledComponent = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

@@ -40,7 +40,7 @@ const ImageContainer: AnyStyledComponent = styled.div`
 const ImageText: AnyStyledComponent = styled.div`
   position: absolute;
   line-height: 100%;
-  font-family: "MerriweatherSans-Extra";
+  font-family: "MerriweatherSans-ExtraBold";
   font-size: 24px;
   color: #ffffff;
   top: 100%;

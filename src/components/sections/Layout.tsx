@@ -47,7 +47,7 @@ const HeaderSectionDiv: AnyStyledComponent = styled.section`
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 20%;
+  padding-top: 14%;
   @media (max-width: 1150px) {
     padding-top: 0%;
   }

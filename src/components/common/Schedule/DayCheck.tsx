@@ -34,7 +34,7 @@ const DayGroup: AnyStyledComponent = styled.div`
   padding: 4%;
   &:hover {
     cursor: pointer;
-    background-color: #FFCE5A;
+    background-color: #FFD51C;
   }
 `;
 const DateText: AnyStyledComponent = styled.div`
@@ -66,7 +66,7 @@ export default ({ day, checked, onClick }: IDayCheckProps) => {
 
   return (
     <div>
-      <DayGroup onClick={onClick} >
+      <DayGroup onClick={onClick}>
         <DayColor dayColor={dayPicker()[0]} checked={checked}/>
         <FlexColumn>
           <DayText
