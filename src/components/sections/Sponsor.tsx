@@ -21,11 +21,11 @@ const Box: AnyStyledComponent = styled.div`
   width: 38vw;
   height: 12vw;
   position: relative;
+  margin-bottom: 6%;
   @media screen and (max-width: 1000px) {
     width: 57.5vw;
     height: 20vw;
   }
-  margin-bottom: 6%;
 `
 
 const Title: AnyStyledComponent = styled.div`
@@ -55,28 +55,13 @@ const FlexCenter: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
-/*
-const FlexCenter2: AnyStyledComponent = styled.div`
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  gap: 2.5%;
-  margin-bottom: 5.5rem;
-`;
-
-const SilverSponsor: AnyStyledComponent = styled.a`
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-`;
-*/
-
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-left: 5px;
-  justify-content: center;
 `;
 
 const SponsorColumn: AnyStyledComponent = styled.div`

@@ -17,7 +17,7 @@ const Background: AnyStyledComponent = styled.div`
   top: 0;
   width: 100%;
   z-index: 999;
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: 1150px) {
     display: none;
   }
 `;
@@ -34,7 +34,7 @@ const FlexLeft: AnyStyledComponent = styled.div`
   width: 100%;
   padding: 0px 16px;
   gap: 32px;
-  @media (max-width: 1265px) {
+  @media (max-width: 1320px) {
     gap: 20px;
   }
 `;

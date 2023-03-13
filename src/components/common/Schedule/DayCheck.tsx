@@ -34,6 +34,7 @@ const DayGroup: AnyStyledComponent = styled.div`
   padding: 4%;
   &:hover {
     cursor: pointer;
+    background-color: #FFCE5A;
   }
 `;
 const DateText: AnyStyledComponent = styled.div`

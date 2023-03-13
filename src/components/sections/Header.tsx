@@ -30,7 +30,7 @@ const Head2Div: AnyStyledComponent = styled.div`
   text-align: center;
   margin-top: 8px;
   @media (max-width: 1196px) {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 `;
 const SubDiv: AnyStyledComponent = styled.div`
@@ -49,7 +49,7 @@ const Title: AnyStyledComponent = styled.div`
   color: white;
   font-family: "Alike-Regular";
   @media (max-width: 1196px) {
-    font-size: 7vw;
+    font-size: 9vw;
   }
   @media (max-width: 700px) {
     font-size: 11vw;
@@ -151,7 +151,7 @@ const LogoPopup: AnyStyledComponent = styled.img`
   align-items: center;
   width: 175px;
   margin: 50px;
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: 1150px) {
     display: flex;
   }
   @media screen and (max-width: 800px) {

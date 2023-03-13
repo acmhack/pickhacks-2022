@@ -8,7 +8,6 @@ interface Props {
 
 const SponsorImage: AnyStyledComponent = styled.img`
   background-color: rgba(255, 255, 255, 0.75);
-  // width: 300px;
   height: 100px;
   padding: 5px;
   @media screen and (max-width: 600px) {
