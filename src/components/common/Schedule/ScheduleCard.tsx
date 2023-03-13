@@ -9,21 +9,23 @@ interface CardProps {
 }
 
 const Box: AnyStyledComponent = styled.div`
-  flex-grow: 1;
-  flex-basis: 0;
+  border-left: 10px solid ${(props: CardProps) => props.dayColor};
   height: auto;
   margin-left: 13px;
   display: flex;
-  border-radius: 10px;
-  padding: 1%;
   background-color: inherit;
   flex-direction: column;
+  position: relative;
+  padding: 5px 0px 5px 20px;
   color: black;
 `;
 const Background: AnyStyledComponent = styled.div`
   position: absolute;
   height: 100%;
   width: 0%;
+  left: 0px;
+  top: 0px;
+  padding-right: 20px;
 `;
 const DescText: AnyStyledComponent = styled.div`
   position: relative;
@@ -131,9 +133,10 @@ export default ({ title, description, day }: CardProps) => {
   return (
     <div>
       <BoxGroup dayColor={dayPicker()[0]}>
+
+        {/* <Border dayColor={dayPicker()[0]}></Border> */}
+        <Box dayColor={dayPicker()[0]}>
         <Background/>
-        <Border dayColor={dayPicker()[0]}></Border>
-        <Box>
           <TitleGroup>
             <TitleText>{title}</TitleText>
 
