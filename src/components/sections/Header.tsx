@@ -189,7 +189,7 @@ export default () => {
 
         <FlexCenter>
           <ApplyButton>
-              APPLY FOR PICKHACKS 2023
+              Applications will open soon
           </ApplyButton>
         </FlexCenter>
               
