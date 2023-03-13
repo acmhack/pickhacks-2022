@@ -14,18 +14,18 @@ import {
   equifax
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
-import "./test.css";
+import SponsorIcon from "../common/Sponsors/SponsorIcon";
 
 const Box: AnyStyledComponent = styled.div`
   background-color: white;
   width: 38vw;
   height: 12vw;
   position: relative;
-  margin-bottom: 75px;
   @media screen and (max-width: 1000px) {
     width: 57.5vw;
     height: 20vw;
   }
+  margin-bottom: 6%;
 `
 
 const Title: AnyStyledComponent = styled.div`
@@ -76,7 +76,25 @@ const FlexColumn: AnyStyledComponent = styled.div`
   flex-direction: column;
   width: 100%;
   margin-left: 5px;
+  justify-content: center;
 `;
+
+const SponsorColumn: AnyStyledComponent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+`;
+
+const SponsorRow: AnyStyledComponent = styled.div`
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`;
+
 
 export default () => {
   return (
@@ -84,14 +102,32 @@ export default () => {
       <Box>
         <Title>SPONSORS</Title>
       </Box>
-      <div className="sponsor-info">
+
+      <SponsorColumn>
+        <SponsorRow>
+          <SponsorIcon src={johndeere} href="https://www.deere.com/en/technology-products/precision-ag-technology/"/>
+          <SponsorIcon src={paneranew} href="https://www.panerabread.com/en-us/home.html"/>
+          <SponsorIcon src={huntereng} href="https://www.hunter.com/"/>
+        </SponsorRow>
+        <SponsorRow>
+          <SponsorIcon src={nsc} href="https://www.honeywell.com/us/en"/>
+          <SponsorIcon src={cigna} href="https://www.cigna.com/"/>
+          <SponsorIcon src={shelter} href="https://www.shelterinsurance.com/"/>
+          <SponsorIcon src={tradebot} href="https://www.tradebot.com/"/>
+        </SponsorRow>
+        <SponsorRow>
+          <SponsorIcon src={jbhunt} href="https://www.jbhunt.com/"/>
+          <SponsorIcon src={sandia} href="https://www.sandia.gov/"/>
+          <SponsorIcon src={brewer} href="https://www.brewerscience.com/"/>
+        </SponsorRow>
+      </SponsorColumn>
+      {/* <div className="sponsor-info">
         <div className="diamond">
         </div>
         <div className="gold">
           <div className="row">
           </div>
         </div>
-        {/* TODO: change to flexbox with property flex-wrap: wrap for mobile users*/}
         <div className="silver">
           <div className="row">
             <a
@@ -131,7 +167,7 @@ export default () => {
               target="_blank"
               href="https://www.shelterinsurance.com/"
             >
-              <img src={shelter} style={{width: "200px"}}/>
+              <img src={shelter}/>
             </a>
           </div>
         </div>
@@ -152,7 +188,7 @@ export default () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* 
       <GridBox>

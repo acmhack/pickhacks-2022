@@ -16,7 +16,6 @@ const Background: AnyStyledComponent = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
-  height: 225px;
   z-index: 999;
   @media screen and (max-width: 1070px) {
     display: none;

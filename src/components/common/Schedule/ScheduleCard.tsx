@@ -2,29 +2,33 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 
 interface CardProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   dayColor?: string;
-  day: string;
+  day?: string;
 }
 
 const Box: AnyStyledComponent = styled.div`
   flex-grow: 1;
-
   flex-basis: 0;
-
   height: auto;
   margin-left: 13px;
   display: flex;
   border-radius: 10px;
   padding: 1%;
-  background-color: white;
+  background-color: inherit;
   flex-direction: column;
   color: black;
 `;
+const Background: AnyStyledComponent = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 0%;
+`;
 const DescText: AnyStyledComponent = styled.div`
-  font-weight: 400;
+  position: relative;
   font-size: 1em;
+  font-family: "MerriweatherSans-Bold";
 `;
 const TitleText: AnyStyledComponent = styled.div`
   display: flex;
@@ -48,11 +52,24 @@ const Border: AnyStyledComponent = styled.div`
   border-radius: 10px;
 `;
 const BoxGroup: AnyStyledComponent = styled.div`
+  position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  margin-bottom: 4%;
+  &:hover ${Background} {
+    background-color: ${(props: CardProps) => props.dayColor};
+    width: 100%;
+    transition: width 300ms ease-in-out;
+    -webkit-transition: width 300ms ease-in-out;
+    -moz-transition: width 300ms ease-in-out;
+  }
+  &:hover ${DescText} {
+    color: white;
+  }
+  &:hover ${TitleText} {
+    color: white;
 
-  padding-bottom: 5%;
+  }
 `;
 const TitleGroup: AnyStyledComponent = styled.div`
   display: flex;
@@ -92,19 +109,20 @@ const Test: AnyStyledComponent = styled.div`
   }
 `;
 
+
 export default ({ title, description, day }: CardProps) => {
   function dayPicker(): string[] {
     switch (day) {
       case "Wednesday":
-        return ["#FFF", "April 6"];
+        return ["#00B655", "April 12"];
       case "Thursday":
-        return ["#FAA600", "April 7"];
+        return ["#755A39", "April 13"];
       case "Friday":
-        return ["#006A75", "April 8"];
+        return ["#148648", "April 14"];
       case "Saturday":
-        return ["#009AC7", "April 9"];
+        return ["#20BFB1", "April 15"];
       case "Sunday":
-        return ["#F78702", "April 10"];
+        return ["#14354D", "April 16"];
       default:
         return ["gray", "nerd"];
     }
@@ -112,12 +130,13 @@ export default ({ title, description, day }: CardProps) => {
 
   return (
     <div>
-      <BoxGroup>
-        <Border dayColor={dayPicker()[0]} />
+      <BoxGroup dayColor={dayPicker()[0]}>
+        <Background/>
+        <Border dayColor={dayPicker()[0]}></Border>
         <Box>
           <TitleGroup>
             <TitleText>{title}</TitleText>
-            <Test></Test>
+
             <DayLabelGroup>
               <DayLabel dayColor={dayPicker()[0]}>{dayPicker()[1]}</DayLabel>
             </DayLabelGroup>
@@ -125,6 +144,7 @@ export default ({ title, description, day }: CardProps) => {
 
           <DescText>{description}</DescText>
         </Box>
+
       </BoxGroup>
     </div>
   );

@@ -57,7 +57,7 @@ const Title: AnyStyledComponent = styled.div`
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
-  text-align: right;
+  text-align: center;
   font-family: "Alike-Regular";
   color: white;
   font-size: 4vw;

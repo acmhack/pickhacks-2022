@@ -14,26 +14,29 @@ const Title: AnyStyledComponent = styled.div`
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
+  @media screen and (max-width: 650px) {
+    border-width: 6px;
+  }
 `;
 const ScheduleGroup: AnyStyledComponent = styled.div`
   display: flex;
-  font-family: "MerriweatherSans-Regular";
   flex-direction: row;
   background: #FFD51C;
   margin-top: 4%;
+  font-family: "MerriweatherSans-ExtraBold";
 `;
 
 const EventGroup: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 2%;
   background: #FFFFFF;
+  padding: 2%;
+  padding-bottom: 0;
 `;
 const DayCheckGroup: AnyStyledComponent = styled.div`
   display: flex;
   width: 100%;
-  font-family: "MerriweatherSans-Regular";
   flex-direction: column;
   @media (max-width: 600px) {
     display: none;

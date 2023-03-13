@@ -20,6 +20,9 @@ const Title: AnyStyledComponent = styled.div`
   @media screen and (max-width: 1000px) {
     font-size: 8vw;
   }
+  @media screen and (max-width: 650px) {
+    border-width: 6px;
+  }
 `;
 const FlexColumn: AnyStyledComponent = styled.div`
   display: flex;

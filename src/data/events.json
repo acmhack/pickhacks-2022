@@ -27,12 +27,12 @@
   {
     "day": "Friday",
     "title": "Check-In",
-    "description": "4:00pm - 8:00pm"
+    "description": "4:00pm - 6:00pm"
   },
   {
     "day": "Friday",
     "title": "Opening Ceremony",
-    "description": "5:30pm - 6:30pm"
+    "description": "6pm"
   },
   {
     "day": "Friday",
@@ -41,33 +41,48 @@
   },
   {
     "day": "Friday",
-    "title": "Burnout Mental Health Talk",
-    "description": "9:00pm"
+    "title": "Dinner",
+    "description": "7:30pm - 8:30pm"
+  },
+  {
+    "day": "Friday",
+    "title": "Casino Night",
+    "description": "11:00pm - 1:00am"
+  },
+  {
+    "day": "Friday",
+    "title": "Midnight Snack",
+    "description": "11:30pm"
   },
   {
     "day": "Saturday",
-    "title": "Late-Night Skribblio",
-    "description": "1:00am"
+    "title": "Breakfast",
+    "description": "9:00am - 10:00am"
   },
   {
     "day": "Saturday",
     "title": "Tech Talk from Panera",
-    "description": "10:00am"
+    "description": "11:30am - 12:00pm"
   },
   {
     "day": "Saturday",
-    "title": "Software Interview Workshop",
-    "description": "1:00pm"
+    "title": "Lunch",
+    "description": "12:00pm - 1:00pm"
   },
   {
     "day": "Saturday",
-    "title": "Networking Bingo",
-    "description": "2:00pm"
+    "title": "Sponsor Career Fair",
+    "description": "2:00pm - 3:30pm"
   },
   {
     "day": "Saturday",
-    "title": "Devpost Refresher",
+    "title": "Dinner",
     "description": "5:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "Clash of Code Tournament",
+    "description": "7:00pm"
   },
   {
     "day": "Saturday",
@@ -75,8 +90,18 @@
     "description": "8:00pm"
   },
   {
+    "day": "Saturday",
+    "title": "Night Snack",
+    "description": "9:00pm"
+  },
+  {
+    "day": "Saturday",
+    "title": "Skribblio/Online Games",
+    "description": "10:00pm - 11:00pm"
+  },
+  {
     "day": "Sunday",
-    "title": "Submission Office Hours",
+    "title": "Breakfast",
     "description": "9:00am"
   },
   {
@@ -86,7 +111,17 @@
   },
   {
     "day": "Sunday",
+    "title": "Speaker",
+    "description": "10:30am - 11:00am"
+  },
+  {
+    "day": "Sunday",
+    "title": "Lunch",
+    "description": "12:00pm"
+  },
+  {
+    "day": "Sunday",
     "title": "Closing Ceremony",
-    "description": "2:00pm-3:00pm"
+    "description": "1:00pm - 2:00pm"
   }
 ]

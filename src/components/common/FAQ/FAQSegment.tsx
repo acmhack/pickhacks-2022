@@ -21,7 +21,7 @@ const Popup: AnyStyledComponent = styled.div`
   position: relative;
   padding: 20px;
   margin-top: 5px;
-  width: 40vw;
+  width: 45vw;
   background-color: rgba(20, 134, 72, 0.5);;
   @media screen and (max-width: 600px) {
     padding: 10px;
