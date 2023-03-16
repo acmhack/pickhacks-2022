@@ -15,7 +15,8 @@ const Title: AnyStyledComponent = styled.div`
     font-size: 6vw;
   }
   @media screen and (max-width: 650px) {
-    border-width: 6px;
+    border-width: 5px;
+    padding-right: 18px;
   }
 `;
 const ScheduleGroup: AnyStyledComponent = styled.div`

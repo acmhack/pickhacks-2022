@@ -189,7 +189,7 @@ export default () => {
           <ImageButton image={socialsbutton} link="https://linktr.ee/pickhacks">
             socials
           </ImageButton>
-          <ImageButton image={devpostbutton} link="https://pickhacks-2022.devpost.com/">
+          <ImageButton image={devpostbutton} link="https://pickhacks-2023.devpost.com/">
             devpost
           </ImageButton>
         </Buttons>
