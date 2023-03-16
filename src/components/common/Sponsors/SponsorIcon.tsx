@@ -17,7 +17,7 @@ const SponsorImage: AnyStyledComponent = styled.img`
   }
   
   @media screen and (max-width: 600px) {
-    height: 65px;
+    height: 60px;
   }
 `;
 

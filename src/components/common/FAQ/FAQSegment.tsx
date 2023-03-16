@@ -37,9 +37,9 @@ const fadeIn = keyframes`
 
 const Title: AnyStyledComponent = styled.div`
   font-family: "MerriweatherSans-Regular";
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   @media screen and (max-width: 1000px) {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   color: white;
   &:hover ${Popup} {

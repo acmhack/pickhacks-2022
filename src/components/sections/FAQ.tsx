@@ -12,13 +12,13 @@ import {
 } from "../../images/Images";
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 5.5vw;
+  font-size: 4vw;
   color: white;
   font-family: "Alike-Regular";
   padding-left: 27px;
   border-left: 10px #148648 solid;
   @media screen and (max-width: 1000px) {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   @media screen and (max-width: 650px) {
     border-width: 6px;

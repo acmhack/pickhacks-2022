@@ -13,11 +13,11 @@ const Title: AnyStyledComponent = styled.div`
 `;
 
 const TitleText: AnyStyledComponent = styled.div`
-  font-size: 4.5vw;
+  font-size: 4vw;
   color: #ffffff;
   font-family: "MerriweatherSans-Regular";
   @media screen and (max-width: 1000px) {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   margin-bottom: 0.5em;
   border-bottom: solid 0.2em;

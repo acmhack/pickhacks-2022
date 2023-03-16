@@ -46,6 +46,12 @@ const ImageText: AnyStyledComponent = styled.div`
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 export default ({ link, image, children }: IButtonProps) => {
