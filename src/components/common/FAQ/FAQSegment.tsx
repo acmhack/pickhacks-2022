@@ -1,5 +1,6 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
+import { useState } from "react";
 
 import Answer from "./Answer";
 import { keyframes } from 'styled-components'
@@ -17,35 +18,37 @@ const FlexRow: AnyStyledComponent = styled.div`
   margin-top: 4%;
 `;
 
+const fadeIn = keyframes`
+ 0% { opacity: 0; }
+ 100% { opacity: 1; }
+`
+
 const Popup: AnyStyledComponent = styled.div`
-  display: none;
-  opacity: 0;
+  display: flex;
+  animation: ${fadeIn} 1s;
   position: relative;
   padding: 20px;
   margin-top: 5px;
-  width: 45vw;
+  max-width: 45vw;
   background-color: rgba(20, 134, 72, 0.5);
   @media screen and (max-width: 600px) {
     padding: 10px;
   }
 `;
 
-const fadeIn = keyframes`
- 0% { opacity: 0; }
- 100% { opacity: 1; }
-`
 
-const Title: AnyStyledComponent = styled.div`
+
+const Title: AnyStyledComponent = styled.a`
   font-family: "MerriweatherSans-Regular";
   font-size: 2.5vw;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 1000px) {
     font-size: 4vw;
-  }
-  color: white;
-  &:hover ${Popup} {
-    display: flex;
-    opacity: 1;
-    animation: ${fadeIn} 1s;
   }
 `;
 
@@ -61,17 +64,22 @@ const Image: AnyStyledComponent = styled.img`
   }
 `;
 
+
 export default ({ title, image, children }: ISegmentProps) => {
+  const [popup, setPopup] = useState<boolean>(false);
   
   return (
     <FlexRow>
       <Image src={image}/>
-      <Title>
-        {title}
+      <div>
+        <Title onClick={() => setPopup(!popup)}>
+          {title}
+        </Title>
+        {popup && 
         <Popup>
           <Answer>{children}</Answer>
-        </Popup>
-      </Title>
+        </Popup>}
+      </div>
     </FlexRow>
   );
 };

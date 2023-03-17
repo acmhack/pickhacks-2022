@@ -40,11 +40,10 @@ const BronzeSponsorImage: AnyStyledComponent = styled.img`
 
 export default ({ src, href, square, type }: Props) => {
   return (
-    <div>
-        <a target="_blank" href={href}>
-            {type == "silver" && <SilverSponsorImage src={src} square={square}/>}
-            {type == "bronze" && <BronzeSponsorImage src={src} square={square}/>}
-        </a>
-    </div>
+      <a target="_blank" href={href}
+      >
+          {type == "silver" && <SilverSponsorImage src={src} square={square}/>}
+          {type == "bronze" && <BronzeSponsorImage src={src} square={square}/>}
+      </a>
   );
 };
