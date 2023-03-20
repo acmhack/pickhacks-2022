@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae440826.css",
-    "main.js": "/static/js/main.58c8570d.js",
+    "main.css": "/static/css/main.32624f30.css",
+    "main.js": "/static/js/main.78df8556.js",
     "static/media/umsystem.png": "/static/media/umsystem.9eadac447f5ff0a33ac1.png",
     "static/media/ZenKurenaido-Regular.ttf": "/static/media/ZenKurenaido-Regular.61210c17444b93cbf502.ttf",
     "static/media/Rachel.png": "/static/media/Rachel.0b1f0f5f1f69cde4ff10.png",
@@ -71,6 +71,7 @@
     "static/media/leonardo.png": "/static/media/leonardo.a958a5daf591818a7e4a.png",
     "static/media/desert.png": "/static/media/desert.49801a50b0c453464893.png",
     "static/media/charter.png": "/static/media/charter.ca703bf1ba65ee4f2bd3.png",
+    "static/media/spectrum.png": "/static/media/spectrum.d57cf9d6f501c0cf6008.png",
     "static/media/devpost-button.png": "/static/media/devpost-button.61e942b53aa3fc6c76ab.png",
     "static/media/cloud.png": "/static/media/cloud.7230627b0ebe03e89dc7.png",
     "static/media/johndeere.png": "/static/media/johndeere.fd6821cd742e1c7eb38d.png",
@@ -78,11 +79,11 @@
     "static/media/assemblyai.png": "/static/media/assemblyai.4aa94da55d959ed392d9.png",
     "static/media/mountains.png": "/static/media/mountains.a82c0cf26526dda3cfff.png",
     "index.html": "/index.html",
-    "main.ae440826.css.map": "/static/css/main.ae440826.css.map",
-    "main.58c8570d.js.map": "/static/js/main.58c8570d.js.map"
+    "main.32624f30.css.map": "/static/css/main.32624f30.css.map",
+    "main.78df8556.js.map": "/static/js/main.78df8556.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae440826.css",
-    "static/js/main.58c8570d.js"
+    "static/css/main.32624f30.css",
+    "static/js/main.78df8556.js"
   ]
 }
