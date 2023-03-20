@@ -26,17 +26,9 @@ const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
   display: flex;
   width: 100%;
-`;
-
-const FlexLeft: AnyStyledComponent = styled.div`
-  justify-content: left;
-  display: flex;
-  width: 100%;
-  padding: 0px 16px;
-  gap: 32px;
-  @media (max-width: 1320px) {
-    gap: 20px;
-  }
+  margin: 0px 40px;
+  gap: 36px;
+  flex: 1;
 `;
 
 const Logo: AnyStyledComponent = styled.img`
@@ -47,16 +39,13 @@ const Logo: AnyStyledComponent = styled.img`
 const NavImage: AnyStyledComponent = styled.div`
   display: flex;
   flex: 1;
-  justify-content: flex-start;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 20px;
+  justify-content: center;
 `;
 const NavList: AnyStyledComponent = styled.ul`
   list-style-type: none;
   margin: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   padding: 0;
   color: white;
 `;
@@ -65,7 +54,7 @@ const NavListItem: AnyStyledComponent = styled.li`
   float: left;
   line-height: 100px;
   text-align: center;
-  font-size: 2.7vw;
+  font-size: 2vw;
 `;
 
 const Quicklink: AnyStyledComponent = styled.p`
@@ -85,41 +74,43 @@ export default () => {
               <Logo src={pickhack23logo} />
             </a>
           </NavImage>
-          <FlexLeft>
-          <NavListItem>
-            <NavLink link="/#header" activeStyle="test">
-              HOME
-            </NavLink>
-          </NavListItem>
-          <NavListItem>
-            <NavLink link="/#schedule" activeStyle="test">
-              SCHEDULE
-            </NavLink>
-          </NavListItem>
-          <NavListItem>
-            <NavLink link="/#faq" activeStyle="test">
-              FAQ
-            </NavLink>
-          </NavListItem>
+          <FlexCenter>
+            <NavListItem>
+              <NavLink link="/#header" activeStyle="test">
+                HOME
+              </NavLink>
+            </NavListItem>
+            <NavListItem>
+              <NavLink link="/#schedule" activeStyle="test">
+                SCHEDULE
+              </NavLink>
+            </NavListItem>
+            <NavListItem>
+              <NavLink link="/#faq" activeStyle="test">
+                FAQ
+              </NavLink>
+            </NavListItem>
 
-          <NavListItem>
-            <NavLink link="/#sponsor" activeStyle="test">
-              SPONSOR
-            </NavLink>
-          </NavListItem>
+            <NavListItem>
+              <NavLink link="/#sponsor" activeStyle="test">
+                SPONSOR
+              </NavLink>
+            </NavListItem>
 
-          <NavListItem>
-            <NavLink link="/#partner" activeStyle="test">
-              PARTNERS
-            </NavLink>
-          </NavListItem>
+            <NavListItem>
+              <NavLink link="/#partner" activeStyle="test">
+                PARTNERS
+              </NavLink>
+            </NavListItem>
 
-          <NavListItem>
-            <NavLink link="/#team" activeStyle="test">
-              TEAM
-            </NavLink>
-          </NavListItem>
-          </FlexLeft>
+            <NavListItem>
+              <NavLink link="/#team" activeStyle="test">
+                TEAM
+              </NavLink>
+            </NavListItem>
+          </FlexCenter>
+          <div style={{flex: 1}}>
+          </div>
         </NavList>
       </Constraint>
     </Background>

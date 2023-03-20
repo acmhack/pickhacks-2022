@@ -2,9 +2,9 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 
 interface Props {
-  src: string,
-  href: string,
-  height?: number|undefined,
+  src: string;
+  href: string;
+  height?: number|undefined;
 }
 
 const PartnerImage: AnyStyledComponent = styled.img`
@@ -17,7 +17,7 @@ const PartnerImage: AnyStyledComponent = styled.img`
   }
 
   @media screen and (max-width: 600px) {
-    height: ${props => props.height ? "140px" : "65px"};  // Supposed to do a calculation for the first ternary part but can't get it to work, so it's hardcoded
+    height: ${(props: Props) => props.height ? "140px" : "65px"};  // Supposed to do a calculation for the first ternary part but can't get it to work, so it's hardcoded
   }
 `;
 

@@ -4,6 +4,18 @@ body {
   letter-spacing: 1px;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  color: white;
+  background: black;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
 @font-face {
   font-family: "Alike-Regular";
   font-style: normal;

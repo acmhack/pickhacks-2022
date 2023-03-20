@@ -29,8 +29,8 @@ const TeamMembers: IGroup[] = [
         { name: "Reid Haegele", link: "https://www.linkedin.com/in/reid-haegele/", avatar: Filler },
         { name: "Eric Duong", link: "https://www.linkedin.com/in/eric-duong-939604241", avatar: Filler },
         { name: "Jacob Kelly", link: "https://www.linkedin.com/in/jacobakelly/", avatar: Filler },
-        { name: "Tung Nguyen", link: "", avatar: Filler },
-        { name: "Vishaanth Muddu", link: "www.linkedin.com/in/vishaanth-muddu", avatar: Filler },
+        { name: "Tung Nguyen", link: "https://www.linkedin.com/in/tung-nguyen-0a509b26a", avatar: Filler },
+        { name: "Vishaanth Muddu", link: "https://www.linkedin.com/in/vishaanth-muddu/", avatar: Filler },
       ],
   },
   {
@@ -83,8 +83,8 @@ const MobileTeamMembers: IGroup[] = [
   },
   {
       group: [
-        { name: "Tung Nguyen", link: "", avatar: Filler },
-        { name: "Vishaanth Muddu", link: "www.linkedin.com/in/vishaanth-muddu", avatar: Filler },
+        { name: "Tung Nguyen", link: "https://www.linkedin.com/in/tung-nguyen-0a509b26a", avatar: Filler },
+        { name: "Vishaanth Muddu", link: "https://www.linkedin.com/in/vishaanth-muddu/", avatar: Filler },
         { name: "Dominic Alberico", link: "https://www.linkedin.com/in/dominic-alberico/", avatar: Filler },
       ],
   },

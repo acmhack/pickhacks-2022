@@ -1,9 +1,7 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
-import { cloud } from "../../images/Images";
 import "../../App.css";
 import NavLink from "../common/Navbar/NavbarLink";
-import CloudButton from "../common/CloudButton";
 import ImageButton from "../common/ImageButton";
 import {
   devpostbutton,
@@ -14,55 +12,48 @@ import {
 } from "../../images/Images";
 import { pickhack23logo } from "../../images/Images";
 
-// const HeadDiv: AnyStyledComponent = styled.div`
-//   color: #006a75;
-//   font-family: "ZenTokyoZoo-Regular";
-//   font-size: 4vw;
-//   display: flex;
-//   justify-content: flex-start;
-// `;
-const Head2Div: AnyStyledComponent = styled.div`
+const TitleDiv: AnyStyledComponent = styled.div`
   color: white;
-  font-family: "MerriweatherSans-Regular";
+  width: 100%;
   display: flex;
-  font-size: 2.5vw;
-  padding-bottom: 10px;
-  text-align: center;
-  margin-top: 8px;
-  @media (max-width: 1196px) {
-    font-size: 4vw;
-  }
-`;
-const SubDiv: AnyStyledComponent = styled.div`
-  text-align: right;
-  color: white;
-  font-family: "Alike-Regular";
-  font-size: 2vw;
-  @media (max-width: 1196px) {
-    font-size: 4vw;
-  }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 `;
 
 const Title: AnyStyledComponent = styled.div`
-  font-size: 7vw;
-  display: flex;
+  font-size: 5.5vw;
   color: white;
   font-family: "Alike-Regular";
   @media (max-width: 1196px) {
-    font-size: 9vw;
+    font-size: 8vw;
   }
   @media (max-width: 700px) {
     font-size: 11vw;
-    }
+  }
+`;
+
+const Date: AnyStyledComponent = styled.div`
+  color: white;
+  font-family: "MerriweatherSans-Regular";
+  font-size: 2vw;
+  text-align: center;
+  @media (max-width: 1196px) {
+    font-size: 3vw;
+  }
+  @media (max-width: 700px) {
+    font-size: 3.5vw;
+  }
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
   text-align: center;
   font-family: "Alike-Regular";
   color: white;
-  font-size: 4vw;
+  font-size: 3.5vw;
   @media (max-width: 1196px) {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
   @media (max-width: 907px) {
     display: none;
@@ -73,7 +64,7 @@ const SubTitle2: AnyStyledComponent = styled.div`
   text-align: center;
   font-family: "Alike-Regular";
   color: white;
-  font-size: 5vw;
+  font-size: 4.75vw;
   @media (min-width: 908px) {
     display: none;
   }
@@ -92,14 +83,6 @@ const SmallerTitle: AnyStyledComponent = styled.div`
   }
 `;
 
-const TitleDiv: AnyStyledComponent = styled.div`
-  color: white;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
 const FlexCenter: AnyStyledComponent = styled.div`
   justify-content: center;
   align-items: center;
@@ -129,8 +112,8 @@ const ApplyButton: AnyStyledComponent = styled.a`
   color: white;
   border: 3px solid #148648;
   font-family: "MerriweatherSans-Regular";
-  @media screen and (max-width: 600px) {
-    font-size: 18px;
+  @media screen and (max-width: 1000px) {
+    font-size: 16px;
   }
 
   &:hover {
@@ -182,7 +165,7 @@ export default () => {
         <LogoPopup src={pickhack23logo}/>
         <TitleDiv>
             <Title>PICKHACKS</Title>
-            <Head2Div>April 14th-16th</Head2Div>
+            <Date>April 14th-16th</Date>
             <SubTitle>Missouri S&T's Environmental Hackathon</SubTitle>
             <SubTitle2>Missouri S&T's<br></br>Environmental Hackathon</SubTitle2>
         </TitleDiv>
@@ -194,7 +177,7 @@ export default () => {
         </FlexCenter>
               
         <Buttons>
-          <ImageButton image={discordbutton} link="https://discord.gg/xnDtKNvm">
+          <ImageButton image={discordbutton} link="https://discord.gg/K6uwZUcaff">
             discord
           </ImageButton>
           <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
@@ -203,10 +186,10 @@ export default () => {
           <ImageButton image={emailbutton} link="mailto:msthackathon@umsystem.edu">
             email
           </ImageButton>
-          <ImageButton image={socialsbutton} link="https://www.facebook.com/sandtpickhacks/">
+          <ImageButton image={socialsbutton} link="https://linktr.ee/pickhacks">
             socials
           </ImageButton>
-          <ImageButton image={devpostbutton} link="https://pickhacks-2022.devpost.com/">
+          <ImageButton image={devpostbutton} link="https://pickhacks-2023.devpost.com/">
             devpost
           </ImageButton>
         </Buttons>
