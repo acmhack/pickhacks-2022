@@ -11,7 +11,8 @@ import {
   assemblyai,
   shelter,
   brewer,
-  equifax
+  equifax,
+  spectrum
 } from "../../images/Images";
 import styled, { AnyStyledComponent } from "styled-components";
 import SponsorIcon from "../common/Sponsors/SponsorIcon";
@@ -111,6 +112,7 @@ export default () => {
         <SponsorRow>
           <SponsorIcon src={brewer} href="https://www.brewerscience.com/" type="bronze"/>
           <SponsorIcon src={tradebot} href="https://www.tradebot.com/" type="bronze"/>
+          <SponsorIcon src={spectrum} href="https://www.spectrum.com/" type="bronze"/>
         </SponsorRow>
       </SponsorColumn>
     </FlexColumn>

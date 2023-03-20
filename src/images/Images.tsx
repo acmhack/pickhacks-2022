@@ -40,6 +40,7 @@ import cigna from "./Sponsors/cigna.png";
 import assemblyai from "./Sponsors/assemblyai.png"
 import huntereng from "./Sponsors/huntereng.png";
 import equifax from "./Sponsors/equifax.png";
+import spectrum from "./Sponsors/spectrum.png";
 // import codex  from "./codex.png";
 
 //partner?
@@ -152,6 +153,7 @@ export {
   cboe,
   platter,
   sdp,
+  spectrum,
   devpostbutton,
   discordbutton,
   emailbutton,
