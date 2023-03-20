@@ -110,6 +110,7 @@ const ApplyButton: AnyStyledComponent = styled.a`
   font-size: 25px;
   max-width: 700px;
   color: white;
+  text-decoration: none;
   border: 3px solid #148648;
   font-family: "MerriweatherSans-Regular";
   @media screen and (max-width: 1000px) {
@@ -171,7 +172,7 @@ export default () => {
         </TitleDiv>
 
         <FlexCenter>
-          <ApplyButton href="https://dashboard.pickhacks.io" target = "_blank">
+          <ApplyButton  href="https://dashboard.pickhacks.io/" target = "_blank">
               Apply for Pickhacks 2023
           </ApplyButton>
         </FlexCenter>
