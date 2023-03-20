@@ -53,7 +53,7 @@ export default (props: any) => {
 
           <FAQSegment title="HOW do I apply?" image={trees}>
             <>
-              Applications will open soon!
+              To apply, click <a href="https://dashboard.pickhacks.io" target = "_blank" style={{color: "#FFD51C"}}>here</a> or scroll to the top and click the apply button by April 10th! 
             </>
           </FAQSegment>
       </FlexColumn>

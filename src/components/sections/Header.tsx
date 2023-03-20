@@ -188,8 +188,8 @@ export default () => {
         </TitleDiv>
 
         <FlexCenter>
-          <ApplyButton>
-              Applications will open soon
+          <ApplyButton href="https://dashboard.pickhacks.io" target = "_blank">
+              Apply for Pickhacks 2023
           </ApplyButton>
         </FlexCenter>
               
