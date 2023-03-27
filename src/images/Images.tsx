@@ -76,7 +76,7 @@ import Keith from "./Team/keith.png";
 import Kevin from "./Team/kevin.png";
 import Lauren from "./Team/lauren.png";
 import Lindsey from "./Team/lindsey.png";
-import MaggieFu from "./Team/maggie (log).png";
+import MaggieFu from "./Team/maggie fu.png";
 import Maggie from "./Team/maggie.png";
 import Marcella from "./Team/marcella.png";
 import Matt from "./Team/matt.png";

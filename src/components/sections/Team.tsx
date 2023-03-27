@@ -44,7 +44,6 @@ const Person: AnyStyledComponent = styled.a`
 
 const ProfilePic: AnyStyledComponent = styled.img`
   width: 20%;
-  padding: 5px;
 `;
 
 const Name: AnyStyledComponent = styled.div`
