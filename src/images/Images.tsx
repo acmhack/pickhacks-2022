@@ -63,22 +63,32 @@ import socialsbutton from "./socials-button.png";
 import pickhacks22 from "./generic-person-icon.png";
 
 // Team
-import Bharat from "./Team/Bharat.png";
-import Rachel from "./Team/Rachel.png";
+import Bradley from "./Team/bradley.png";
+import Carter from "./Team/carter.png";
+import Colton from "./Team/colton.png";
+import Dominic from "./Team/dominic.png";
+import EricD from "./Team/eric d.png";
+import Eric from "./Team/eric.png";
+import Jacob from "./Team/jacob.png";
+import Jason from "./Team/jason.png";
+import Jonah from "./Team/jonah.png";
+import Keith from "./Team/keith.png";
+import Kevin from "./Team/kevin.png";
+import Lauren from "./Team/lauren.png";
+import Lindsey from "./Team/lindsey.png";
+import MaggieFu from "./Team/maggie (log).png";
+import Maggie from "./Team/maggie.png";
+import Marcella from "./Team/marcella.png";
+import Matt from "./Team/matt.png";
+import Pranav from "./Team/pranav.png";
+import Rahul from "./Team/rahul.png";
+import Reid from "./Team/reid.png";
+import Riley from "./Team/riley.png";
 import Ryan from "./Team/ryan.png";
-import Scott from "./Team/Scott.png";
-import Sabrina from "./Team/Sabrina.png";
-import Riley from "./Team/Riley.png";
-import Jack from "./Team/Jack.png";
-import Himnish from "./Team/Himnish.png";
-import Eddie from "./Team/Eddie.png";
-import Dominic from "./Team/Dominic.png";
-import Carter from "./Team/Carter.png";
-import Billie from "./Team/Billie.jpg";
-import Colton from "./Team/Handsome_Colton.png";
-import Bradley from "./Team/Bradley.png";
-import Jake from "./Team/Jacob.png";
-import PickleHack from "./picklehackLogo.png";
+import Shrija from "./Team/shrija.png";
+import Tung from "./Team/tung.png";
+import Vishaanth from "./Team/vishaanth.png";
+
 import Filler from "./Team/profile_filler_picture.png"
 
 import trees from "./trees.png";
@@ -115,25 +125,36 @@ export {
   veterans,
   voiceflow,
   zesttea,
-
-  PickleHack,
-  Filler,
-  Jake,
-  Bharat,
   pickhacks22,
-  Rachel,
+
+  // Team
   Bradley,
-  Ryan,
-  Scott,
-  Sabrina,
-  Riley,
-  Jack,
-  Himnish,
-  Eddie,
-  Dominic,
   Carter,
-  Billie,
   Colton,
+  Dominic,
+  EricD,
+  Eric,
+  Jacob,
+  Jason,
+  Jonah,
+  Keith,
+  Kevin,
+  Lauren,
+  Lindsey,
+  MaggieFu,
+  Maggie,
+  Marcella,
+  Matt,
+  Pranav,
+  Rahul,
+  Reid,
+  Riley,
+  Ryan,
+  Shrija,
+  Tung,
+  Vishaanth,
+  Filler,
+
   mlh,
   pickhack23logo,
   stickermule,
