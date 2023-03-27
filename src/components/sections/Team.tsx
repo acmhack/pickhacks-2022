@@ -41,9 +41,9 @@ const Person: AnyStyledComponent = styled.a`
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
 `;
+
 const ProfilePic: AnyStyledComponent = styled.img`
   width: 20%;
-  border-radius: 50%;
 `;
 
 const Name: AnyStyledComponent = styled.div`
@@ -70,7 +70,6 @@ const Group: AnyStyledComponent = styled.div`
 
 export default () => {
   const mobile = useMediaQuery('(max-width: 525px)')
-  
 
   return (
     <div>
