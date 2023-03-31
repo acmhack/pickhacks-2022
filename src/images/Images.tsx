@@ -63,13 +63,13 @@ import socialsbutton from "./socials-button.png";
 import pickhacks22 from "./generic-person-icon.png";
 
 // Team
-import Bradley from "./Team/bradley.png";
-import Carter from "./Team/carter.png";
+import Bradley from "./Team/Bradley.png";
+import Carter from "./Team/Carter.png";
 import Colton from "./Team/colton.png";
-import Dominic from "./Team/dominic.png";
+import Dominic from "./Team/Dominic.png";
 import EricD from "./Team/eric d.png";
 import Eric from "./Team/eric.png";
-import Jacob from "./Team/jacob.png";
+import Jacob from "./Team/Jacob.png";
 import Jason from "./Team/jason.png";
 import Jonah from "./Team/jonah.png";
 import Keith from "./Team/keith.png";
@@ -83,7 +83,7 @@ import Matt from "./Team/matt.png";
 import Pranav from "./Team/pranav.png";
 import Rahul from "./Team/rahul.png";
 import Reid from "./Team/reid.png";
-import Riley from "./Team/riley.png";
+import Riley from "./Team/Riley.png";
 import Ryan from "./Team/ryan.png";
 import Shrija from "./Team/shrija.png";
 import Tung from "./Team/tung.png";
