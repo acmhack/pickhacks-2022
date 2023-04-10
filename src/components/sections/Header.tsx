@@ -181,9 +181,9 @@ export default () => {
           <ImageButton image={discordbutton} link="https://discord.gg/K6uwZUcaff">
             discord
           </ImageButton>
-          <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
+          {/* <ImageButton image={hopinbutton} link="https://hopin.com/events/prehacks-2022?code=35TilvrOl2pC5VE4WubBM50yK">
             prehacks hopin
-          </ImageButton>
+          </ImageButton> */}
           <ImageButton image={emailbutton} link="mailto:msthackathon@umsystem.edu">
             email
           </ImageButton>

@@ -7,7 +7,7 @@
   {
     "day": "Friday",
     "title": "Opening Ceremony",
-    "description": "6pm"
+    "description": "6:00pm"
   },
   {
     "day": "Friday",
@@ -32,7 +32,7 @@
   {
     "day": "Saturday",
     "title": "Breakfast",
-    "description": "9:00am - 10:00am"
+    "description": "8:00am"
   },
   {
     "day": "Saturday",
@@ -61,6 +61,11 @@
   },
   {
     "day": "Saturday",
+    "title": "Honeywell Q&A",
+    "description": "7:00pm"
+  },
+  {
+    "day": "Saturday",
     "title": "MLH Bob Ross Painting",
     "description": "8:00pm"
   },
@@ -77,7 +82,7 @@
   {
     "day": "Sunday",
     "title": "Breakfast",
-    "description": "9:00am"
+    "description": "8:00am"
   },
   {
     "day": "Sunday",
